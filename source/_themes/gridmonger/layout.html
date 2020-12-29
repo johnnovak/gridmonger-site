@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+
+  {%- set url_root = pathto('', 1) %}
+  {# URL root should never be #, then all links are fragments #}
+  {%- if url_root == '#' %}{% set url_root = '' %}{% endif %}
+
+  <title>Gridmonger</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Gridmonger homepage.">
+
+  <link href="{{ pathto('_static/css/docs.css', 1) }}" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <h1>
+      <img src="{{ pathto('_static/img/gridmonger-logo.png', 1) }}" alt="Gridmonger">
+      <span>Manual</span>
+    </h1>
+
+    <nav class="table-of-contents">
+      {{ toctree() }}
+
+      <ul>
+        <li {% if pagename == "genindex" %}class="current"{% endif %}><a href="{{ pathto('genindex') }}">Index</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <article>
+    <nav class="top">
+      <ul>
+        {%- if prev and pagename != "getting-started" %}
+        <li class="prev"><a href="{{ prev.link|e }}">{{ prev.title|striptags|e }}</a></li>
+        {%- endif %}
+        {%- if pagename == "genindex" %}
+        <li class="prev"><a href="{{ pathto('appendixes/map-file-format') }}">Map file format</a></li>
+        {%- endif %}
+
+        <li class="toc"><a href="{{ pathto('contents') }}">Table of contents</a></li>
+
+        {%- if next %}
+        <li class="next"><a href="{{ next.link|e }}">{{ next.title|striptags|e }}</a></li>
+        {%- endif %}
+        {%- if pagename == "appendixes/map-file-format" %}
+        <li class="next"><a href="{{ pathto('genindex') }}">Index</a></li>
+        {%- endif %}
+      </ul>
+    </nav>
+
+    {% block body %} {% endblock %}
+
+    <footer>
+      <p><a href="https://www.johnnovak.net/">John Novak</a>, 2019-2020. All wrongs reserved.</p>
+      <p>Hosted on <a href="https://pages.github.com/">GitHub Pages</a></p>
+    </footer>
+  </article>
+
+  </body>
+</html>
+
