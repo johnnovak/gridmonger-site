@@ -63,8 +63,8 @@ The **Regions** properties are discussed later in the :doc:`regions` chapter.
 Managing maps &  levels
 =======================
 
-To add a new level, press :kbd:`Ctrl+N` shortcut to open the **New Level**
-dialog. You need to provide the level properties plus the dimensions of the
+To add a new level, press :kbd:`Ctrl+N` to open the **New Level**
+dialog, You need to provide the level properties plus the dimensions of the
 level. The other difference is that you cannot enter a level comment at
 creation.
 

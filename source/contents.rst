@@ -11,15 +11,15 @@ Table of contents
    getting-started
    maps-and-levels
    moving-around
+   basic-editing
    annotations
-   selections
+   advanced-editing
    links
    regions
    theme-editor
 
 .. toctree::
    :maxdepth: 2
-   :caption: Appendixes
 
    Keyboard shortcuts <appendixes/keyboard-shortcuts>
    Map file format <appendixes/map-file-format>

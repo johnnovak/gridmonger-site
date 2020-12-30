@@ -22,7 +22,6 @@ $extra-bold: 800;
 
 html {
   font: $medium 17px/1.5em $body-font;
-  height: 100%;
 }
 
 body {
@@ -106,6 +105,7 @@ body {
         display: inline;
         margin: 0;
         padding: 0;
+        text-indent: 0;
       }
     }
 
@@ -169,7 +169,7 @@ body {
   code {
     font-family: $smallcaps-font;
     font-size: 90%;
-    background: rgba(#4e4336, $alpha: 0.13);
+    background: rgba($fg-color, $alpha: 0.13);
     border-radius: 5px;
     padding: 0 0.4em;
   }

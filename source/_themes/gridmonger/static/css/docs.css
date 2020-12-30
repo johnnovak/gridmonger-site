@@ -82,7 +82,6 @@
 }
 html {
   font: 500 17px/1.5em "Alegreya", serif;
-  height: 100%;
 }
 
 body {
@@ -168,6 +167,7 @@ body {
   display: inline;
   margin: 0;
   padding: 0;
+  text-indent: 0;
 }
 .section ul.multiline > li {
   margin-bottom: 0.3em;
@@ -466,7 +466,27 @@ article table.shortcuts.std-move-keys > tbody > tr > td:nth-child(2) {
 article table.shortcuts.std-move-keys > tbody > tr > td:nth-child(3) {
   width: 25%;
 }
-table.shortcuts kbd {
+article .admonition {
+  margin: 1.5em 0;
+  background: rgba(78, 67, 54, 0.13);
+  border-radius: 6px;
+}
+article .admonition > p {
+  padding: 0 0.9em 1em 0.9em;
+  margin: 0em 0;
+}
+article .admonition > p:nth-child(2) {
+  margin-top: 1em;
+}
+article .admonition > p.admonition-title {
+  padding: 0.2em 0.9em;
+  background: rgba(78, 67, 54, 0.28);
+  border-radius: 6px 6px 0 0;
+  font-weight: 700;
+}
+
+table.shortcuts kbd,
+.section kbd kbd {
   display: inline-block;
   margin: 0px 0.1rem;
   padding: 0 0.35em;
@@ -481,7 +501,8 @@ table.shortcuts kbd {
   color: #444;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
 }
-table.shortcuts kbd.move {
+table.shortcuts kbd.move,
+.section kbd kbd.move {
   padding: 0 0.1rem;
   border: none;
   background: none;
@@ -489,7 +510,7 @@ table.shortcuts kbd.move {
 }
 
 footer {
-  margin-top: 2rem;
+  margin: 2rem 0 1.3rem 0;
 }
 
 /*--------------------------------------------------------------------------*/
@@ -599,34 +620,7 @@ footer {
   nav.table-of-contents,
 div.toctree-wrapper {
     display: block;
-    margin-top: 3em;
-  }
-  nav.table-of-contents > p,
-div.toctree-wrapper > p {
-    margin: 1.5em 0 0.6em 2rem;
-    font-size: 22px;
-    font-weight: 700;
-  }
-  nav.table-of-contents > p a,
-div.toctree-wrapper > p a {
-    color: #4e4336;
-    text-decoration: none;
-  }
-  nav.table-of-contents > p a:hover,
-div.toctree-wrapper > p a:hover {
-    opacity: 0.7;
-  }
-  nav.table-of-contents > p:nth-of-type(1),
-div.toctree-wrapper > p:nth-of-type(1) {
-    font-size: 24px;
-  }
-  nav.table-of-contents > p:nth-of-type(2),
-div.toctree-wrapper > p:nth-of-type(2) {
-    font-size: 22px;
-  }
-  nav.table-of-contents > p:nth-of-type(3),
-div.toctree-wrapper > p:nth-of-type(3) {
-    font-size: 20px;
+    margin-top: 2.5em;
   }
   nav.table-of-contents li:before,
 div.toctree-wrapper li:before {
