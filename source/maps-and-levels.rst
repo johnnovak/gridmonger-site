@@ -64,7 +64,7 @@ Managing maps &  levels
 =======================
 
 To add a new level, press :kbd:`Ctrl+N` to open the **New Level**
-dialog, You need to provide the level properties plus the dimensions of the
+dialog, then fill out the properties and the dimensions of the
 level. The other difference is that you cannot enter a level comment at
 creation.
 

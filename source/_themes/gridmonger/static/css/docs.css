@@ -377,18 +377,12 @@ article nav > ul > li.next {
 article nav > ul > li.next > a:after {
   content: "  →";
 }
-article table.shortcuts {
+article table {
   width: 100%;
   margin: 1em auto 0;
   border-collapse: collapse;
 }
-article table.shortcuts:first-child {
-  margin-top: 5em;
-}
-article table.shortcuts .group:not(.inline) {
-  display: block;
-}
-article table.shortcuts > caption {
+article table > caption {
   margin: 0 auto 0.5rem;
   border: 3px #9e9589;
   border-style: double none;
@@ -396,16 +390,88 @@ article table.shortcuts > caption {
   font-weight: 700;
   font-size: 1rem;
 }
-article table.shortcuts > caption:before, article table.shortcuts > caption:after {
+article table > caption:before, article table > caption:after {
   font-family: "DejaVu Symbols";
   margin: 0 0.6em;
   opacity: 0.4;
 }
-article table.shortcuts > caption:before {
+article table > caption:before {
   content: "☙";
 }
-article table.shortcuts > caption:after {
+article table > caption:after {
   content: "❧";
+}
+article table > thead > tr > th {
+  font-family: "Alegreya SC", serif;
+  font-size: 85%;
+  font-weight: 500;
+  border-bottom: 2px solid #bcb4a8;
+}
+article table > tbody > tr > td {
+  font-size: 95%;
+  padding: 0.25em 0.2em;
+}
+article table > tbody > tr > td > p {
+  margin: 0;
+  font-style: italic;
+  font-size: 95%;
+  opacity: 0.6;
+}
+article table > tfoot > tr > td {
+  padding-top: 0.5em;
+}
+article table > tfoot > tr p {
+  margin: 0.5em 0;
+  font-style: italic;
+  text-align: center;
+  font-size: 95%;
+  opacity: 0.8;
+}
+article table.editing {
+  width: 100%;
+}
+article table.editing img {
+  width: 31px;
+  height: 31px;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+article table.editing > thead > tr > th.desc {
+  text-align: left;
+  padding-left: 1em;
+}
+article table.editing > tbody {
+  border-top: 1px dashed #9e9589;
+}
+article table.editing > tbody:after {
+  display: block;
+  content: "";
+  height: 0.4rem;
+}
+article table.editing > tbody > tr:first-child > td {
+  padding-top: 0.4em !important;
+}
+article table.editing > tbody > tr > td {
+  padding: 0;
+}
+article table.editing > tbody > tr > td.key {
+  text-align: center;
+  width: 22%;
+}
+article table.editing > tbody > tr > td.icon {
+  width: 18%;
+}
+article table.editing > tbody > tr > td.desc {
+  text-align: left;
+  padding: 0 0 0 1em;
+}
+article table.shortcuts:first-child {
+  margin-top: 5em;
+}
+article table.shortcuts .group {
+  display: block;
+  margin-bottom: 0.2em;
 }
 article table.shortcuts > tbody:not(.no-padding):after {
   display: block;
@@ -414,10 +480,6 @@ article table.shortcuts > tbody:not(.no-padding):after {
 }
 article table.shortcuts > tbody > tr:hover {
   background-color: #cdc5ba;
-}
-article table.shortcuts > tbody > tr > td {
-  font-size: 95%;
-  padding: 0.25em 0.2em;
 }
 article table.shortcuts > tbody > tr > td:nth-child(1) {
   line-height: 1.5em;
@@ -428,30 +490,8 @@ article table.shortcuts > tbody > tr > td:nth-child(1) {
 article table.shortcuts > tbody > tr > td:nth-child(2) {
   line-height: 1.15em;
 }
-article table.shortcuts > tbody > tr > td > p {
-  margin: 0;
-  font-style: italic;
-  font-size: 95%;
-  opacity: 0.6;
-}
 article table.shortcuts > tbody > tr:not(:last-child) > td {
   border-bottom: 1px dashed #9e9589;
-}
-article table.shortcuts > tfoot > tr > td {
-  padding-top: 0.5em;
-}
-article table.shortcuts > tfoot > tr p {
-  margin: 0.5em 0;
-  font-style: italic;
-  text-align: center;
-  font-size: 95%;
-  opacity: 0.8;
-}
-article table.shortcuts.std-move-keys > thead > tr > th {
-  font-family: "Alegreya SC", serif;
-  font-size: 85%;
-  font-weight: 500;
-  border-bottom: 2px solid #bcb4a8;
 }
 article table.shortcuts.std-move-keys > tbody > tr > td {
   text-align: center;
@@ -484,9 +524,11 @@ article .admonition > p.admonition-title {
   border-radius: 6px 6px 0 0;
   font-weight: 700;
 }
-
-table.shortcuts kbd,
-.section kbd kbd {
+article kbd {
+  line-height: 1.4;
+  font-size: 15px;
+}
+article kbd:not(.compound) {
   display: inline-block;
   margin: 0px 0.1rem;
   padding: 0 0.35em;
@@ -495,14 +537,12 @@ table.shortcuts kbd,
   border: 2px solid rgba(0, 0, 0, 0.3);
   border-radius: 6px;
   font-family: "Alegreya SC", serif;
-  font-size: 15px;
-  line-height: 1.3;
+  font-style: normal;
   background: rgba(0, 0, 0, 0.03);
   color: #444;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
 }
-table.shortcuts kbd.move,
-.section kbd kbd.move {
+article kbd:not(.compound).move {
   padding: 0 0.1rem;
   border: none;
   background: none;
@@ -523,6 +563,9 @@ footer {
     margin-top: 6vw;
     font-size: 18px;
   }
+  article table.editing {
+    width: 85%;
+  }
 }
 @media (min-width: 500px) {
   html {
@@ -539,9 +582,11 @@ footer {
   article img.full {
     width: 100%;
   }
-  article kbd:not(.group) {
-    margin: 0px 0.13em;
+  article kbd {
     font-size: 16px;
+  }
+  article table.editing {
+    width: 78%;
   }
 }
 @media (min-width: 600px) {
@@ -556,6 +601,9 @@ footer {
   article nav {
     margin-top: 2.5em;
     font-size: 20px;
+  }
+  article table.editing {
+    width: 70%;
   }
 
   .section.big:after {
@@ -584,8 +632,11 @@ footer {
   article h3 {
     font-size: 24px;
   }
-  article kbd > kbd {
-    font-size: 18px;
+  article kbd {
+    font-size: 17px;
+  }
+  article table.editing {
+    width: 60%;
   }
   article table.shortcuts {
     width: 80%;
@@ -658,6 +709,10 @@ div.toctree-wrapper ul {
     line-height: 1.5em;
     list-style: none;
   }
+  nav.table-of-contents ul:nth-of-type(2),
+div.toctree-wrapper ul:nth-of-type(2) {
+    margin-top: 1.5em;
+  }
   nav.table-of-contents ul > li,
 div.toctree-wrapper ul > li {
     text-indent: 0;
@@ -669,27 +724,24 @@ div.toctree-wrapper ul > li > a:before {
     margin-right: 0.7em;
     text-align: right;
   }
-  nav.table-of-contents ul:nth-of-type(1) li > ul, nav.table-of-contents ul:nth-of-type(2) li > ul,
-div.toctree-wrapper ul:nth-of-type(1) li > ul,
-div.toctree-wrapper ul:nth-of-type(2) li > ul {
+  nav.table-of-contents ul li > ul,
+div.toctree-wrapper ul li > ul {
     margin-top: 0.2em;
     margin-bottom: 0.6em;
     padding-left: 1.4em;
     line-height: 1.3em;
     list-style: none;
   }
-  nav.table-of-contents ul:nth-of-type(1) li > ul > li, nav.table-of-contents ul:nth-of-type(2) li > ul > li,
-div.toctree-wrapper ul:nth-of-type(1) li > ul > li,
-div.toctree-wrapper ul:nth-of-type(2) li > ul > li {
+  nav.table-of-contents ul li > ul > li,
+div.toctree-wrapper ul li > ul > li {
     font-size: 90%;
     margin-left: 2.6em;
     margin-bottom: 0.3em;
     line-height: 1.1em;
     text-indent: -2.6em;
   }
-  nav.table-of-contents ul:nth-of-type(1) li > ul > li > a:before, nav.table-of-contents ul:nth-of-type(2) li > ul > li > a:before,
-div.toctree-wrapper ul:nth-of-type(1) li > ul > li > a:before,
-div.toctree-wrapper ul:nth-of-type(2) li > ul > li > a:before {
+  nav.table-of-contents ul li > ul > li > a:before,
+div.toctree-wrapper ul li > ul > li > a:before {
     display: inline-block;
     width: 1.9em;
     margin-right: 0.7em;

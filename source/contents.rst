@@ -18,6 +18,9 @@ Table of contents
    regions
    theme-editor
 
+Appendixes
+==========
+
 .. toctree::
    :maxdepth: 2
 

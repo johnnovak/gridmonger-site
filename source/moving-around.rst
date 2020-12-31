@@ -1,6 +1,6 @@
-*********************
-Modes & moving around
-*********************
+*************
+Moving around
+*************
 
 Gridmonger is a `modal editor
 <https://en.wikipedia.org/wiki/Mode_(user_interface)>`_, meaning that one
@@ -20,17 +20,13 @@ Common navigation keys
 
 The level-related navigation keys are the same in every mode.
 
-.. raw:: html
 
-    <p>You can zoom the view in or out with the <kbd><kbd>=</kbd></kbd> and
-    <kbd><kbd>-</kbd></kbd> keys, respectively. There are 20 zoom levels in
-    total.</p>
+You can zoom the view in or out with the :kbd:`=` and :kbd:`-` keys,
+respectively. There are 20 zoom levels in total.
 
-    <p>To switch to a different level, you can use the drop-down above the
-    level, or <kbd><kbd>PgUp</kbd></kbd>/<kbd><kbd>PgDn</kbd></kbd>,
-    <kbd><kbd>Kp -</kbd></kbd>/<kbd><kbd>Kp +</kbd></kbd> or
-    <kbd><kbd>Ctrl</kbd>+<kbd>-</kbd></kbd>/<kbd><kbd>=</kbd></kbd> to go to
-    the previous or next level.</p>
+To switch to a different level, you can use the drop-down above the level, or
+:kbd:`PgUp`/:kbd:`PgDn`, :kbd:`Kp-`/:kbd:`Kp+`, or :kbd:`Ctrl+-`/:kbd:`Ctrl+=`
+to go to the previous or next level.
 
 
 .. note::
@@ -57,7 +53,7 @@ use 90% of the time.
         <tr>
           <th>Arrow</th>
           <th>Keypad</th>
-          <th>VIM</th>
+          <th>Vim</th>
           <th></th>
         </tr>
       </thead>

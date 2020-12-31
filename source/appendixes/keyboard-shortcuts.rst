@@ -6,7 +6,7 @@ Keyboard shortcuts
 
   <div class="section">
     <p>Keys on the numeric keypad are denoted with a <span class="sc">&laquo;kp&raquo;</span> prefix (e.g.
-    <kbd><kbd>kp 1</kbd></kbd>, <kbd><kbd>kp +</kbd></kbd>, etc.)</>
+    <kbd>kp 1</kbd>, <kbd>kp +</kbd>, etc.)</>
   </div>
 
 
@@ -23,10 +23,11 @@ Movement/direction keys
         <tr>
           <th>Arrow</th>
           <th>Keypad</th>
-          <th>VIM</th>
+          <th>Vim</th>
           <th></th>
         </tr>
       </thead>
+
       <tfoot>
         <tr>
           <td colspan="4">
@@ -87,6 +88,7 @@ Movement/direction keys
           <th></th>
         </tr>
       </thead>
+
       <tfoot>
         <tr>
           <td colspan="4">
@@ -96,6 +98,7 @@ Movement/direction keys
           </td>
         </tr>
       </tfoot>
+
       <tbody class="no-padding">
         <tr>
           <td><kbd>&larr;</kbd>*</td>
@@ -143,6 +146,7 @@ Movement/direction keys
           </td>
         </tr>
       </tfoot>
+
       <tbody class="no-padding">
         <tr>
           <td><kbd>A</kbd> / <kbd>D</kbd> / <kbd>W</kbd> / <kbd>S</kbd></td>
@@ -161,6 +165,7 @@ Movement/direction keys
           <th></th>
         </tr>
       </thead>
+
       <tfoot>
         <tr>
           <td colspan="4">
@@ -168,6 +173,7 @@ Movement/direction keys
           </td>
         </tr>
       </tfoot>
+
       <tbody class="no-padding">
         <tr>
           <td><kbd>&larr;</kbd>*</td>
@@ -220,25 +226,25 @@ Dialogs
       <tbody class="no-padding">
         <tr>
           <td>
-            <span class="group">
-              <kbd>Ctrl</kbd>+<kbd class="move">Std move Left/Right</kbd></kbd>
-            </span>
+            <kbd class="compound">
+              <kbd>Ctrl</kbd>+<kbd class="move">Std move Left/Right</kbd>
+            </kbd>
           </td>
           <td>Previous/next tab</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
-              <kbd>Ctrl</kbd>+<kbd>1</kbd>-<kbd>9</kbd></kbd>
-            </span>
+            <kbd class="compound">
+              <kbd>Ctrl</kbd>+<kbd>1</kbd>-<kbd>9</kbd>
+            </kbd>
           </td>
           <td>Go to <em>N</em>th tab</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Shift</kbd>+<kbd>Tab</kbd>/<kbd>Tab</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Previous/next text input field</td>
         </tr>
@@ -255,19 +261,19 @@ Dialogs
         <tr>
           <td>
             <span class="group">
-              <kbd>Esc</kbd>
+              <kbd>Esc</kbd> or
             </span>
-            <span class="group">
+            <kbd class="compound group">
               <kbd>Ctrl</kbd>+<kbd>[</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Cancel</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Alt</kbd>+<kbd>D</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Discard</td>
         </tr>
@@ -293,9 +299,9 @@ Normal mode
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd class="move">Move keys</kbd>
-            </span>
+            </kbd>
           </td>
           <td>
             Move cursor (5 cells)
@@ -304,17 +310,17 @@ Normal mode
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Shift</kbd>+<kbd class="move">Move keys</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Pan level (1 cell)</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd class="move">Move keys</kbd>
-            </span>
+            </kbd>
           </td>
           <td>
             Pan level (5 cells)
@@ -351,10 +357,10 @@ Normal mode
         <tr>
           <td>
             <span class="group">
-              <kbd>Ctrl</kbd>+<kbd>-</kbd> / <kbd>=</kbd>
+              <kbd class="compound"><kbd>Ctrl</kbd>+<kbd>-</kbd></kbd> / <kbd>=</kbd> or
             </span>
             <span class="group">
-              <kbd>PgUp</kbd> / <kbd>PgDn</kbd>
+              <kbd>PgUp</kbd> / <kbd>PgDn</kbd> or
             </span>
             <span class="group">
               <kbd>kp -</kbd> / <kbd>kp +</kbd>
@@ -370,41 +376,41 @@ Normal mode
       <tbody>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>N</kbd>
-            </span>
+            </kbd>
           </td>
           <td>New map</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>O</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Open map</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>S</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Save map</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Save map as</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>P</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Edit map properties</td>
         </tr>
@@ -413,7 +419,7 @@ Normal mode
       <tbody>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>N</kbd>
             </kbd>
           </td>
@@ -421,17 +427,17 @@ Normal mode
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>P</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Edit level properties</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>D</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Delete level</td>
         </tr>
@@ -440,25 +446,25 @@ Normal mode
       <tbody>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Alt</kbd>+<kbd>C</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Toggle cell coordinates</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Alt</kbd>+<kbd>N</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Toggle notes pane</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Alt</kbd>+<kbd>T</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Toggle tools pane</td>
         </tr>
@@ -467,24 +473,24 @@ Normal mode
       <tbody>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>PgUp</kbd>
-            </span>
+            </kbd>
           <td>Previous theme</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>PgDn</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Next theme</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>R</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Reload current theme</td>
         </tr>
@@ -494,7 +500,7 @@ Normal mode
         <tr>
           <td>
             <span class="group">
-              <kbd>Ctrl</kbd>+<kbd>Z</kbd> or
+              <kbd class="compound"><kbd>Ctrl</kbd>+<kbd>Z</kbd></kbd> or
             </span>
             <span class="group">
               <kbd>U</kbd>
@@ -505,11 +511,11 @@ Normal mode
         <tr>
           <td>
             <span class="group">
-              <kbd>Ctrl</kbd>+<kbd>Y</kbd>
+              <kbd class="compound"><kbd>Ctrl</kbd>+<kbd>Y</kbd></kbd> or
             </span>
-            <span class="group">
+            <kbd class="compound group">
               <kbd>Ctrl</kbd>+<kbd>R</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Redo last action</td>
         </tr>
@@ -518,9 +524,9 @@ Normal mode
       <tbody>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>U</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Preferences</td>
         </tr>
@@ -532,9 +538,9 @@ Normal mode
       <tbody>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>D</kbd>+<kbd class="move">Move keys</kbd>
-            </span>
+            </kbd>
           </td>
           <td>
             Excavate (Draw tunnel)
@@ -544,9 +550,9 @@ Normal mode
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>E</kbd>+<kbd class="move">Move keys</kbd>
-            </span>
+            </kbd>
           </td>
           <td>
             Clear floor &amp; walls (Erase cell)
@@ -556,9 +562,9 @@ Normal mode
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>F</kbd>+<kbd class="move">Move keys</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Clear floor</td>
         </tr>
@@ -576,9 +582,9 @@ Normal mode
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>C</kbd>+<kbd class="move">Move keys</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Set floor color</td>
         </tr>
@@ -587,31 +593,31 @@ Normal mode
       <tbody>
         <tr>
           <td>
-            <kbd>1</kbd> / <span class="group inline"><kbd>Shift</kbd>+<kbd>1</kbd></span>
+            <kbd>1</kbd> / <kbd class="compound"><kbd>Shift</kbd>+<kbd>1</kbd></kbd>
           </td>
           <td>Set/cycle door</td>
         </tr>
         <tr>
           <td>
-            <kbd>2</kbd> / <span class="group inline"><kbd>Shift</kbd>+<kbd>2</kbd></span>
+            <kbd>2</kbd> / <kbd class="compound"><kbd>Shift</kbd>+<kbd>2</kbd></kbd>
           </td>
           <td>Set/cycle pressure plate</td>
         </tr>
         <tr>
           <td>
-            <kbd>3</kbd> / <span class="group inline"><kbd>Shift</kbd>+<kbd>3</kbd></span>
+            <kbd>3</kbd> / <kbd class="compound"><kbd>Shift</kbd>+<kbd>3</kbd></kbd>
           </td>
           <td>Set/cycle pit</td>
         </tr>
         <tr>
           <td>
-            <kbd>4</kbd> / <span class="group inline"><kbd>Shift</kbd>+<kbd>4</kbd></span>
+            <kbd>4</kbd> / <kbd class="compound "><kbd>Shift</kbd>+<kbd>4</kbd></kbd>
           </td>
           <td>Set/cycle teleport</td>
         </tr>
         <tr>
           <td>
-            <kbd>5</kbd> / <span class="group inline"><kbd>Shift</kbd>+<kbd>5</kbd></span>
+            <kbd>5</kbd> / <kbd class="compound "><kbd>Shift</kbd>+<kbd>5</kbd></kbd>
           </td>
           <td>Set/cycle entry/exit</td>
         </tr>
@@ -632,9 +638,9 @@ Normal mode
       <tbody>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>W</kbd>+<kbd class="move">Std move</kbd>
-            </span>
+            </kbd>
           </td>
           <td>
             Set/unset wall
@@ -644,9 +650,9 @@ Normal mode
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>R</kbd>+<kbd class="move">Std move</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Set/unset special wall</td>
         </tr>
@@ -663,7 +669,7 @@ Normal mode
           <td>
             <kbd>M</kbd>
           </td>
-          <td>Enter <em>Select (Mark) Mode</em></td>
+          <td>Enter <em>Select (mark) mode</em></td>
         </tr>
         <tr>
           <td>
@@ -673,19 +679,19 @@ Normal mode
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Shift</kbd>+<kbd>P</kbd>
-            </span>
+            </kbd>
           </td>
-          <td>Enter <em>Paste Preview Mode</em></td>
+          <td>Enter <em>Paste preview mode</em></td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>G</kbd>
-            </span>
+            </kbd>
           </td>
-          <td>Enter <em>Nudge Level Mode</em></td>
+          <td>Enter <em>Nudge level mode</em></td>
         </tr>
       </tbody>
 
@@ -698,17 +704,17 @@ Normal mode
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Shift</kbd>+<kbd>N</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Delete note</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>T</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Create/edit text label</td>
         </tr>
@@ -723,9 +729,9 @@ Normal mode
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Shift</kbd>+<kbd>G</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Set link destination</td>
         </tr>
@@ -734,9 +740,9 @@ Normal mode
       <tbody class="no-padding">
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>E</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Resize level</td>
         </tr>
@@ -761,25 +767,25 @@ Select (mark) mode
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd class="move">Std move</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Move cursor (5 cells)</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Shift</kbd>+<kbd class="move">Std move</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Pan level (1 cell)</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd class="move">Std move</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Pan level (5 cells)</td>
         </tr>
@@ -794,9 +800,9 @@ Select (mark) mode
             <span class="group">
               <kbd>Esc</kbd> or
             </span>
-            <span class="group">
+            <kbd class="compound group">
               <kbd>Ctrl</kbd>+<kbd>[</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Return to <em>Edit mode</em></td>
         </tr>
@@ -805,17 +811,17 @@ Select (mark) mode
       <tbody>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>D</kbd>+<kbd class="move">Std move</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Draw selection</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>E</kbd>+<kbd class="move">Std move</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Erase from selection</td>
         </tr>
@@ -833,17 +839,17 @@ Select (mark) mode
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>R</kbd>+<kbd class="move">Std move</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Add rectangular area to selection</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>S</kbd>+<kbd class="move">Std move</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Subtract rectangular area from selection</td>
         </tr>
@@ -865,49 +871,49 @@ Select (mark) mode
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>M</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Move selection (cut &amp; paste)</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>E</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Erase selection</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>F</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Fill selection</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>C</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Set floor color of selection</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>S</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Surround selection with walls</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>R</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Crop level to selection</td>
         </tr>
@@ -932,25 +938,25 @@ Paste/nudge/move preview mode
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd class="move">Std move</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Move selection (5 cells)</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Shift</kbd>+<kbd class="move">Std move</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Pan level (1 cell)</td>
         </tr>
         <tr>
           <td>
-            <span class="group">
+            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd class="move">Std move</kbd>
-            </span>
+            </kbd>
           </td>
           <td>Pan level (5 cells)</td>
         </tr>
@@ -967,9 +973,9 @@ Paste/nudge/move preview mode
           <span class="group">
             <kbd>Esc</kbd> or
           </span>
-          <span class="group">
+          <kbd class="compound group">
             <kbd>Ctrl</kbd>+<kbd>[</kbd>
-          </span>
+          </kbd>
         </td>
         <td>Cancel</td>
       </tbody>
