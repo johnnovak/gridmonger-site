@@ -147,8 +147,7 @@ article {
       }
     }
 
-    &.editing {
-
+    &.walls, &.floors {
       width: 100%;
 
       img {
@@ -162,9 +161,8 @@ article {
       > thead {
         > tr {
           > th {
-            &.desc {
+            &.name {
               text-align: left;
-              padding-left: 1em;
             }
           }
         }
@@ -190,17 +188,34 @@ article {
 
             &.key {
               text-align: center;
-              width: 22%;
             }
-            &.icon {
-              width: 18%;
-            }
-            &.desc {
+            &.name {
               text-align: left;
-              padding: 0 0 0 1em;
+              padding: 0;
             }
           }
         }
+      }
+    }
+
+    &.floors {
+      > thead > tr > th,
+      > tbody > tr > td {
+        &.name { padding-left: 1em }
+      }
+      > tbody > tr > td {
+        &.key  { width: 22% }
+        &.icon { width: 18% }
+      }
+    }
+
+    &.walls {
+      > thead > tr > th,
+      > tbody > tr > td {
+        &.name { padding-left: 0.5em }
+      }
+      > tbody > tr > td {
+        &.icon { width: 30% }
       }
     }
 
@@ -335,9 +350,8 @@ footer {
     }
 
     table {
-      &.editing {
-        width: 85%;
-      }
+      &.floors { width: 85% }
+      &.walls  { width: 60% }
     }
   }
 }
@@ -364,9 +378,8 @@ footer {
     }
 
     table {
-      &.editing {
-        width: 78%;
-      }
+      &.floors { width: 78% }
+      &.walls  { width: 52% }
     }
   }
 }
@@ -387,9 +400,8 @@ footer {
     }
 
     table {
-      &.editing {
-        width: 70%;
-      }
+      &.floors { width: 70% }
+      &.walls  { width: 45% }
     }
   }
 
@@ -421,9 +433,8 @@ footer {
     }
 
     table {
-      &.editing {
-        width: 60%;
-      }
+      &.floors { width: 60% }
+      &.walls  { width: 40% }
 
       &.shortcuts {
         width: 80%;
