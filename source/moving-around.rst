@@ -36,8 +36,11 @@ to go to the previous or next level.
     position of keys used in the keyboard shortcuts, regardless of the
     language and keyboard settings of your operating system.
 
-    However, when entering text (e.g. the name of the level, or a comment),
-    the OS-level keyboard settings are in effect.
+    Normally, the :kbd:`NumLock` key is ignored, and the numeric keypad is
+    only used for navigation.
+
+    However, when entering text in textfields, the OS-level keyboard settings
+    and the :kbd:`NumLock` state are in effect.
 
 
 Normal mode

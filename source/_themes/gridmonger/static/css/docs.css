@@ -427,44 +427,56 @@ article table > tfoot > tr p {
   font-size: 95%;
   opacity: 0.8;
 }
-article table.editing {
+article table.walls, article table.floors {
   width: 100%;
 }
-article table.editing img {
+article table.walls img, article table.floors img {
   width: 31px;
   height: 31px;
   display: block;
   margin: 0 auto;
   padding: 0;
 }
-article table.editing > thead > tr > th.desc {
+article table.walls > thead > tr > th.name, article table.floors > thead > tr > th.name {
   text-align: left;
-  padding-left: 1em;
 }
-article table.editing > tbody {
+article table.walls > tbody, article table.floors > tbody {
   border-top: 1px dashed #9e9589;
 }
-article table.editing > tbody:after {
+article table.walls > tbody:after, article table.floors > tbody:after {
   display: block;
   content: "";
   height: 0.4rem;
 }
-article table.editing > tbody > tr:first-child > td {
+article table.walls > tbody > tr:first-child > td, article table.floors > tbody > tr:first-child > td {
   padding-top: 0.4em !important;
 }
-article table.editing > tbody > tr > td {
+article table.walls > tbody > tr > td, article table.floors > tbody > tr > td {
   padding: 0;
 }
-article table.editing > tbody > tr > td.key {
+article table.walls > tbody > tr > td.key, article table.floors > tbody > tr > td.key {
   text-align: center;
+}
+article table.walls > tbody > tr > td.name, article table.floors > tbody > tr > td.name {
+  text-align: left;
+  padding: 0;
+}
+article table.floors > thead > tr > th.name,
+article table.floors > tbody > tr > td.name {
+  padding-left: 1em;
+}
+article table.floors > tbody > tr > td.key {
   width: 22%;
 }
-article table.editing > tbody > tr > td.icon {
+article table.floors > tbody > tr > td.icon {
   width: 18%;
 }
-article table.editing > tbody > tr > td.desc {
-  text-align: left;
-  padding: 0 0 0 1em;
+article table.walls > thead > tr > th.name,
+article table.walls > tbody > tr > td.name {
+  padding-left: 0.5em;
+}
+article table.walls > tbody > tr > td.icon {
+  width: 30%;
 }
 article table.shortcuts:first-child {
   margin-top: 5em;
@@ -563,8 +575,11 @@ footer {
     margin-top: 6vw;
     font-size: 18px;
   }
-  article table.editing {
+  article table.floors {
     width: 85%;
+  }
+  article table.walls {
+    width: 60%;
   }
 }
 @media (min-width: 500px) {
@@ -585,8 +600,11 @@ footer {
   article kbd {
     font-size: 16px;
   }
-  article table.editing {
+  article table.floors {
     width: 78%;
+  }
+  article table.walls {
+    width: 52%;
   }
 }
 @media (min-width: 600px) {
@@ -602,8 +620,11 @@ footer {
     margin-top: 2.5em;
     font-size: 20px;
   }
-  article table.editing {
+  article table.floors {
     width: 70%;
+  }
+  article table.walls {
+    width: 45%;
   }
 
   .section.big:after {
@@ -635,8 +656,11 @@ footer {
   article kbd {
     font-size: 17px;
   }
-  article table.editing {
+  article table.floors {
     width: 60%;
+  }
+  article table.walls {
+    width: 40%;
   }
   article table.shortcuts {
     width: 80%;
