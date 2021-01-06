@@ -9,10 +9,10 @@ program.  There is no great mystery in this, just think of how the state of
 your :kbd:`NumLock` key affects how the numeric keypad functions. Modes work
 in a very similar way.
 
-There are *four navigation modes*; as we'll see, these different modes have
-implications on other shortcuts as well. Then there are some further *special
-modes* for advanced editing, these are discussed in the :doc:`advanced-editing`
-chapter.
+There are *four navigation modes*, and as you'll see, these different modes
+have implications on other shortcuts as well. Then there are some further
+*special modes* for advanced editing, these are discussed in the
+:doc:`advanced-editing` chapter.
 
 
 Common navigation keys
@@ -97,11 +97,11 @@ level in 5-cell increments.
 One of the defining features of Gridmonger is its `Vim
 <https://en.wikipedia.org/wiki/Vim_(text_editor)>`_-inspired keyboard
 interface. This means that in addition to the standard cursor keys, you can
-also use Vim-style ``HJKL`` key navigation to move
-around. If this doesn't mean anything to you, don't worry! Just keep using the
-standard cursor keys or the keypad for now. But I recommend you to read the
-:ref:`About Vim <about-vim>` sidenote at the end; you might find it interesting enough to explore this
-topic further.
+also use Vim-style ``HJKL`` key navigation to move around. If this doesn't
+mean anything to you, don't worry! Just keep using the standard cursor keys or
+the keypad for now. But I recommend you to read the :ref:`About Vim
+<about-vim>` sidenote at the end; you might find it interesting enough to
+explore this topic further.
 
 
 Walk mode
