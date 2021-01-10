@@ -74,16 +74,16 @@ backward by pressing :kbd:`Shift` and the key.
           <td class="name">secret door</td>
         </tr>
         <tr>
-          <td class="icon"><img src="_static/img/floor-secret-door.png" alt="secret door (block style)"></td>
+          <td class="icon"><img src="_static/img/floor-secret-door-block.png" alt="secret door (block style)"></td>
           <td class="name">secret door (block style)</td>
         </tr>
         <tr>
-          <td class="icon"><img src="_static/img/floor-secret-door.png" alt="one-way door 1"></td>
-          <td class="name">one-way door 1</td>
+          <td class="icon"><img src="_static/img/floor-one-way-door-1.png" alt="one-way door (1)"></td>
+          <td class="name">one-way door (N/E)</td>
         </tr>
         <tr>
-          <td class="icon"><img src="_static/img/floor-secret-door.png" alt="one-way door 2"></td>
-          <td class="name">one-way door 2</td>
+          <td class="icon"><img src="_static/img/floor-one-way-door-2.png" alt="one-way door (2)"></td>
+          <td class="name">one-way door (S/W)</td>
         </tr>
       </tbody>
 
