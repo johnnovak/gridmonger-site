@@ -406,6 +406,8 @@ article table > thead > tr > th {
   font-size: 85%;
   font-weight: 500;
   border-bottom: 2px solid #bcb4a8;
+  line-height: 1.1em;
+  padding-bottom: 0.5em;
 }
 article table > tbody > tr > td {
   font-size: 95%;
@@ -474,10 +476,10 @@ article table.floors > tbody > tr > td.icon {
 }
 article table.walls > thead > tr > th.name,
 article table.walls > tbody > tr > td.name {
-  padding-left: 0.5em;
+  padding-left: 1em;
 }
 article table.walls > tbody > tr > td.icon {
-  width: 30%;
+  width: 33%;
 }
 article table.shortcuts:first-child {
   margin-top: 5em;

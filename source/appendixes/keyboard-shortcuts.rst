@@ -556,8 +556,6 @@ Normal mode
           </td>
           <td>
             Clear floor &amp; walls (Erase cell)
-            <p>Not available in WASD mode<br />
-            (use middle-mouse button instead)</p>
           </td>
         </tr>
         <tr>
@@ -578,7 +576,7 @@ Normal mode
           <td>
             <kbd>,</kbd> / <kbd>.</kbd>
           </td>
-          <td>Select previous/next floor colour</td>
+          <td>Previous/next floor color</td>
         </tr>
         <tr>
           <td>
@@ -595,43 +593,37 @@ Normal mode
           <td>
             <kbd>1</kbd> / <kbd class="compound"><kbd>Shift</kbd>+<kbd>1</kbd></kbd>
           </td>
-          <td>Set/cycle door</td>
+          <td>Cycle door</td>
         </tr>
         <tr>
           <td>
-            <kbd>2</kbd> / <kbd class="compound"><kbd>Shift</kbd>+<kbd>2</kbd></kbd>
+            <kbd>2</kbd> / <kbd class="compound"><kbd>Shift</kbd>+<kbd>1</kbd></kbd>
           </td>
-          <td>Set/cycle pressure plate</td>
+          <td>Cycle special door</td>
         </tr>
         <tr>
           <td>
-            <kbd>3</kbd> / <kbd class="compound"><kbd>Shift</kbd>+<kbd>3</kbd></kbd>
+            <kbd>3</kbd> / <kbd class="compound"><kbd>Shift</kbd>+<kbd>2</kbd></kbd>
           </td>
-          <td>Set/cycle pit</td>
+          <td>Cycle pressure plate</td>
         </tr>
         <tr>
           <td>
-            <kbd>4</kbd> / <kbd class="compound "><kbd>Shift</kbd>+<kbd>4</kbd></kbd>
+            <kbd>4</kbd> / <kbd class="compound"><kbd>Shift</kbd>+<kbd>3</kbd></kbd>
           </td>
-          <td>Set/cycle teleport</td>
+          <td>Cycle pit</td>
         </tr>
         <tr>
           <td>
-            <kbd>5</kbd> / <kbd class="compound "><kbd>Shift</kbd>+<kbd>5</kbd></kbd>
+            <kbd>5</kbd> / <kbd class="compound "><kbd>Shift</kbd>+<kbd>4</kbd></kbd>
           </td>
-          <td>Set/cycle entry/exit</td>
+          <td>Cycle teleport/spinner/invisible barrier</td>
         </tr>
         <tr>
           <td>
-            <kbd>6</kbd>
+            <kbd>6</kbd> / <kbd class="compound "><kbd>Shift</kbd>+<kbd>5</kbd></kbd>
           </td>
-          <td>Set spinner</td>
-        </tr>
-        <tr>
-          <td>
-            <kbd>7</kbd>
-          </td>
-          <td>Set invisible barrier</td>
+          <td>Cycle entry/exit</td>
         </tr>
       </tbody>
 
@@ -643,7 +635,7 @@ Normal mode
             </kbd>
           </td>
           <td>
-            Set/unset wall
+            Toggle wall
             <p>Not available in WASD mode<br />
             (use right-mouse button instead)</p>
           </td>
@@ -654,13 +646,13 @@ Normal mode
               <kbd>R</kbd>+<kbd class="move">Std move</kbd>
             </kbd>
           </td>
-          <td>Set/unset special wall</td>
+          <td>Toggle special wall</td>
         </tr>
         <tr>
           <td>
             <kbd>[</kbd> / <kbd>]</kbd>
           </td>
-          <td>Select previous/next special wall type</td>
+          <td>Previous/next special wall type</td>
         </tr>
       </tbody>
 

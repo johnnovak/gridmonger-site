@@ -2,42 +2,42 @@
 Basic editing
 *************
 
-cRPG maps tend to fall into one of two categories: the *tunnel style*,
-and the more compact *wall style* (for lack of better terms).
+cRPG maps tend to fall into one of two categories: *tunnel style maps*,
+and the more compact *wall style maps* (for lack of better terms).
 
 There's also a less common hybrid style that combines elements from both.
 
 Tunnel style maps are easiest to create with the *excavate* (*draw tunnel*)
-tool. Press and hold the :kbd:`D` key and use the movement keys to draw
-tunnels. The name "excavate" is quite fitting as all existing content gets
-deleted. Note that junctions are created on tunnel crossings, and neighbouring
-cells are joined into larger areas.
+tool. To use it, hold down the :kbd:`D` key and use the movement keys.
+The name "excavate" is quite fitting, as all existing cell content is
+deleted. Junctions are created on tunnel crossings, and neighbouring cells are
+joined into larger areas.
 
 The :kbd:`D` key acts as a *modifier key* when used together with the movement
 keys (similarly to :kbd:`Shift` or :kbd:`Ctrl`). There are a few other tools
 that work the same way:
 
 * :kbd:`E` – erase whole cell, including walls (we'll talk about walls later)
-* :kbd:`E` – clear floor only
+* :kbd:`F` – clear floor only
 * :kbd:`C` – set floor color
 
-To change the current floor color, you can cycle through the available floor
-colors defined by the theme with the :kbd:`,` and :kbd:`.` keys.
+New cells are drawn with the current floor color. You can cycle through
+the available floor colors with the :kbd:`,` and :kbd:`.` keys.
 
 
 Floor types
 ===========
 
 But how do we create doors, pressure plates, pits, teleports, and all sorts of
-other parnaphelia so common in well-designed dungeons?
+other paraphernalia so common in well-designed dungeons?
 
 Because these contraptions take up an entire cell, they are represented as
-different *floor types* (an empty cell is just another floor type). You can
-draw them with the number keys :kbd:`1` to :kbd:`6`. But there are 20 floor
-types in total, so how does that exactly work?
+different *floor types*. You can draw them with the number keys :kbd:`1` to
+:kbd:`6`. But there are 20 floor types in total, so how does that exactly
+work?
 
-Each number key is assigned to up to five floor types. You can cycle forward
-between all floor types of a given number key by pressing the key, and
+Each number key is assigned to up to four floor types. You can cycle forward
+between all floor types of a particular number key by pressing the key, and
 backward by pressing :kbd:`Shift` and the key.
 
 .. raw:: html
@@ -159,25 +159,48 @@ backward by pressing :kbd:`Shift` and the key.
 
 
 Most door types can be oriented either horizontally or vertically. When
-placing them in tunnels (as you normally would), the program will figure out
+placing them in tunnels (as you normally would), the program can figure out
 the correct orientation. Should you need it, you can always change the
-orientation of a cell manually with the :kbd:`O` key.
+floor orientation manually with the :kbd:`O` key.
 
+
+.. rst-class:: style1
 
 Wall types
 ==========
 
 Drawing walls works a bit differently. The program makes a distinction between
 *regular walls* (the most common wall type you will draw) and so-called
-*special walls*. Special walls can represent all the different door types you
-can draw as
+*special walls*. 
+
+To draw regular walls, hold down the :kbd:`W` key and press one of the
+movement keys. This toggles the current cell's wall in that direction
+according to the following rules:
+
+- if no wall exists, a regular wall is created
+- if the existing wall is a regular wall, the wall is removed
+- if the existing wall is a special wall, it is turned into a regular wall
+
+Although this might sound a bit complex, it's really simple and intuitive in
+practice. Just give it a go!
+
+Special walls are used for drawing all the different door types you've seen
+previously as wall types, plus to represent some gadgets such as levers,
+statues, keyholes, etc.
+
+To draw special walls similary to the method described above, hold down the
+:kbd:`R` key and press one of the movement keys. This will use the current
+special wall type, as indicated in the right-side tools panel.
+
+You can cycle through the available special wall types with the :kbd:`[` and
+:kbd:`]` keys.
 
 .. raw:: html
 
     <table class="walls">
       <thead>
         <tr>
-          <th class="icon">Wall</th>
+          <th class="icon">Special wall</th>
           <th class="name">Name</th>
         </tr>
       </thead>
@@ -234,4 +257,45 @@ can draw as
       </tbody>
 
     </table>
+
+
+.. rst-class:: style3 big
+
+Editing in WASD mode
+====================
+
+In :ref:`moving-around:WASD mode`, you can use can use the mouse buttons as
+modifier keys to access various map editing functions. For example, hold down
+the left mouse button and use the :kbd:`W`:kbd:`A`:kbd:`S`:kbd:`D` movement
+keys to draw tunnels.
+
+The following mouse modifiers are available:
+
+* Left mouse button -- draw tunnel
+* Middle mouse button -- erase cell
+* Right mouse button -- draw wall
+* Right & left mouse button -- draw special wall
+
+To draw special walls, make sure to press then right mouse button first,
+*then* the left one (you'd end up in draw tunnel mode if you pressed the left
+one first).
+
+.. note:: 
+    
+    The editing shortcuts :kbd:`D`, :kbd:`W` and :kbd:`E` are not available in
+    WASD mode as they're used for movement instead. But this should not be
+    a problem because you're supposed to use the mouse modifiers instead of
+    these shortcuts anyway.
+
+.. tip::
+
+    Some blobbers, such as the renowned
+    `Eye of <https://en.wikipedia.org/wiki/Eye_of_the_Beholder_(video_game)>`_
+    `the Beholder <https://en.wikipedia.org/wiki/Eye_of_the_Beholder_II:_The_Legend_of_Darkmoon>`_
+    `series <https://en.wikipedia.org/wiki/Eye_of_the_Beholder_III:_Assault_on_Myth_Drannor>`_,
+    don't support WASD-style navigation. Luckily, most emulators (e.g.
+    `DosBox <https://www.dosbox.com/>`_ and `WinUAE <https://www.winuae.net/>`_)
+    provide a way to remap the cursor keys to the WASD movement keys in these
+    games.
+
 

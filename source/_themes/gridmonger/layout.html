@@ -33,7 +33,7 @@
   <article>
     <nav class="top">
       <ul>
-        {%- if prev and pagename != "getting-started" %}
+        {%- if prev %}
         <li class="prev"><a href="{{ prev.link|e }}">{{ prev.title|striptags|e }}</a></li>
         {%- endif %}
         {%- if pagename == "genindex" %}

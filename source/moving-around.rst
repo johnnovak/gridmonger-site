@@ -164,15 +164,19 @@ Vim-navigation is disabled in walk mode (it would be just too confusing).
 WASD mode
 =========
 
+Certain RPGs, typically blobbers, are best played with your left hand on the
+`WASD keys <https://en.wikipedia.org/wiki/Arrow_keys#WASD_keys>`_ for moving
+the party, and your right hand on the mouse for combat and menu navigation.
+Gridmonger's *WASD mode* was designed with such players in mind who prefer to
+do the bulk of their mapping with the WASD keys and the mouse while playing
+the game.
+
 *WASD mode* can be toggled with the :kbd:`Tab` key. You will see an indicator
-in the top-left corner of the window then WASD mode is on.
+in the top-left corner of the window when WASD mode is on.
 
-This mode is for players who want to a play a game and do most of the mapping
-with the ``WASD`` keys and the mouse (typical for real-time blobbers). With
-walk mode turned off, the ``WASD`` keys simply correspond to the cursor keys.
+See :ref:`basic-editing:Editing in WASD mode` to learn more about editing with
+the mouse in this mode.
 
-You can read more about editing with the mouse in WASD mode in
-the :doc:`basic-editing` chapter.
 
 .. rst-class:: style2
 
@@ -236,8 +240,8 @@ interesting:
 
 Admittedly, this is the most complex mode, and while some people might find it
 really useful, if it doesn't click with you, that's fine. Don't feel compelled
-to use it. In fact, I pretty much only use normal mode, even when playing
-real-time blobbers.
+to use it! In fact, I (the author) pretty much only use normal mode, even when
+playing real-time blobbers...
 
 
 .. rst-class:: style7 big
