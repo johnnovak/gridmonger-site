@@ -525,16 +525,17 @@ article .admonition {
   margin: 1.5em 0;
   background: rgba(78, 67, 54, 0.13);
   border-radius: 6px;
+  font-size: 99%;
 }
 article .admonition > p {
-  padding: 0 0.9em 1em 0.9em;
+  padding: 0 1.1em 1em 1.1em;
   margin: 0em 0;
 }
 article .admonition > p:nth-child(2) {
-  margin-top: 1em;
+  margin-top: 0.8em;
 }
 article .admonition > p.admonition-title {
-  padding: 0.2em 0.9em;
+  padding: 0.15em 1.1em;
   background: rgba(78, 67, 54, 0.28);
   border-radius: 6px 6px 0 0;
   font-weight: 700;
