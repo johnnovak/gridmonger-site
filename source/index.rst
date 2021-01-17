@@ -14,9 +14,8 @@ Table of contents
    basic-editing
    annotations
    advanced-editing
-   links
    regions
-   theme-editor
+   themes
 
 Appendixes
 ==========
@@ -25,4 +24,3 @@ Appendixes
    :maxdepth: 2
 
    Keyboard shortcuts <appendixes/keyboard-shortcuts>
-   Map file format <appendixes/map-file-format>
