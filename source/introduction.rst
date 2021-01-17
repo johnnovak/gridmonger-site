@@ -35,4 +35,3 @@ one thing, and do it well: be the ultimate mapping companion for grid-based
 cRPG games.
 
 I hope you will have as much fun using Gridmonger as I had writing it!
-

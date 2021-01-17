@@ -172,6 +172,18 @@ body {
 .section ul.multiline > li {
   margin-bottom: 0.3em;
 }
+.section dl {
+  margin: 1.5em 0;
+}
+.section dl > dt {
+  font-weight: 800;
+}
+.section dl > dd {
+  margin-bottom: 1em;
+}
+.section dl > dd > p:first-child {
+  margin: 0;
+}
 .section figure {
   margin: 2em auto;
   text-align: center;

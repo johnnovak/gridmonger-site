@@ -18,7 +18,7 @@ keys (similarly to :kbd:`Shift` or :kbd:`Ctrl`). There are a few other tools
 that work the same way:
 
 * :kbd:`E` – erase whole cell, including walls (we'll talk about walls later)
-* :kbd:`F` – clear floor only
+* :kbd:`F` – clear floor
 * :kbd:`C` – set floor color
 
 New cells are drawn with the current floor color. You can cycle through
@@ -264,28 +264,28 @@ You can cycle through the available special wall types with the :kbd:`[` and
 Editing in WASD mode
 ====================
 
-In :ref:`moving-around:WASD mode`, you can use can use the mouse buttons as
-modifier keys to access various map editing functions. For example, hold down
-the left mouse button and use the :kbd:`W`:kbd:`A`:kbd:`S`:kbd:`D` movement
-keys to draw tunnels.
+In :ref:`moving-around:WASD mode`, the editing shortcuts :kbd:`D`, :kbd:`W`
+and :kbd:`E` are not available as they're used for movement. But this is not
+a problem; you're supposed to use mouse modifiers instead of these shortcuts.
+
+For example, hold down the left mouse button and use the
+:kbd:`W`:kbd:`A`:kbd:`S`:kbd:`D` movement keys to draw tunnels.
 
 The following mouse modifiers are available:
 
-* Left mouse button -- draw tunnel
-* Middle mouse button -- erase cell
-* Right mouse button -- draw wall
-* Right & left mouse button -- draw special wall
+* Left button -- draw tunnel
+* Middle button -- erase cell
+* Right button -- draw wall
+* Right & left buttons -- draw special wall
 
 To draw special walls, make sure to press then right mouse button first,
-*then* the left one (you'd end up in draw tunnel mode if you pressed the left
-one first).
+*then* the left one (otherwise you'd end up in draw tunnel mode).
 
-.. note:: 
-    
-    The editing shortcuts :kbd:`D`, :kbd:`W` and :kbd:`E` are not available in
-    WASD mode as they're used for movement instead. But this should not be
-    a problem because you're supposed to use the mouse modifiers instead of
-    these shortcuts anyway.
+.. tip:: 
+
+    To move the cursor using the mouse, you can press :kbd:`Tab` to go back to
+    normal mode, left-click on a cell to move the cursor there, then press
+    :kbd:`Tab` again to return to WASD mode.
 
 .. tip::
 

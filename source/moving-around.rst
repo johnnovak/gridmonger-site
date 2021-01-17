@@ -107,11 +107,12 @@ explore this topic further.
 Walk mode
 =========
 
-*Walk mode* can be toggled with the :kbd:`\`` key (it's in the top-left corner
-of the keyboard, next to :kbd:`1`). The cursor is displayed as a triangle
-instead of a rectangle in this mode. The triangle points to the walking
-direction and represents your avatar; you can turn, strafe, and move forward
-and backward just like in a classic dungeon crawler.
+*Walk mode* can be toggled with the :kbd:`\`` key (that's the `grave accent
+<https://en.wikipedia.org/wiki/Grave_accent>`_ or backtick key, it's located
+in the top-left corner of the keyboard, left to :kbd:`1`). The cursor is
+displayed as a triangle instead of a rectangle in this mode. The triangle
+points to the walking direction and represents your avatar; you can turn,
+strafe, and move forward and backward just like in a classic dungeon crawler.
 
 
 .. raw:: html
@@ -264,6 +265,15 @@ icon or a color). You can use the navigation keys to do that. (You will see
 examples of this later.)
 
 Finally, you can press :kbd:`Alt+D` to select the **Discard** option.
+
+.. tip::
+   Hardcore Vim enthusiasts, such as *yours truly*, remap the quite useless
+   :kbd:`CapsLock` key to :kbd:`Ctrl` with a tool like `SharpKeys
+   <https://github.com/randyrants/sharpkeys>`_ for extra efficiency. The
+   :kbd:`Ctrl+[` Vim alias for the :kbd:`Esc` key is supported by Gridmonger
+   for these people (it's much more efficient to type than reaching out for
+   :kbd:`Esc` with your left pinky!)
+
 
 .. raw:: html
 

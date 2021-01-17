@@ -338,7 +338,7 @@ Normal mode
         </tr>
         <tr>
           <td>
-            <kbd>\</kbd>
+            <kbd>`</kbd><br>(<em>grave accent</em>, or <em>backtick</em> key)
           </td>
           <td>Switch between <em>Normal &amp; Walk mode</em></td>
         </tr>
@@ -499,6 +499,15 @@ Normal mode
       <tbody>
         <tr>
           <td>
+            <kbd>Space</kbd>
+          </td>
+          <td>Display note tooltip</td>
+        </tr>
+      </tbody>
+
+      <tbody>
+        <tr>
+          <td>
             <span class="group">
               <kbd class="compound"><kbd>Ctrl</kbd>+<kbd>Z</kbd></kbd> or
             </span>
@@ -544,7 +553,7 @@ Normal mode
           </td>
           <td>
             Excavate (Draw tunnel)
-            <p>Not available in WASD mode<br />
+            <p>Not available in WASD mode<br>
             (use left-mouse button instead)</p>
           </td>
         </tr>
@@ -556,6 +565,8 @@ Normal mode
           </td>
           <td>
             Clear floor &amp; walls (Erase cell)
+            <p>Not available in WASD + walk mode<br>
+            (use middle-mouse button instead)</p>
           </td>
         </tr>
         <tr>
@@ -636,7 +647,7 @@ Normal mode
           </td>
           <td>
             Toggle wall
-            <p>Not available in WASD mode<br />
+            <p>Not available in WASD mode<br>
             (use right-mouse button instead)</p>
           </td>
         </tr>
@@ -646,7 +657,11 @@ Normal mode
               <kbd>R</kbd>+<kbd class="move">Std move</kbd>
             </kbd>
           </td>
-          <td>Toggle special wall</td>
+          <td>
+            Toggle special wall
+            <p>Also right+left mouse button<br>
+            in WASD mode</p>
+          </td>
         </tr>
         <tr>
           <td>
@@ -677,14 +692,6 @@ Normal mode
           </td>
           <td>Enter <em>Paste preview mode</em></td>
         </tr>
-        <tr>
-          <td>
-            <kbd class="compound">
-              <kbd>Ctrl</kbd>+<kbd>G</kbd>
-            </kbd>
-          </td>
-          <td>Enter <em>Nudge level mode</em></td>
-        </tr>
       </tbody>
 
       <tbody>
@@ -700,7 +707,7 @@ Normal mode
               <kbd>Shift</kbd>+<kbd>N</kbd>
             </kbd>
           </td>
-          <td>Delete note</td>
+          <td>Erase note</td>
         </tr>
         <tr>
           <td>
@@ -709,6 +716,14 @@ Normal mode
             </kbd>
           </td>
           <td>Create/edit text label</td>
+        </tr>
+        <tr>
+          <td>
+            <kbd class="compound">
+              <kbd>Shift</kbd>+<kbd>T</kbd>
+            </kbd>
+          </td>
+          <td>Erase label</td>
         </tr>
       </tbody>
 
@@ -737,6 +752,14 @@ Normal mode
             </kbd>
           </td>
           <td>Resize level</td>
+        </tr>
+        <tr>
+          <td>
+            <kbd class="compound">
+              <kbd>Ctrl</kbd>+<kbd>G</kbd>
+            </kbd>
+          </td>
+          <td>Enter <em>Nudge level mode</em></td>
         </tr>
       </tbody>
     </table>
