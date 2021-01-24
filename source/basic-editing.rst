@@ -171,7 +171,7 @@ Wall types
 
 Drawing walls works a bit differently. The program makes a distinction between
 *regular walls* (the most common wall type you will draw) and so-called
-*special walls*. 
+*special walls*.
 
 To draw regular walls, hold down the :kbd:`W` key and press one of the
 movement keys. This toggles the current cell's wall in that direction
@@ -259,6 +259,31 @@ You can cycle through the available special wall types with the :kbd:`[` and
     </table>
 
 
+.. rst-class:: style1
+
+Trail mode
+==========
+
+In *trail mode*, you'll leave a trail behind the cursor as you move it around.
+You can then "draw in" the map over it (which is really only useful for
+tunnel-style maps), or you can use it to track your movement over an already
+mapped area.
+
+You can toggle *Trail mode* with the :kbd:`T` key; you'll see two footsteps in
+the top left corner when it's on.
+
+Similarly to the erase cell tool, you can erase the trail one cell at a time
+by holding :kbd:`X` and using the movement keys. This action, just like
+drawing the trail, cannot be undone.
+
+To excavate the whole trail in the current level (overwriting existing cell
+contents), press :kbd:`Ctrl+Alt+D`. To delete the whole trail, press
+:kbd:`Ctrl+Alt+X`. Because these two actions can be quite destructive, they
+are undoable.
+
+The trail data for all levels is saved when save your map.
+
+
 .. rst-class:: style3 big
 
 Editing in WASD mode
@@ -281,7 +306,7 @@ The following mouse modifiers are available:
 To draw special walls, make sure to press then right mouse button first,
 *then* the left one (otherwise you'd end up in draw tunnel mode).
 
-.. tip:: 
+.. tip::
 
     To move the cursor using the mouse, you can press :kbd:`Tab` to go back to
     normal mode, left-click on a cell to move the cursor there, then press

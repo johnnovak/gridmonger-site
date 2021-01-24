@@ -674,6 +674,40 @@ Normal mode
       <tbody>
         <tr>
           <td>
+            <kbd class="compound">
+              <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>D</kbd>
+            </kbd>
+          </td>
+          <td>
+            Excavate trail in current level
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <kbd class="compound">
+              <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>X</kbd>
+            </kbd>
+          </td>
+          <td>
+            Clear trail in current level
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <kbd class="compound">
+              <kbd>X</kbd>+<kbd class="move">Move keys</kbd>
+            </kbd>
+          </td>
+          <td>
+            Erase trail
+          </td>
+        </tr>
+      </tbody>
+
+
+      <tbody>
+        <tr>
+          <td>
             <kbd>M</kbd>
           </td>
           <td>Enter <em>Select (mark) mode</em></td>
