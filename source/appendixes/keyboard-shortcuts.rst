@@ -583,20 +583,6 @@ Normal mode
           </td>
           <td>Toggle floor orientation</td>
         </tr>
-        <tr>
-          <td>
-            <kbd>,</kbd> / <kbd>.</kbd>
-          </td>
-          <td>Previous/next floor color</td>
-        </tr>
-        <tr>
-          <td>
-            <kbd class="compound">
-              <kbd>C</kbd>+<kbd class="move">Move keys</kbd>
-            </kbd>
-          </td>
-          <td>Set floor color</td>
-        </tr>
       </tbody>
 
       <tbody>
@@ -668,6 +654,29 @@ Normal mode
             <kbd>[</kbd> / <kbd>]</kbd>
           </td>
           <td>Previous/next special wall type</td>
+        </tr>
+      </tbody>
+
+      <tbody>
+        <tr>
+          <td>
+            <kbd>,</kbd> / <kbd>.</kbd>
+          </td>
+          <td>Previous/next floor color</td>
+        </tr>
+        <tr>
+          <td>
+            <kbd class="compound">
+              <kbd>C</kbd>+<kbd class="move">Move keys</kbd>
+            </kbd>
+          </td>
+          <td>Set floor color</td>
+        </tr>
+        <tr>
+          <td>
+            <kbd>I</kbd>
+          </td>
+          <td>Pick floor color</td>
         </tr>
       </tbody>
 
