@@ -14,14 +14,52 @@ following cell types:
 - upward and downward stairs
 - entrance and exit doors
 
-To create a link, first move the cursor over the source cell and press
+To create a link, first move the cursor to the source cell and press
 :kbd:`Shift+G` to enter *set link destination* mode. Now move the cursor to
 the target cell and press :kbd:`Enter` to create the link, or :kbd:`Esc` to
 cancel. All the common navigation shortcuts are available in this mode, so you
-can change the current level, zoom in, etc.
+can change the current level, zoom in and out, etc.
 
-Once a link is created, you can jump back and forth between the two ends of
-a link by placing the cursor at either end and pressing :kbd:`G`.
+Once a link has been created, you can see a small triangle in the bottom-left
+corner of the two linked cells:
+
+<image>
+
+To jump back and forth between linked cells, place the cursor at either
+end of the link and press :kbd:`G`.
+
+If you delete a cell that's part of a link, the other end will be unlinked but
+otherwise left intact. In fact, this is the easiest way to break a link.
+
+The exact rules for creating links vary per each cell type:
+
+Pits
+    The link source must a closed, open or hidden pit. The link destination is
+    always a ceiling pit.
+
+Teleports
+    The link source can be either a teleport source or a teleport destination.
+    The destination cell is automatically set to the other teleport type.
+
+Stairs
+    The link source can be either a downward or an upward stairs cell. The
+    program will automatically adjust the direction of the stairs based on
+    level elevation.
+
+Doors
+    The link source can be either an entrace or an exit door.  The destination
+    cell is automatically set to the other door type.
+
+
+.. note::
+
+    A cell cannot be both a link source and destination, so you cannot create
+    chain-linked teleport cells, for example.  Furthermore, links can only be
+    created between exactly two cells.  So you cannot have two teleport
+    sources that are linked to the same teleport destination cell.  Likewise,
+    you cannot have a teleport source that is linked to multiple destination
+    cell (e.g. for teleports that would take the player to a randomly chosen
+    location).
 
 
 Selections
@@ -48,6 +86,10 @@ Special commands
 :kbd:`Ctrl+C` 	Set floor color of selection
 :kbd:`Ctrl+S` 	Surround selection with walls
 :kbd:`Ctrl+R` 	Crop level to selection
+
+cut selection - can paste only once, maintains links
+paste selection - can paste many times, does not maintain links
+
 
 
 Special level actions
