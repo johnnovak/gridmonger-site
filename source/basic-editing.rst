@@ -18,7 +18,7 @@ keys (similarly to :kbd:`Shift` or :kbd:`Ctrl`). There are a few other tools
 that work the same way:
 
 * :kbd:`E` – erase whole cell, including walls (we'll talk about walls later)
-* :kbd:`F` – clear floor
+* :kbd:`F` – draw/clear floor
 * :kbd:`C` – set floor color
 
 New cells are drawn with the current floor color. You can cycle through
