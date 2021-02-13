@@ -21,8 +21,9 @@ that work the same way:
 * :kbd:`F` – draw/clear floor
 * :kbd:`C` – set floor color
 
-New cells are drawn with the current floor color. You can cycle through
-the available floor colors with the :kbd:`,` and :kbd:`.` keys.
+New cells are drawn with the current floor color. You can cycle through the
+available floor colors with the :kbd:`,` and :kbd:`.` keys. To
+"pick" the floor color from the current cell, press :kbd:`I`.
 
 
 Floor types
@@ -121,9 +122,13 @@ backward by pressing :kbd:`Shift` and the key.
 
       <tbody>
         <tr>
-          <td class="key" rowspan="3"><kbd>5</kbd></td>
-          <td class="icon"><img src="_static/img/floor-teleport.png" alt="teleport"></td>
-          <td class="name">teleport</td>
+          <td class="key" rowspan="4"><kbd>5</kbd></td>
+          <td class="icon"><img src="_static/img/floor-teleport-src.png" alt="teleport source"></td>
+          <td class="name">teleport source</td>
+        </tr>
+        <tr>
+          <td class="icon"><img src="_static/img/floor-teleport-dest.png" alt="teleport destination"></td>
+          <td class="name">teleport destination</td>
         </tr>
         <tr>
           <td class="icon"><img src="_static/img/floor-spinner.png" alt="spinner"></td>
@@ -313,6 +318,8 @@ The following mouse modifiers are available:
 * Middle button -- erase cell
 * Right button -- draw wall
 * Right & left buttons -- draw special wall
+
+The mouse cursor must be inside the level area when using the mouse modifiers.
 
 To draw special walls, make sure to press then right mouse button first,
 *then* the left one (otherwise you'd end up in draw tunnel mode).

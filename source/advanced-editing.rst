@@ -5,13 +5,23 @@ Advanced editing
 Cell links
 ==========
 
+One handy advantage of Gridmonger over paper-and-pencil mapping is the ability
+to create links between certain cells. You can create links between the
+following cell types:
 
+- pits and ceiling pits
+- teleport sources and destinations
+- upward and downward stairs
+- entrance and exit doors
 
-To create a link, move the cursor to the source cell and press :kbd:`Shift+G`.
-Now you're in *set link destination* mode. Move the cursor to the target cell
-and press :kbd:`Enter` to create the link, or press :kbd:`Esc` to cancel.
-Naturally, you can change the current level and use most of the common
-navigation shortcuts in this mode.
+To create a link, first move the cursor over the source cell and press
+:kbd:`Shift+G` to enter *set link destination* mode. Now move the cursor to
+the target cell and press :kbd:`Enter` to create the link, or :kbd:`Esc` to
+cancel. All the common navigation shortcuts are available in this mode, so you
+can change the current level, zoom in, etc.
+
+Once a link is created, you can jump back and forth between the two ends of
+a link by placing the cursor at either end and pressing :kbd:`G`.
 
 
 Selections
