@@ -107,6 +107,6 @@ To delete the current level, press :kbd:`Ctrl+D`. If you accidentally deleted
 a level, don't worry, you can always undo it.
 
 Similarly, you can create a new map with :kbd:`Ctrl+Alt+N`. Make sure to save
-your current map if you don't want to lose it, because this operation *cannot*
-be undone!
+your current map if you don't want to lose it, because this action *cannot* be
+undone!
 

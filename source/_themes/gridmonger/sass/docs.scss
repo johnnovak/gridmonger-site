@@ -314,6 +314,7 @@ article {
   kbd {
     line-height: 1.4;
     font-size: 15px;
+    white-space: nowrap;
 
     &:not(.compound) {
       display: inline-block;

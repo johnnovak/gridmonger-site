@@ -190,9 +190,10 @@ statues, keyholes, etc.
 
 To draw special walls similary to the method described above, hold down the
 :kbd:`R` key and press one of the movement keys. This will use the current
-special wall type, as indicated in the right-side tools panel.
+special wall type, as indicated in the right-side tools pane. You can toggle
+the visibility of the tools pane with :kbd:`Alt+T`.
 
-You can cycle through the available special wall types with the :kbd:`[` and
+To select the current special wall type, use the :kbd:`[` and
 :kbd:`]` keys.
 
 .. raw:: html
@@ -265,23 +266,33 @@ Trail mode
 ==========
 
 In *trail mode*, you'll leave a trail behind the cursor as you move it around.
-You can then "draw in" the map over it (which is really only useful for
+You can then "draw in" the map over it (this is really only useful for
 tunnel-style maps), or you can use it to track your movement over an already
 mapped area.
 
-You can toggle *Trail mode* with the :kbd:`T` key; you'll see two footsteps in
+You can toggle trail mode with the :kbd:`T` key; you'll see two footsteps in
 the top left corner when it's on.
 
 Similarly to the erase cell tool, you can erase the trail one cell at a time
 by holding :kbd:`X` and using the movement keys. This action, just like
 drawing the trail, cannot be undone.
 
-To excavate the whole trail in the current level (overwriting existing cell
-contents), press :kbd:`Ctrl+Alt+D`. To delete the whole trail, press
-:kbd:`Ctrl+Alt+X`. Because these two actions can be quite destructive, they
-are undoable.
+To delete the whole trail in the current level, press :kbd:`Ctrl+Alt+X`.
+Because this action is quite destructive, it can be undone.
 
-The trail data for all levels is saved when save your map.
+To excavate the whole trail in the current level (overwriting existing cell
+contents), press :kbd:`Ctrl+Alt+D`. Similarly to deleting the whole trail,
+this action can be undone as well.
+
+When you save your map, the trail data for all levels is stored in the map
+file.
+
+.. note::
+
+    Trail mode is turned off automatically when performing an action that
+    would yield confusing or unwanted results with it being on (e.g. creating
+    or deleting levels, changing the current level, entering select mode,
+    etc.)
 
 
 .. rst-class:: style3 big

@@ -34,7 +34,7 @@ ID
 Icon
     An icon chosen from a predefined set of 40 icons.
 
-You can create a note by pressing the :kbd:`N` key on a non-empty cell.
+To create a note, pressing the :kbd:`N` key on a non-empty cell.
 A cell cannot have more than one note; if you press the :kbd:`N` key on a cell
 that already contains a note, you'll be editing the existing note. To erase
 a note, press :kbd:`Shift+N`.
@@ -47,13 +47,13 @@ want to keep the cell's content, just use the **None** note type, which just
 displays a little triangle in the top-right corner.
 
 The note under the cursor is displayed in the *notes pane*, below the level.
-You can toggle the notes pane with :kbd:`Alt+N`.  Alternatively, you can hover
-over the cell with the mouse cursor, and the note will appear in a tooltip.
+You can toggle the notes pane with :kbd:`Alt+N`.  Alternatively, hovering
+over the cell with the mouse cursor will make the note appear in a tooltip.
 You can also press :kbd:`Space` to display this tooltip.
 
 .. tip::
 
-    As creating and editing notes is a very frequently used operation, special
+    As creating and editing notes are very frequently used actions, special
     care has been taken to make the note dialog fully keyboard operable.
 
     Use :kbd:`Ctrl` with the horizontal movement keys to navigate between
@@ -61,8 +61,8 @@ You can also press :kbd:`Space` to display this tooltip.
     :kbd:`4` to jump to a specific tab.
 
     To cycle between text fields, use :kbd:`Tab` and :kbd:`Shift+Tab`. In the
-    **Number** and **Icon** tabs, you can use the movement keys to select the
-    color or the icon, respectively.
+    **Number** and **Icon** tabs, use the movement keys to select the color or
+    the icon, respectively.
 
 
 .. rst-class:: style4 big
