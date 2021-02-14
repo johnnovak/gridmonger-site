@@ -25,6 +25,11 @@ New cells are drawn with the current floor color. You can cycle through the
 available floor colors with the :kbd:`,` and :kbd:`.` keys. To
 "pick" the floor color from the current cell, press :kbd:`I`.
 
+Gridmonger has a virtually unlimited undo history (only limited by your
+computer's memory). You can undo most actions with :kbd:`Ctrl+Z` or :kbd:`U`,
+and redo them with :kbd:`Ctrl+Y` or :kbd:`Ctrl+R`. The only actions that cannot
+be undone is the creation of a new map (which discards
+the current map), and some of the operations related to :ref:`basic-editing:Trail mode`.
 
 Floor types
 ===========

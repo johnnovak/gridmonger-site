@@ -46,6 +46,10 @@ placing a note with a marker in it overwrites its previous content. If you
 want to keep the cell's content, just use the **None** note type, which just
 displays a little triangle in the top-right corner.
 
+Conversely, if you overwrite a marker-type note with some non-blank floor type
+(e.g. a teleport), the note won't be deleted but it will be converted to the
+**None** type, so the new cell content and the note can coexist.
+
 The note under the cursor is displayed in the *notes pane*, below the level.
 You can toggle the notes pane with :kbd:`Alt+N`.  Alternatively, hovering
 over the cell with the mouse cursor will make the note appear in a tooltip.
@@ -70,16 +74,18 @@ You can also press :kbd:`Space` to display this tooltip.
 Labels
 ======
 
-*Labels* are text overlaid on top of the level. To create a label starting
-from a cell, go to the cell and press :kbd:`Ctrl+T`.
+*Labels* are text overlaid on top of the level. Placing a label in a cell
+overwrites its previous content, including notes.  Contrary to notes, you can
+attach labels to empty cells as well. This is useful when placing labels in
+empty areas around the level, rather than on top of it.
+
+To create a label starting from a cell, go to the cell and press
+:kbd:`Ctrl+T`. You can also select the color of the label from four predefined
+colors. 
 
 To edit a label, go to the cell at the top-left corner of the label text, then
-press :kbd:`Ctrl+T`. You can erase a label with :kbd:`Shift+T`.
+press :kbd:`Ctrl+T`.
 
-Technically, a label is treated just as another note type. Because of this,
-you cannot attach both a note and a label to the same cell. However, contrary
-to notes, you *can* attach labels to empty cells. This is useful when placing
-labels in empty areas around the level, rather than on top of it.
+You can erase a label with :kbd:`Shift+T`.
 
-Similarly to notes with markers, placing a label in a cell overwrites its
-previous content.
+

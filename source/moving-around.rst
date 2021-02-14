@@ -238,11 +238,17 @@ interesting:
       </tbody>
     </table>
 
-
 Admittedly, this is the most complex mode, and while some people might find it
 really useful, if it doesn't click with you, that's fine. Don't feel compelled
 to use it! In fact, I (the author) pretty much only use normal mode, even when
 playing real-time blobbers...
+
+.. note::
+    In WASD mode, you cannot use the :kbd:`Ctrl` movement modifier with the
+    :kbd:`W`:kbd:`A`:kbd:`S`:kbd:`D` keys for 5-cell jumps because that would
+    interfere with other shortcuts. However, all movement modifiers are still
+    available with the other movement keys.
+
 
 
 .. rst-class:: style7 big
