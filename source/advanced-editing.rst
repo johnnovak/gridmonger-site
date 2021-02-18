@@ -21,7 +21,7 @@ cancel. All the common navigation shortcuts are available in this mode, so you
 can change the current level, zoom in and out, etc.
 
 Once a link has been created, you can see a small triangle in the bottom-left
-corner of the two linked cells:
+corners of the two linked cells:
 
 <image>
 
