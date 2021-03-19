@@ -489,7 +489,7 @@ Normal mode
         <tr>
           <td>
             <kbd class="compound">
-              <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>R</kbd>
+              <kbd>Ctrl</kbd>++<kbd>Home</kbd>
             </kbd>
           </td>
           <td>Reload current theme</td>
