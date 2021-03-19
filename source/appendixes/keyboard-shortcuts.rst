@@ -474,14 +474,14 @@ Normal mode
         <tr>
           <td>
             <kbd class="compound">
-              <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>PgUp</kbd>
+              <kbd>Ctrl</kbd>+<<kbd>PgUp</kbd>
             </kbd>
           <td>Previous theme</td>
         </tr>
         <tr>
           <td>
             <kbd class="compound">
-              <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>PgDn</kbd>
+              <kbd>Ctrl</kbd>+<kbd>PgDn</kbd>
             </kbd>
           </td>
           <td>Next theme</td>
