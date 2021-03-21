@@ -69,13 +69,13 @@ properties that govern how the cell coordinates are displayed.
 There are two coordinate styles to choose from: number and letter. You can set
 the style separately for rows and columns with **Column style** and **Row
 style**, respectively. The letter style works as follows: ``A`` corresponds to
-``1``, ``B`` to ``2``, and so on, right until ``Z`` (``24``), then the it
+``0``, ``B`` to ``1``, and so on, right until ``Z`` (``23``), then the it
 continues with ``AA``, ``AB``, ``AC``, etc.
 
-You can specify other starting values than ``1`` (or ``A``) with **Column
-start** and **Row start**. You must always enter the start value as a number,
-even for letter style coordinates (in which case the program displays the
-corresponding letter coordinates next to the number).
+You can specify the coordinate starting values in **Column start** and **Row
+start** fields. You must always enter the start value as a number, even for
+letter style coordinates (in which case the program displays the corresponding
+letter coordinates next to the number).
 
 Level properties
 ================
