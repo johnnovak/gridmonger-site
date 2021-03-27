@@ -34,9 +34,9 @@ ID
 Icon
     An icon chosen from a predefined set of 40 icons.
 
-To create a note, pressing the :kbd:`N` key on a non-empty cell.
-A cell cannot have more than one note; if you press the :kbd:`N` key on a cell
-that already contains a note, you'll be editing the existing note. To erase
+To create a note, press the :kbd:`N` key in a non-empty cell.
+A cell cannot have more than one note; if you press :kbd:`N` in a cell
+that already contains a note, you'll be editing it. To erase
 a note, press :kbd:`Shift+N`.
 
 You can insert line breaks into the note text with :kbd:`Shift+Enter`.
@@ -44,29 +44,31 @@ You can insert line breaks into the note text with :kbd:`Shift+Enter`.
 If the cell already has some content (e.g. a pressure plate or a teleport),
 placing a note with a marker in it overwrites its previous content. If you
 want to keep the cell's content, just use the **None** note type, which just
-displays a little triangle in the top-right corner.
+displays a little triangle in the top-right corner while keeping the cell's
+content intact.
 
-Conversely, if you overwrite a marker-type note with some non-blank floor type
-(e.g. a teleport), the note won't be deleted but it will be converted to the
+Conversely, if you overwrite a marker-type note with some cell content (e.g.
+a teleport), the note won't be deleted, but it will be converted to the
 **None** type, so the new cell content and the note can coexist.
 
-The note under the cursor is displayed in the *notes pane*, below the level.
-You can toggle the notes pane with :kbd:`Alt+N`.  Alternatively, hovering
-over the cell with the mouse cursor will make the note appear in a tooltip.
-You can also press :kbd:`Space` to display this tooltip.
+The note under the cursor is displayed in the *notes pane* below the level,
+which can be toggled with :kbd:`Alt+N`. You can also hover over a cell with
+the mouse pointer, and if it has a note, it will be displayed in a tooltip.
+This tooltip can also be toggled with :kbd:`Space` for the cell under the
+cursor.
 
 .. tip::
 
     As creating and editing notes are very frequently used actions, special
     care has been taken to make the note dialog fully keyboard operable.
 
-    Use :kbd:`Ctrl` with the horizontal movement keys to navigate between
-    the tabs. You can also hold :kbd:`Ctrl` and press keys :kbd:`1` to
-    :kbd:`4` to jump to a specific tab.
+    Use :kbd:`Ctrl` with the horizontal movement keys to navigate between the
+    tabs. Hold :kbd:`Ctrl` and press keys :kbd:`1` to :kbd:`4` to jump to
+    a specific tab.
 
     To cycle between text fields, use :kbd:`Tab` and :kbd:`Shift+Tab`. In the
     **Number** and **Icon** tabs, use the movement keys to select the color or
-    the icon, respectively.
+    the icon image, respectively.
 
 
 .. rst-class:: style4 big
@@ -80,7 +82,7 @@ attach labels to empty cells as well. This is useful when placing labels in
 empty areas around the level, rather than on top of it.
 
 To create a label starting from a cell, go to the cell and press
-:kbd:`Ctrl+T`. You can also select the color of the label from four predefined
+:kbd:`Ctrl+T`. You can select the color of the label from four predefined
 colors. 
 
 To edit a label, go to the cell at the top-left corner of the label text, then
