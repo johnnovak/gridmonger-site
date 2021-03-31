@@ -10,7 +10,7 @@ selective about its friends than your average desktop app.*
 
 But, alas, worry not --- if you are a fan of oldschool computer role-playing
 games, and you are able to set them up in emulators, you will get along with
-Gridmonger just fine.
+Gridmonger just fine!
 
 The user interface is optimised for power users, and therefore is operable by
 keyboard shortcuts almost exclusively. While you could get quite far going by
@@ -29,7 +29,60 @@ section.
 Installation
 ============
 
-TODO
+To install Gridmonger, download either the Windows installer (for standard
+installations) or the ZIP file (for portable installations) from the
+`Downloads <http://gridmonger.johnnovak.net/downloads>`_ page. Then run the
+installer, or simply unpack the contents of the ZIP file somewhere.
+
+.. important::
+    If you choose the portable ZIP version, make sure to unpack it into
+    a folder that is writeable by normal (non-administrator) users. So don't
+    put it into ``Program Files`` or similar system folders, that most
+    likely won't work.
+
+
+User data folders
+=================
+
+The location of the *user data folder* is
+``C:\Users\<USERNAME>\AppData\Roaming\Gridmonger`` for standard installations,
+or the application folder for portable installations.
+
+This is the folder where the log file ``gridmonger.log`` is written to.
+The program keeps the last three log files under the names
+``gridmonger.log.bak1``, ``gridmonger.log.bak2`` and ``gridmonger.log.bak3``.
+
+
+Gridmonger will create the following subfolders in the user data folder on its
+first run:
+
+``Autosave``
+    If autosave is enabled, and the current map hasn't been saved to a file
+    yet, the autosave file ``Untitled.grm`` will go in this folder. Also, in
+    the rare event of a program crash, unsaved maps are automatically saved as
+    ``Crash Autosave.grm`` in this folder.
+
+``Config``
+    The configuration file ``gridmonger.cfg`` that contains the application's
+    settings resides here.
+
+``User Themes``
+    User defined themes should be placed in this folder.
+
+``User Themes\Images``
+    Images used by the user defined themes go here.
+
+
+
+.. tip::
+    If the application folder contains a subfolder named ``Config``,
+    Gridmonger starts in portable mode. You can "convert" a portable
+    installation to a standard one by simply deleting this subfolder; or
+    conversely, make a standard one portable by moving it out of ``Program
+    Files`` and creating the ``Config`` subfolder.
+
+
+.. rst-class:: style4 big
 
 Quickstart
 ==========
