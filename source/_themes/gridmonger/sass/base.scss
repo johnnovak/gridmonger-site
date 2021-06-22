@@ -32,7 +32,7 @@ body {
   color: $fg-color;
 }
 
-.section {
+section {
   &:after {
     display: block;
     width: 100%;
@@ -258,7 +258,7 @@ body {
   }
 }
 
-.section,
+section,
 footer {
   a {
     @include link;
