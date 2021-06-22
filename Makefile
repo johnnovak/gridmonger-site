@@ -28,4 +28,4 @@ generate_css:
 	sass --no-source-map source/_themes/gridmonger/sass/front-page.scss:source/_themes/gridmonger/static/css/front-page.css
 
 watch_docs_css:
-	sass --watch source/_themes/gridmonger/sass/docs.scss:build/html/_static/css/docs.css
+	sass --watch --poll source/_themes/gridmonger/sass/docs.scss:build/html/_static/css/docs.css
