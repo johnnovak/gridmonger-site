@@ -244,9 +244,16 @@ Dialogs
       <tbody class="no-padding">
         <tr>
           <td>
-            <kbd class="compound">
-              <kbd>Ctrl</kbd>+<kbd class="move">Std move Left/Right</kbd>
-            </kbd>
+            <span class="group">
+              <kbd class="compound">
+                <kbd>Ctrl</kbd>+<kbd class="move">Std move Left/Right</kbd>
+              </kbd>
+            </span>
+            <span class="group">
+              <kbd class="compound">
+                <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Tab</kbd>/<kbd>Ctrl</kbd>+<kbd>Tab</kbd>
+              </kbd>
+            </span>
           </td>
           <td>Previous/next tab</td>
         </tr>
