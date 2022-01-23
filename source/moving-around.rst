@@ -276,7 +276,7 @@ right navigation keys. To go to the *N*\ th dialog, you can use :kbd:`Ctrl`\
 +\ *N*, where *N* is a number key.
 
 In some dialogs, you need to select something from a list of options (e.g. an
-icon or a color). You can use the navigation keys to do that. (You will see
+icon or a colour). You can use the navigation keys to do that. (You will see
 examples of this later.)
 
 Finally, you can press :kbd:`Alt+D` to select the **Discard** option.

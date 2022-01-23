@@ -19,8 +19,8 @@ None
     the cell.
 
 Number
-    An automatically-incrementing number inside a disc. The color of the disc
-    can be chosen from four predefined colors.
+    An automatically-incrementing number inside a disc. The colour of the disc
+    can be chosen from four predefined colours.
 
     Numbers are assigned in left-to-right then top-to-bottom, normal English
     reading order. Numbering restarts from 1 on each level. Notes are
@@ -67,7 +67,7 @@ cursor.
     a specific tab.
 
     To cycle between text fields, use :kbd:`Tab` and :kbd:`Shift+Tab`. In the
-    **Number** and **Icon** tabs, use the movement keys to select the color or
+    **Number** and **Icon** tabs, use the movement keys to select the colour or
     the icon image, respectively.
 
 
@@ -82,8 +82,8 @@ attach labels to empty cells as well. This is useful when placing labels in
 empty areas around the level, rather than on top of it.
 
 To create a label starting from a cell, go to the cell and press
-:kbd:`Ctrl+T`. You can select the color of the label from four predefined
-colors. 
+:kbd:`Ctrl+T`. You can select the colour of the label from four predefined
+colours. 
 
 To edit a label, go to the cell at the top-left corner of the label text, then
 press :kbd:`Ctrl+T`.

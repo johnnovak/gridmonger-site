@@ -16,16 +16,16 @@ The user interface is optimised for power users, and therefore is operable by
 keyboard shortcuts almost exclusively. While you could get quite far going by
 the list of :ref:`appendixes/keyboard-shortcuts:Keyboard shortcuts` alone, the
 more complex features would be a bit hard to figure out on your own.  I very
-much recommend reading through this manual to familiarise
-yourself with the full list of program features. It's written in
-a conversational style, as an attempt to make it more fun to read than
-a typical reference manual. And don't just read, create a test map and try the
-features as you're reading through the chapters!
+much recommend reading through this manual to familiarise yourself with the
+full list of program features. It's written in a conversational style, as an
+attempt to make it more fun to read than a typical reference manual. And don't
+just read, create a test map and try the features yourself as you're working
+your way through the chapters!
 
 Having said all that, some people are just impatient, or want to get a taste
 of the program before committing to learning it. For them,
 I have included a few quick tips in the :ref:`getting-started:quickstart`
-section.
+section below.
 
 Installation
 ============

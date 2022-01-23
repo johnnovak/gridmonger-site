@@ -22,7 +22,7 @@ reasonable to expect the same level of efficiency and ergonomics from your
 dungeon mapping tool that you would from any professional editing
 software.
 
-When designing Gridmonger, my main goal was to make map creation as much an
+When designing Gridmonger, my main goal was to make map creation an as
 efficient and enjoyable experience as possible. The basic idea was simple:
 classic cRPGs are keyboard driven, therefore the mapping tool has to be
 keyboard driven as well. Ideally, you would not even have to lift your fingers
@@ -30,8 +30,8 @@ from the keyboard while simultaneously playing and mapping the game!
 
 Let me stress this again: Gridmonger is meant to be used *while playing the
 game*. While other programs might bedazzle you with a large variety of
-features, Gridmonger's scope is small and focused on purpose. It aims to do
-one thing, and do it well: be the ultimate mapping companion for grid-based
-cRPG games.
+features, Gridmonger's scope is kept small and focused on purpose. It aims to
+do one thing, and do it exceedingly well: be the ultimate mapping companion for
+grid-based cRPG games.
 
-I hope you will have as much fun using Gridmonger as I had writing it!
+I do hope you will have as much fun using Gridmonger as I had writing it!
