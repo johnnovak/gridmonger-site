@@ -31,16 +31,19 @@ to go to the previous or next level.
 
 .. note::
 
-    The `US English keyboard layout
-    <https://en.wikipedia.org/wiki/QWERTY#United_States>`_ determines the
-    position of keys used in the keyboard shortcuts, regardless of the
-    language and keyboard settings of your operating system.
+    When it comes to keyboard shortcuts, Gridmonger uses the 
+    `US keyboard layout <https://kbdlayout.info/KBDUS>`_, regardless
+    of the keyboard layout and languge preferences set in your operating
+    system, or the actual position of the keys on your non-US keyboard. This
+    is very similar to how most games handle the keyboard. For the more
+    technically inclined, the program only cares about *positional
+    scancodes*.
 
-    Normally, the :kbd:`NumLock` key is ignored, and the numeric keypad is
-    only used for navigation.
+    Normally, the state of the :kbd:`NumLock` key is ignored, and the
+    numeric keypad is only used for navigation.
 
-    However, when entering text in textfields, the OS-level keyboard settings
-    and the :kbd:`NumLock` state are in effect.
+    However, when entering text in textfields, the operating system keyboard and
+    language settings and the :kbd:`NumLock` state are in effect.
 
 
 Normal mode
@@ -97,11 +100,17 @@ level in 5-cell increments.
 One of the defining features of Gridmonger is its `Vim
 <https://en.wikipedia.org/wiki/Vim_(text_editor)>`_-inspired keyboard
 interface. This means that in addition to the standard cursor keys, you can
-also use Vim-style ``HJKL`` key navigation to move around. If this doesn't
-mean anything to you, don't worry! Just keep using the standard cursor keys or
-the keypad for now. But I recommend you to read the :ref:`About Vim
-<about-vim>` sidenote at the end; you might find it interesting enough to
-explore this topic further.
+also use Vim-style `HJKL key
+<https://en.wikipedia.org/wiki/Arrow_keys#HJKL_keys>`_ navigation to move
+around. You might have already enountered this style of navigation in
+some text-based games originally developed on UNIX systems, such as the
+venerable `Rogue <https://en.wikipedia.org/wiki/Rogue_(video_game)>`_ and `NetHack
+<https://en.wikipedia.org/wiki/NetHack>`_.
+
+If this doesn't mean anything to you, don't worry! Just keep using the
+standard cursor keys or the keypad for now. But I recommend you to read the
+:ref:`About Vim <about-vim>` sidenote at the end; you might find it
+interesting enough to explore this topic further.
 
 
 Walk mode
@@ -165,12 +174,12 @@ Vim-navigation is disabled in walk mode (it would be just too confusing).
 WASD mode
 =========
 
-Certain RPGs, typically blobbers, are best played with your left hand on the
-`WASD keys <https://en.wikipedia.org/wiki/Arrow_keys#WASD_keys>`_ for moving
-the party, and your right hand on the mouse for combat and menu navigation.
-Gridmonger's *WASD mode* was designed with such players in mind who prefer to
-do the bulk of their mapping with the WASD keys and the mouse while playing
-the game.
+Certain RPGs, typically dungeon crawlers with real-time combat, are best played
+with your left hand on the `WASD keys
+<https://en.wikipedia.org/wiki/Arrow_keys#WASD_keys>`_ for moving the party,
+and your right hand on the mouse for combat and menu navigation. Gridmonger's
+*WASD mode* was designed with such players in mind who prefer to do the bulk
+of their mapping with the WASD keys and the mouse while playing the game.
 
 *WASD mode* can be toggled with the :kbd:`Tab` key. You will see an indicator
 in the top-left corner of the window when WASD mode is on.
@@ -241,7 +250,7 @@ interesting:
 Admittedly, this is the most complex mode, and while some people might find it
 really useful, if it doesn't click with you, that's fine. Don't feel compelled
 to use it! In fact, I (the author) pretty much only use normal mode, even when
-playing real-time blobbers...
+playing real-time dungeon crawlers...
 
 .. note::
     In WASD mode, you cannot use the :kbd:`Ctrl` movement modifier with the

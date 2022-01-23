@@ -165,6 +165,14 @@ backward by pressing :kbd:`Shift` and the key.
         </tr>
       </tbody>
 
+      <tbody>
+        <tr>
+          <td class="key"><kbd>7</kbd></td>
+          <td class="icon"><img src="_static/img/floor-bridge.png" alt="bridge"></td>
+          <td class="name">bridge</td>
+        </tr>
+      </tbody>
+
     </table>
 
 
@@ -218,14 +226,6 @@ To select the current special wall type, use the :kbd:`[` and
 
       <tbody>
         <tr>
-          <td class="icon"><img src="_static/img/wall-illusory.png" alt="illusory wall"></td>
-          <td class="name">illusory wall</td>
-        </tr>
-        <tr>
-          <td class="icon"><img src="_static/img/wall-invisible.png" alt="invisible wall"></td>
-          <td class="name">invisible wall</td>
-        </tr>
-        <tr>
           <td class="icon"><img src="_static/img/wall-open-door.png" alt="open door"></td>
           <td class="name">open door</td>
         </tr>
@@ -244,6 +244,14 @@ To select the current special wall type, use the :kbd:`[` and
         <tr>
           <td class="icon"><img src="_static/img/wall-one-way-door.png" alt="one-way door"></td>
           <td class="name">one-way door</td>
+        </tr>
+        <tr>
+          <td class="icon"><img src="_static/img/wall-illusory.png" alt="illusory wall"></td>
+          <td class="name">illusory wall</td>
+        </tr>
+        <tr>
+          <td class="icon"><img src="_static/img/wall-invisible.png" alt="invisible wall"></td>
+          <td class="name">invisible wall</td>
         </tr>
         <tr>
           <td class="icon"><img src="_static/img/wall-lever.png" alt="lever"></td>
@@ -320,9 +328,9 @@ For example, hold down the left mouse button and use the
 The following mouse modifiers are available:
 
 * Left button -- draw tunnel
-* Middle button -- erase cell
 * Right button -- draw wall
 * Right & left buttons -- draw special wall
+* Middle button -- erase cell
 
 The mouse cursor must be inside the level area when using the mouse modifiers.
 
@@ -337,7 +345,7 @@ To draw special walls, make sure to press then right mouse button first,
 
 .. tip::
 
-    Some blobbers, such as the renowned
+    Some games, such as the renowned
     `Eye of <https://en.wikipedia.org/wiki/Eye_of_the_Beholder_(video_game)>`_
     `the Beholder <https://en.wikipedia.org/wiki/Eye_of_the_Beholder_II:_The_Legend_of_Darkmoon>`_
     `series <https://en.wikipedia.org/wiki/Eye_of_the_Beholder_III:_Assault_on_Myth_Drannor>`_,

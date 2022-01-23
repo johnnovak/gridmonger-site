@@ -287,14 +287,14 @@ body {
   content: "❿";
 }
 
-.section a,
+section a,
 footer a {
   display: inline;
   font-family: "Alegreya SC", serif;
   text-decoration: none;
   color: #b86622;
 }
-.section a:hover,
+section a:hover,
 footer a:hover {
   text-decoration: underline;
   color: #9d5111;
@@ -355,6 +355,19 @@ article img {
   display: block;
   width: 100%;
   margin: 2em auto;
+}
+article a {
+  display: inline;
+  font-family: "Alegreya SC", serif;
+  text-decoration: none;
+  color: #b86622;
+}
+article a:hover {
+  text-decoration: underline;
+  color: #9d5111;
+}
+article dl > dt > kbd {
+  padding-left: 0.5em;
 }
 article nav {
   margin: 1.5em 0 1em 0;
@@ -644,7 +657,7 @@ footer {
     width: 45%;
   }
 
-  .section.big:after {
+  section.big:after {
     margin: 5rem auto;
   }
 }
@@ -685,10 +698,10 @@ footer {
 }
 /*--------------------------------------------------------------------------*/
 @media (min-width: 800px) {
-  .section {
+  section {
     position: relative;
   }
-  .section h2:before {
+  section h2:before {
     position: absolute;
     left: -10px;
     font-family: "DejaVu Symbols";
@@ -812,7 +825,7 @@ div.toctree-wrapper ul li > ul > li > a:before {
     margin-top: 2.9em;
   }
 
-  div[id] {
+  div.section[id] {
     scroll-margin-top: 92px;
   }
 }

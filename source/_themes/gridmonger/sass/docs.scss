@@ -56,6 +56,18 @@ article {
     margin: 2em auto;
   }
 
+  a {
+    @include link;
+  }
+
+  dl {
+    > dt {
+      > kbd {
+        padding-left: 0.5em;
+      }
+    }
+  }
+
   nav {
     margin: 1.5em 0 1em 0;
     font-size: 16px;
@@ -582,7 +594,7 @@ footer {
     }
   }
 
-  section[id] {
+  div.section[id] {
     scroll-margin-top: $header-nav-height;
   }
 }

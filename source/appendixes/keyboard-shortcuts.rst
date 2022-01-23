@@ -6,7 +6,25 @@ Keyboard shortcuts
 
   <div class="section">
     <p>Keys on the numeric keypad are denoted with a <span class="sc">&laquo;kp&raquo;</span> prefix (e.g.
-    <kbd>kp 1</kbd>, <kbd>kp +</kbd>, etc.)</>
+    <kbd>kp 1</kbd>, <kbd>kp +</kbd>, etc.)</p>
+
+    <div class="admonition note">
+      <p class="admonition-title">Note</p>
+
+      <p>When it comes to keyboard shortcuts, Gridmonger uses the <a
+      href="https://kbdlayout.info/KBDUS">US keyboard layout</a>, regardless
+      of the keyboard layout and languge preferences set in your operating
+      system, or the actual position of the keys on your non-US keyboard. This
+      is very similar to how most games handle the keyboard. For the more
+      technically inclined, the program only cares about <em>positional
+      scancodes</em>.</p>
+
+      <p>Normally, the state of the <kbd>NumLock</kbd> key is ignored, and the
+      numeric keypad is only used for navigation.</p>
+
+      <p>However, when entering text in textfields, the operating system keyboard and
+      language settings and the <kbd>NumLock</kbd> state are in effect.</p>
+    </div>
   </div>
 
 
@@ -474,7 +492,7 @@ Normal mode
         <tr>
           <td>
             <kbd class="compound">
-              <kbd>Ctrl</kbd>+<<kbd>PgUp</kbd>
+              <kbd>Ctrl</kbd>+<kbd>PgUp</kbd>
             </kbd>
           <td>Previous theme</td>
         </tr>
@@ -489,7 +507,7 @@ Normal mode
         <tr>
           <td>
             <kbd class="compound">
-              <kbd>Ctrl</kbd>++<kbd>Home</kbd>
+              <kbd>Ctrl</kbd>+<kbd>Home</kbd>
             </kbd>
           </td>
           <td>Reload current theme</td>
@@ -594,33 +612,39 @@ Normal mode
         </tr>
         <tr>
           <td>
-            <kbd>2</kbd> / <kbd class="compound"><kbd>Shift</kbd>+<kbd>1</kbd></kbd>
+            <kbd>2</kbd> / <kbd class="compound"><kbd>Shift</kbd>+<kbd>2</kbd></kbd>
           </td>
           <td>Cycle special door</td>
         </tr>
         <tr>
           <td>
-            <kbd>3</kbd> / <kbd class="compound"><kbd>Shift</kbd>+<kbd>2</kbd></kbd>
+            <kbd>3</kbd> / <kbd class="compound"><kbd>Shift</kbd>+<kbd>4</kbd></kbd>
           </td>
           <td>Cycle pressure plate</td>
         </tr>
         <tr>
           <td>
-            <kbd>4</kbd> / <kbd class="compound"><kbd>Shift</kbd>+<kbd>3</kbd></kbd>
+            <kbd>4</kbd> / <kbd class="compound"><kbd>Shift</kbd>+<kbd>4</kbd></kbd>
           </td>
           <td>Cycle pit</td>
         </tr>
         <tr>
           <td>
-            <kbd>5</kbd> / <kbd class="compound "><kbd>Shift</kbd>+<kbd>4</kbd></kbd>
+            <kbd>5</kbd> / <kbd class="compound "><kbd>Shift</kbd>+<kbd>5</kbd></kbd>
           </td>
           <td>Cycle teleport/spinner/invisible barrier</td>
         </tr>
         <tr>
           <td>
-            <kbd>6</kbd> / <kbd class="compound "><kbd>Shift</kbd>+<kbd>5</kbd></kbd>
+            <kbd>6</kbd> / <kbd class="compound "><kbd>Shift</kbd>+<kbd>6</kbd></kbd>
           </td>
           <td>Cycle entry/exit</td>
+        </tr>
+        <tr>
+          <td>
+            <kbd>7</kbd> / <kbd class="compound "><kbd>Shift</kbd>+<kbd>7</kbd></kbd>
+          </td>
+          <td>Draw bridge</td>
         </tr>
       </tbody>
 

@@ -287,14 +287,14 @@ body {
   content: "❿";
 }
 
-.section a,
+section a,
 footer a {
   display: inline;
   font-family: "Alegreya SC", serif;
   text-decoration: none;
   color: #b86622;
 }
-.section a:hover,
+section a:hover,
 footer a:hover {
   text-decoration: underline;
   color: #9d5111;
