@@ -13,6 +13,7 @@ exclude_patterns = ['*.scss']
 html_theme = 'gridmonger'
 html_theme_path = ['_themes']
 html_static_path = ['_static']
+html_use_index = False
 
 autosectionlabel_prefix_document = True
 

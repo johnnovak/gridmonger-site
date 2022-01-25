@@ -23,10 +23,6 @@
 
     <nav class="table-of-contents">
       {{ toctree() }}
-
-      <ul>
-        <li {% if pagename == "genindex" %}class="current"{% endif %}><a href="{{ pathto('genindex') }}">Index</a></li>
-      </ul>
     </nav>
   </header>
 
@@ -44,9 +40,6 @@
 
         {%- if next %}
         <li class="next"><a href="{{ next.link|e }}">{{ next.title|striptags|e }}</a></li>
-        {%- endif %}
-        {%- if pagename == "appendixes/map-file-format" %}
-        <li class="next"><a href="{{ pathto('genindex') }}">Index</a></li>
         {%- endif %}
       </ul>
     </nav>

@@ -24,3 +24,4 @@ Appendixes
    :maxdepth: 2
 
    Keyboard shortcuts <appendixes/keyboard-shortcuts>
+   Command line parameters <appendixes/command-line-parameters>
