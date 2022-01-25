@@ -2,10 +2,21 @@
 Basic editing
 *************
 
-cRPG maps tend to fall into one of two categories: *tunnel style maps*,
-and the more compact *wall style maps* (for lack of better terms).
+Most cRPG maps tend to fall into one of two categories: *tunnel style maps*, and
+the more compact *wall style maps* (for lack of better terms). There's also a
+less common third hybrid style that combines elements from both.
 
-There's also a less common hybrid style that combines elements from both.
+.. figure:: _static/img/eob.png
+
+   Tunnel style -- Eye of the Beholder I
+
+.. figure:: _static/img/por.png
+
+   Wall style -- Pool of Radiance
+
+.. figure:: _static/img/uukrul.png
+
+   Hybrid style -- The Dark Heart of Uukrul
 
 Tunnel style maps are easiest to create with the *excavate* (*draw tunnel*)
 tool. To use it, hold down the :kbd:`D` key and use the movement keys.
