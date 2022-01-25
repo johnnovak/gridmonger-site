@@ -46,10 +46,10 @@ to go to the previous or next level.
     language settings and the :kbd:`NumLock` state are in effect.
 
 
-Normal mode
+Normal Mode
 ===========
 
-The program always starts in *normal mode*; this is what most people will
+The program always starts in *Normal Mode*; this is what most people will
 use 90% of the time.
 
 .. raw:: html
@@ -113,10 +113,10 @@ standard cursor keys or the keypad for now. But I recommend you to read the
 interesting enough to explore this topic further.
 
 
-Walk mode
+Walk Mode
 =========
 
-*Walk mode* can be toggled with the :kbd:`\`` key (that's the `grave accent
+*Walk Mode* can be toggled with the :kbd:`\`` key (that's the `grave accent
 <https://en.wikipedia.org/wiki/Grave_accent>`_ or backtick key, it's located
 in the top-left corner of the keyboard, left to :kbd:`1`). The cursor is
 displayed as a triangle instead of a rectangle in this mode. The triangle
@@ -168,32 +168,32 @@ strafe, and move forward and backward just like in a classic dungeon crawler.
       </tbody>
     </table>
 
-Vim-navigation is disabled in walk mode (it would be just too confusing).
+Vim-navigation is disabled in *Walk Mode* (it would be just too confusing).
 
 
-WASD mode
+WASD Mode
 =========
 
 Certain RPGs, typically dungeon crawlers with real-time combat, are best played
 with your left hand on the `WASD keys
 <https://en.wikipedia.org/wiki/Arrow_keys#WASD_keys>`_ for moving the party,
 and your right hand on the mouse for combat and menu navigation. Gridmonger's
-*WASD mode* was designed with such players in mind who prefer to do the bulk
+*WASD Mode* was designed with such players in mind who prefer to do the bulk
 of their mapping with the WASD keys and the mouse while playing the game.
 
-*WASD mode* can be toggled with the :kbd:`Tab` key. You will see an indicator
-in the top-left corner of the window when WASD mode is on.
+*WASD Mode* can be toggled with the :kbd:`Tab` key. You will see an indicator
+in the top-left corner of the window when *WASD Mode* is on.
 
-See :ref:`basic-editing:Editing in WASD mode` to learn more about editing with
+See :ref:`basic-editing:Editing in WASD Mode` to learn more about editing with
 the mouse in this mode.
 
 
 .. rst-class:: style2
 
-WASD + walk mode
+WASD + Walk Mode
 ================
 
-If you enable both WASD and walk mode, the controls become a bit more
+If you enable both *WASD* and *Walk Mode*, the controls become a bit more
 interesting:
 
 .. raw:: html
@@ -249,14 +249,14 @@ interesting:
 
 Admittedly, this is the most complex mode, and while some people might find it
 really useful, if it doesn't click with you, that's fine. Don't feel compelled
-to use it! In fact, I (the author) pretty much only use normal mode, even when
-playing real-time dungeon crawlers...
+to use it! In fact, I (the author) pretty much only use *Normal Mode*, even
+when playing real-time dungeon crawlers...
 
 .. note::
-    In WASD mode, you cannot use the :kbd:`Ctrl` movement modifier with the
-    :kbd:`W`:kbd:`A`:kbd:`S`:kbd:`D` keys for 5-cell jumps because that would
-    interfere with other shortcuts. However, all movement modifiers are still
-    available with the other movement keys.
+   In *WASD Mode*, you cannot use the :kbd:`Ctrl` movement modifier with the
+   :kbd:`W`:kbd:`A`:kbd:`S`:kbd:`D` keys for 5-cell jumps because that would
+   interfere with other shortcuts. However, all movement modifiers are still
+   available with the other movement keys.
 
 
 
@@ -302,28 +302,28 @@ Finally, you can press :kbd:`Alt+D` to select the **Discard** option.
 
    If you're not a programmer, you're probably wondering what the heck this
    Vim thing is about! In short, Vim is a programmer's text-editor for people
-   who know how to touch type. One of its most iconic features is to allow
-   a typist to move the cursor without lifting their hand from the `home row
+   who know how to touch type. One of its most iconic features is to allow a
+   typist to move the cursor without lifting their hand from the `home row
    <https://en.wikipedia.org/wiki/Touch_typing#Home_row>`_  (the ``ASDF`` and
    ``JKL;`` keys), and perform most common editing tasks without straying too
    far from this position.
 
-   Ergonomics wise, editing a grid-based RPG map is very similar to editing
-   a text file. Having to move one hand back and forth between the
-   cursor keys (or the mouse) and the rest of the keyboard thousands of times
-   a day is a huge performance killer. No wonder that people who learn how to
-   touch type and get a taste of Vim rarely go back to their "old ways"!
+   Ergonomics wise, editing a grid-based RPG map is very similar to editing a
+   text file. Having to move one hand back and forth between the cursor keys
+   (or the mouse) and the rest of the keyboard thousands of times a day is a
+   huge performance killer. No wonder that people who learn how to touch type
+   and get a taste of Vim rarely go back to their "old ways"!
 
-   In my opinion, touch typing is an essential skill that anyone working on
-   a computer several hours a day should have. If you don't know how to touch
+   In my opinion, touch typing is an essential skill that anyone working on a
+   computer several hours a day should have. If you don't know how to touch
    type, I encourage you to learn to learn it, and then give the Vim-style
    navigation a go. I almost guarantee that you will be very positively
    surprised!
 
    There's tons of free touch typing trainers online, or you can just use the
    completely unattractive but 100% effective `GNU Typist
-   <https://www.gnu.org/savannah-checkouts/gnu/gtypist/gtypist.html>`_ like
-   I did. I was able to re-train my erratic typing patterns ingrained over 10+
+   <https://www.gnu.org/savannah-checkouts/gnu/gtypist/gtypist.html>`_ like I
+   did. I was able to re-train my erratic typing patterns ingrained over 10+
    years of constant computer use in about two short weeks, so if I could do
    it, then anybody can.
 

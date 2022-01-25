@@ -38,9 +38,9 @@ available floor colors with the :kbd:`,` and :kbd:`.` keys. To
 
 Gridmonger has a virtually unlimited undo history (only limited by your
 computer's memory). You can undo most actions with :kbd:`Ctrl+Z` or :kbd:`U`,
-and redo them with :kbd:`Ctrl+Y` or :kbd:`Ctrl+R`. The only actions that cannot
-be undone is the creation of a new map (which discards
-the current map), and some of the operations related to :ref:`basic-editing:Trail mode`.
+and redo them with :kbd:`Ctrl+Y` or :kbd:`Ctrl+R`. The only actions that
+cannot be undone is the creation of a new map (which discards the current
+map), and some of the operations related to :ref:`basic-editing:Trail mode`.
 
 Floor types
 ===========
@@ -291,16 +291,16 @@ To select the current special wall type, use the :kbd:`[` and
 
 .. rst-class:: style1
 
-Trail mode
+Trail Mode
 ==========
 
-In *trail mode*, you'll leave a trail behind the cursor as you move it around.
+In *Trail Mode*, you'll leave a trail behind the cursor as you move it around.
 You can then "draw in" the map over it (this is really only useful for
 tunnel-style maps), or you can use it to track your movement over an already
 mapped area.
 
-You can toggle trail mode with the :kbd:`T` key; you'll see two footsteps in
-the top left corner when it's on.
+You can toggle **Trail Mode** with the :kbd:`T` key; you'll see two footsteps
+in the top left corner when it's on.
 
 Similarly to the erase cell tool, you can erase the trail one cell at a time
 by holding :kbd:`X` and using the movement keys. This action, just like
@@ -318,18 +318,18 @@ file.
 
 .. note::
 
-    Trail mode is turned off automatically when performing an action that
+    *Trail Mode* is turned off automatically when performing an action that
     would yield confusing or unwanted results with it being on (e.g. creating
-    or deleting levels, changing the current level, entering select mode,
+    or deleting levels, changing the current level, entering *Select Mode*,
     etc.)
 
 
 .. rst-class:: style3 big
 
-Editing in WASD mode
+Editing in WASD Mode
 ====================
 
-In :ref:`moving-around:WASD mode`, the editing shortcuts :kbd:`D`, :kbd:`W`
+In :ref:`moving-around:WASD Mode`, the editing shortcuts :kbd:`D`, :kbd:`W`
 and :kbd:`E` are not available as they're used for movement. But this is not
 a problem; you're supposed to use mouse modifiers instead of these shortcuts.
 
@@ -351,8 +351,8 @@ To draw special walls, make sure to press then right mouse button first,
 .. tip::
 
     To move the cursor using the mouse, you can press :kbd:`Tab` to go back to
-    normal mode, left-click on a cell to move the cursor there, then press
-    :kbd:`Tab` again to return to WASD mode.
+    *Normal Mode*, left-click on a cell to move the cursor there, then press
+    :kbd:`Tab` again to return to *WASD Mode*.
 
 .. tip::
 

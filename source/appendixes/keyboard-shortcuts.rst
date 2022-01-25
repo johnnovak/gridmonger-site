@@ -85,7 +85,7 @@ Movement/direction keys
     </table>
 
     <table class="shortcuts std-move-keys">
-      <caption>Edit mode</caption>
+      <caption>Edit Mode</caption>
       <tfoot>
         <tr>
           <td>
@@ -98,7 +98,7 @@ Movement/direction keys
     </table>
 
     <table class="shortcuts std-move-keys">
-      <caption>Walk mode</caption>
+      <caption>Walk Mode</caption>
       <thead>
         <tr>
           <th>Arrow</th>
@@ -112,7 +112,7 @@ Movement/direction keys
           <td colspan="4">
             <p>* Combine with <kbd>Ctrl</kbd> for 5 cell jumps.</p>
             <p><span class="sc">Vim</span> keys are not availabile in <span class="sc">Walk
-              mode</span>.</p>
+              Mode</span>.</p>
           </td>
         </tr>
       </tfoot>
@@ -152,7 +152,7 @@ Movement/direction keys
     </table>
 
     <table class="shortcuts std-move-keys">
-      <caption>WASD + Normal mode</caption>
+      <caption>WASD + Normal Mode</caption>
       <tfoot>
         <tr>
           <td colspan="4">
@@ -174,7 +174,7 @@ Movement/direction keys
     </table>
 
     <table class="shortcuts std-move-keys">
-      <caption>WASD + Walk mode</caption>
+      <caption>WASD + Walk Mode</caption>
       <thead>
         <tr>
           <th>Arrow</th>
@@ -359,19 +359,19 @@ Normal mode
           <td>
             <kbd>Tab</kbd>
           </td>
-          <td>Toggle <em>WASD mode</em></td>
+          <td>Toggle <em>WASD Mode</em></td>
         </tr>
         <tr>
           <td>
             <kbd>`</kbd><br>(<em>grave accent</em>, or <em>backtick</em> key)
           </td>
-          <td>Switch between <em>Normal &amp; Walk mode</em></td>
+          <td>Switch between <em>Normal &amp; Walk Mode</em></td>
         </tr>
         <tr>
           <td>
             <kbd>T</kbd>
           </td>
-          <td>Toggle draw trail</em></td>
+          <td>Toggle <em>Trail Mode</em></td>
         </tr>
         <tr>
           <td>
@@ -472,6 +472,17 @@ Normal mode
         <tr>
           <td>
             <kbd class="compound">
+              <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>R</kbd>
+            </kbd>
+          </td>
+          <td>Edit region properties</td>
+        </tr>
+      </tbody>
+
+      <tbody>
+        <tr>
+          <td>
+            <kbd class="compound">
               <kbd>Alt</kbd>+<kbd>C</kbd>
             </kbd>
           </td>
@@ -492,6 +503,14 @@ Normal mode
             </kbd>
           </td>
           <td>Toggle tools pane</td>
+        </tr>
+        <tr>
+          <td>
+            <kbd class="compound">
+              <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd>
+            </kbd>
+          </td>
+          <td>Toggle title bar</td>
         </tr>
       </tbody>
 
@@ -562,7 +581,41 @@ Normal mode
               <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>U</kbd>
             </kbd>
           </td>
-          <td>Preferences</td>
+          <td>Edit preferences</td>
+        </tr>
+      </tbody>
+
+      <tbody>
+        <tr>
+          <td>
+            <kbd class="compound">
+              <kbd>Ctrl</kbd>+<kbd>A</kbd>
+            </kbd>
+          </td>
+          <td>Show about dialog</td>
+        </tr>
+        <tr>
+          <td>
+            <kbd class="compound">
+              <kbd>Ctrl</kbd>+<kbd>/</kbd>
+            </kbd>
+          </td>
+          <td>Show quick keyboard reference</td>
+        </tr>
+        <tr>
+          <td>
+            <kbd>F1</kbd>
+          </td>
+          <td>Open user manual in default browser</td>
+        </tr>
+      </tbody>
+
+      <tbody>
+        <tr>
+          <td>
+            <kbd>F12</kbd>
+          </td>
+          <td>Toggle theme editor</td>
         </tr>
       </tbody>
     </table>
@@ -578,7 +631,7 @@ Normal mode
           </td>
           <td>
             Excavate (Draw tunnel)
-            <p>Not available in WASD mode<br>
+            <p>Not available in WASD Mode<br>
             (use left-mouse button instead)</p>
           </td>
         </tr>
@@ -590,7 +643,7 @@ Normal mode
           </td>
           <td>
             Clear floor &amp; walls (Erase cell)
-            <p>Not available in WASD + walk mode<br>
+            <p>Not available in WASD + walk Mode<br>
             (use middle-mouse button instead)</p>
           </td>
         </tr>
@@ -663,8 +716,8 @@ Normal mode
             </kbd>
           </td>
           <td>
-            Toggle wall
-            <p>Not available in WASD mode<br>
+            Toggle wall in direction
+            <p>Not available in WASD Mode<br>
             (use right-mouse button instead)</p>
           </td>
         </tr>
@@ -675,16 +728,40 @@ Normal mode
             </kbd>
           </td>
           <td>
-            Toggle special wall
+            Toggle special wall in direction
             <p>Also right+left mouse button<br>
-            in WASD mode</p>
+            in WASD Mode</p>
           </td>
         </tr>
         <tr>
           <td>
             <kbd>[</kbd> / <kbd>]</kbd>
           </td>
-          <td>Previous/next special wall type</td>
+          <td>Previous/next special wall</td>
+        </tr>
+        <tr>
+          <td>
+            <kbd>Alt</kbd>+<kbd>1</kbd>-<kbd>9</kbd>
+          </td>
+          <td>Set special wall 1-9</td>
+        </tr>
+        <tr>
+          <td>
+            <kbd>Alt</kbd>+<kbd>0</kbd>
+          </td>
+          <td>Set special wall 10</td>
+        </tr>
+        <tr>
+          <td>
+            <kbd>Alt</kbd>+<kbd>-</kbd>
+          </td>
+          <td>Set special wall 11</td>
+        </tr>
+        <tr>
+          <td>
+            <kbd>Alt</kbd>+<kbd>=</kbd>
+          </td>
+          <td>Set special wall 12</td>
         </tr>
       </tbody>
 
@@ -693,7 +770,7 @@ Normal mode
           <td>
             <kbd>,</kbd> / <kbd>.</kbd>
           </td>
-          <td>Previous/next floor color</td>
+          <td>Previous/next floor colour</td>
         </tr>
         <tr>
           <td>
@@ -701,13 +778,25 @@ Normal mode
               <kbd>C</kbd>+<kbd class="move">Move keys</kbd>
             </kbd>
           </td>
-          <td>Set floor color</td>
+          <td>Set floor colour</td>
         </tr>
         <tr>
           <td>
             <kbd>I</kbd>
           </td>
-          <td>Pick floor color</td>
+          <td>Pick floor colour of current cell</td>
+        </tr>
+        <tr>
+          <td>
+            <kbd>Ctrl</kbd>+<kbd>1</kbd>-<kbd>9</kbd>
+          </td>
+          <td>Set floor colour 1-9</td>
+        </tr>
+        <tr>
+          <td>
+            <kbd>Ctrl</kbd>+<kbd>10</kbd>
+          </td>
+          <td>Set floor colour 10</td>
         </tr>
       </tbody>
 
@@ -750,13 +839,13 @@ Normal mode
           <td>
             <kbd>M</kbd>
           </td>
-          <td>Enter <em>Select (mark) mode</em></td>
+          <td>Enter <em>Select (Mark) Mode</em></td>
         </tr>
         <tr>
           <td>
             <kbd>P</kbd>
           </td>
-          <td>Paste copy buffer contents</td>
+          <td>Paste copy buffer at cursor</td>
         </tr>
         <tr>
           <td>
@@ -764,7 +853,7 @@ Normal mode
               <kbd>Shift</kbd>+<kbd>P</kbd>
             </kbd>
           </td>
-          <td>Enter <em>Paste preview mode</em></td>
+          <td>Enter <em>Paste Preview Mode</em></td>
         </tr>
       </tbody>
 
@@ -789,7 +878,7 @@ Normal mode
               <kbd>Ctrl</kbd>+<kbd>T</kbd>
             </kbd>
           </td>
-          <td>Create/edit text label</td>
+          <td>Create/edit label</td>
         </tr>
         <tr>
           <td>
@@ -833,7 +922,7 @@ Normal mode
               <kbd>Ctrl</kbd>+<kbd>G</kbd>
             </kbd>
           </td>
-          <td>Enter <em>Nudge level mode</em></td>
+          <td>Enter <em>Nudge Level Mode</em></td>
         </tr>
       </tbody>
     </table>
@@ -841,7 +930,7 @@ Normal mode
 
 .. rst-class:: style3
 
-Select (mark) mode
+Select (Mark) Mode
 ##################
 
 .. raw:: html
@@ -893,7 +982,7 @@ Select (mark) mode
               <kbd>Ctrl</kbd>+<kbd>[</kbd>
             </kbd>
           </td>
-          <td>Return to <em>Edit mode</em></td>
+          <td>Return to <em>Edit Mode</em></td>
         </tr>
       </tbody>
 
@@ -924,7 +1013,7 @@ Select (mark) mode
           <td>
             <kbd>U</kbd>
           </td>
-          <td>Clear the selection (Unselect all)</td>
+          <td>Clear the selection (Unselect All)</td>
         </tr>
         <tr>
           <td>
@@ -988,7 +1077,7 @@ Select (mark) mode
               <kbd>Ctrl</kbd>+<kbd>C</kbd>
             </kbd>
           </td>
-          <td>Set floor color of selection</td>
+          <td>Set floor colour of selection</td>
         </tr>
         <tr>
           <td>
@@ -1012,7 +1101,7 @@ Select (mark) mode
 
 .. rst-class:: style6 big
 
-Paste/nudge/move preview mode
+Paste/Nudge/Move Preview Mode
 #############################
 
 .. raw:: html
