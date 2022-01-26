@@ -94,6 +94,20 @@ article {
     }
   }
 
+  .figure {
+    margin-top: 2.2em;
+
+    img {
+      margin-bottom: 0;
+    }
+    .caption {
+      font-style: italic;
+      text-align: center;
+      margin-top: 0.8em;
+      margin-bottom: 2.2em;
+    }
+  }
+
   table {
     width: 100%;
     margin: 1em auto 0;
@@ -380,14 +394,6 @@ footer {
     nav {
       margin-top: 8vw;
       font-size: 19px;
-    }
-
-    img {
-      width: 73%;
-
-      &.full {
-        width: 90%;
-      }
     }
 
     kbd {

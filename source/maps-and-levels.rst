@@ -5,11 +5,11 @@ Map & level basics
 General concepts
 ================
 
-What you usually refer to as a map or an area in an RPG game (typically a
-16×16 or 32×32 cell grid) is called a *level* in Gridmonger. A set of  is, in
-turn, called a *map*. The program always operates on a single map: when you
-start it for the first time, you are greeted with an empty map; when you load
-or save your work, you're always loading or saving a map.
+What you usually refer to as a map or an area in a cRPG (typically a 16×16 or
+32×32 cell grid) is called a *level* in Gridmonger. A set of  is, in turn,
+called a *map*. The program always operates on a single map: when you start it
+for the first time, you are greeted with an empty map; when you load or save
+your work, you're always loading or saving a map.
 
 Let's load one of the example maps to illustrate these concepts! Start up
 Gridmonger, press :kbd:`Ctrl+O` to bring up the open map dialog, then select
@@ -107,14 +107,17 @@ Managing maps &  levels
 
 To add a new level, press :kbd:`Ctrl+N` to open the **New Level** dialog. This
 is almost exactly the same as the **Edit Level Properties** dialog, the only
-difference being that here you must specify the level's initial dimensions.
-Don't worry if you didn't quite get this right, you can always change the
-dimensions later with the resize and crop operations, as you'll see.
+difference being that here you must specify the level's dimensions. The
+maximum allowed size is 6,666×6,666 --- hopefully, you'll never ever come
+across a level this big, but some kind of upper limit had to be introduced and
+this is as good as any! Don't worry if you don't get the level size quite
+right initially; you can always change it later with the resize and crop
+actions, as you'll see.
 
 To delete the current level, press :kbd:`Ctrl+D`. If you accidentally deleted
 a level, no problem, you can always undo it.
 
 Similarly, you can create a new map with :kbd:`Ctrl+Alt+N`. Make sure to save
 your current map first if you don't want to lose it, because deleting the
-whole map *cannot* be undone!
+whole map is one of the very few actions that *cannot* be undone!
 

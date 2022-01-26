@@ -75,7 +75,7 @@ Selections
 ==========
 
 The idea behind selections is simple: you select a number of cells first, then
-you perform an operation on them with a single keystroke.
+you perform an action on them with a single keystroke.
 
 To make a selection, first you need to enter *Select (Mark) Mode* by pressing
 :kbd:`M`. The cursor turns into a crosshair in this mode, and you can see the
@@ -92,16 +92,16 @@ Similarly, you can "draw" the selection or "erase" from it by using the
 :kbd:`A` selects the whole level (*Select All*), and :kbd:`U` clears the
 selection (*Unselect All*).
 
-When you're happy with your selection, it's time to perform an operation on
-it. :kbd:`C` (or :kbd:`Y`) copies (yanks) the selection into the paste buffer
-and returns to *Normal Mode*. To cut the selection instead of copying, press
+When you're happy with your selection, it's time to perform an action on it.
+:kbd:`C` (or :kbd:`Y`) copies (yanks) the selection into the paste buffer and
+returns to *Normal Mode*. To cut the selection instead of copying, press
 :kbd:`X`.
 
 You can paste the contents of the buffer at the current cursor location by
 pressing :kbd:`P`. By pressing :kbd:`Shift+P`, you enter *Paste Preview Mode*
 where you can place the selection interactively with the movement keys
 (usually shown in a light-blue overlay, which is, again, theme-dependent),
-then perform the paste operation by pressing :kbd:`Enter`, or cancel it with
+then perform the paste action by pressing :kbd:`Enter`, or cancel it with
 :kbd:`Esc`.
 
 .. note::
@@ -124,7 +124,7 @@ actions in the status bar:
 
 Move (cut & paste) :kbd:`Ctrl+M`
     This is basically a shortcut for cutting and then invoking *Paste Preview
-    Mode* (because of cutting, this is operation is link preserving).
+    Mode* (because of cutting, this action is link preserving).
 
 Erase :kbd:`Ctrl+E`
     Erase the selected cells.
@@ -156,7 +156,7 @@ Resize level
 
 The *Resize Level* action, invoked by :kbd:`Ctrl+E`, lets you to shrink or
 expand the dimensions of the current level. You need to select an anchor point
-for the operation. It's probably easiest to illustrate the role of the anchor
+for the action. It's probably easiest to illustrate the role of the anchor
 point through a few examples:
 
 - Making the level 2 rows and 3 colums larger using the top-left anchor point

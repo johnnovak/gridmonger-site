@@ -402,6 +402,18 @@ article nav > ul > li.next {
 article nav > ul > li.next > a:after {
   content: "  →";
 }
+article .figure {
+  margin-top: 2.2em;
+}
+article .figure img {
+  margin-bottom: 0;
+}
+article .figure .caption {
+  font-style: italic;
+  text-align: center;
+  margin-top: 0.8em;
+  margin-bottom: 2.2em;
+}
 article table {
   width: 100%;
   margin: 1em auto 0;
@@ -620,12 +632,6 @@ footer {
   article nav {
     margin-top: 8vw;
     font-size: 19px;
-  }
-  article img {
-    width: 73%;
-  }
-  article img.full {
-    width: 90%;
   }
   article kbd {
     font-size: 16px;

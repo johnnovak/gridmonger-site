@@ -2,25 +2,36 @@
 Regions
 *******
 
-In some computer role-playing games, levels don't always represent the
-vertically stacked floors of a dungeon complex, but the areas (regions) of a
-large contiguous world map. In these type of games, all regions have the
-same dimensions. For example, in `New World Computing
+In some cRPGs, levels don't always represent the vertically stacked floors of
+a dungeon complex, but the areas (regions) of a large contiguous world map. In
+these type of games, all regions have the same dimensions.
+
+For example, in `New World Computing
 <https://en.wikipedia.org/wiki/New_World_Computing>`_'s 1986 classic, `Might
 and Magic Book One: The Secret of the Inner Sanctum
 <https://en.wikipedia.org/wiki/Might_and_Magic_Book_One:_The_Secret_of_the_Inner_Sanctum>`_,
 the world map is one large 80×64 grid subdivided into 20 region, each with a
-grid size of 16×16. 
+grid size of 16×16. The full world map is included in the ``Example Maps``
+folder under the name ``Might and Magic I.grm``.
 
-.. rst-class:: full
-.. image:: _static/img/mm1-regions.png
 
-This map is included in the ``Example Maps`` folder under the name ``Might and
-Magic I.grm``. Another good example is the ``Pool of Radiance.grm`` map, which
-contains a partial map for the city of New Phlan from the similarly titled
-game.
+.. figure:: _static/img/mm1-regions.png
 
-TODO image
+  Might and Magic I --- World map (excerpt)
+
+Another good example is the ``Pool of Radiance.grm`` map, which contains a
+partial map of the City of Phlan from the `SSI
+<https://en.wikipedia.org/wiki/Strategic_Simulations>`_ `Gold Box
+<https://en.wikipedia.org/wiki/Gold_Box>`_ game `Pool of Radiance
+<https://en.wikipedia.org/wiki/Pool_of_Radiance>`_.
+
+.. figure:: _static/img/por-regions.png
+
+  Pool of Radiance --- Phlan (excerpt)
+
+
+As you can see in the above two examples, region boundaries are indicated with
+distincly coloured, thick lines.
 
 It is very easy to create such a region-based map in Gridmonger: just create a
 level big enough to hold all the regions, and tick the **Enable regions**
@@ -30,18 +41,18 @@ want the coordinates to restart in every region or not (**Per-region
 coordinates** checkbox). Naturally, with per-region coordinates enabled, the
 individual regions will obey the coordinate settings of the level.
 
-For region-enabled levels, a second drop-down indicating the current region is
-displayed below the level name drop-down at the top of the window. If you
-select a different region in this drop-down, the cursor will jump to middle of
-the selected region.
+For region-enabled levels, a second drop-down is shown below the level name
+drop-down at the top that indicates the current region the cursor is in. If
+you select a different region in this drop-down, the cursor will jump to
+middle of the selected region.
 
 By default, regions are named ``Untitled Region N``, where *N* is a running
 number. You can change a region's name in the **Edit Region Properties**
-dialog by pressing the :kbd:`Ctrl+Alt+R` shortcut, where you also have the
-option to attach notes to the region.
+dialog by pressing :kbd:`Ctrl+Alt+R`, where you can optionally also enter some
+notes about the region.
 
 Of course, you can turn regions on or off for any existing level in the level
-properties dialog.
+properties dialog, or adjust the regions' dimensions.
 
 .. note::
 
@@ -49,16 +60,17 @@ properties dialog.
   integer multiples of the region dimensions. This is, however, not enforced
   by the program; "partial" regions at the edges of the level are allowed and
   they're handled just fine. In such cases, the **Origin** property of the
-  level determines from which corner the region subdivision starts from.
+  level determines the corner the region subdivision starts from.
 
   Although partial regions are handled correctly (in a mathemathical sense),
-  their usage is generally discouraged as one can get quite unintuitive results
-  when performing certain operations on them (e.g. when changing the origin, or
-  resizing the level, the region borders could "shift around" in unexpected
-  (but deterministic) ways).
+  their usage is generally discouraged as one can get quite unintuitive
+  results when performing certain actions on them (e.g. when changing the
+  origin, or resizing the level, the region borders could "shift around" in
+  unexpected (but deterministic) ways).
 
   Being relaxed about such restrictions makes the program a lot simpler, and
-  some more complicated level manipulations would not be possible with these
-  enforcements in place (you'll recognise them when you need them). In short,
-  using partial regions temporarily is fine in some scenarios, but when you're
-  done, just get rid of them and you'll be fine. *Don't tempt the devil!*
+  some more complicated level manipulations would not be possible with
+  stricter enforcements in place (you'll recognise them when you need them).
+  In short, using partial regions temporarily is fine in some scenarios, but
+  when you're done with your level manipulations, just get rid of them and
+  you'll be fine. *Don't tempt the devil!*

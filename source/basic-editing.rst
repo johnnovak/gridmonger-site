@@ -7,16 +7,19 @@ the more compact *wall style maps* (for lack of better terms). There's also a
 less common third hybrid style that combines elements from both.
 
 .. figure:: _static/img/eob.png
+   :width: 77%
 
-   Tunnel style -- Eye of the Beholder I
+   Tunnel style --- `Eye of the Beholder I <https://en.wikipedia.org/wiki/Eye_of_the_Beholder_(video_game)>`_
 
 .. figure:: _static/img/por.png
+   :width: 55%
 
-   Wall style -- Pool of Radiance
+   Wall style --- `Pool of Radiance <https://en.wikipedia.org/wiki/Pool_of_Radiance>`_
 
 .. figure:: _static/img/uukrul.png
+   :width: 82%
 
-   Hybrid style -- The Dark Heart of Uukrul
+   Hybrid style --- `The Dark Heart of Uukrul <https://en.wikipedia.org/wiki/The_Dark_Heart_of_Uukrul>`_
 
 Tunnel style maps are easiest to create with the *excavate* (*draw tunnel*)
 tool. To use it, hold down the :kbd:`D` key and use the movement keys.
@@ -40,7 +43,7 @@ Gridmonger has a virtually unlimited undo history (only limited by your
 computer's memory). You can undo most actions with :kbd:`Ctrl+Z` or :kbd:`U`,
 and redo them with :kbd:`Ctrl+Y` or :kbd:`Ctrl+R`. The only actions that
 cannot be undone is the creation of a new map (which discards the current
-map), and some of the operations related to :ref:`basic-editing:Trail mode`.
+map), and some of the action related to :ref:`basic-editing:Trail mode`.
 
 Floor types
 ===========

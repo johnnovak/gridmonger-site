@@ -20,10 +20,9 @@ Keyboard shortcuts
       scancodes</em>.</p>
 
       <p>Normally, the state of the <kbd>NumLock</kbd> key is ignored, and the
-      numeric keypad is only used for navigation.</p>
-
-      <p>However, when entering text in textfields, the operating system keyboard and
-      language settings and the <kbd>NumLock</kbd> state are in effect.</p>
+      numeric keypad is only used for navigation. However, when entering text
+      in textfields, the operating system keyboard and language settings and
+      the <kbd>NumLock</kbd> state are in effect.</p>
     </div>
   </div>
 
