@@ -100,7 +100,7 @@ The **Regions** properties are discussed later in the :doc:`regions` chapter.
 You can attach notes to individual levels of the map under the **Notes** tab.
 
 
-.. rst-class:: style5 big
+.. rst-class:: style1 big
 
 Managing maps &  levels
 =======================

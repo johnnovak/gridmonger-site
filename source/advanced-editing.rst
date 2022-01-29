@@ -71,6 +71,8 @@ Doors
     before creating the new link.
 
 
+.. rst-class:: style3
+
 Selections
 ==========
 
@@ -166,7 +168,8 @@ point through a few examples:
 - Making the level 4 rows and 4 columns smaller using the center anchor
   point removes a 2-cell wide "stripe" from around the level.
 
-.. rst-class:: style6 big
+
+.. rst-class:: style5 big
 
 Nudge level
 -----------

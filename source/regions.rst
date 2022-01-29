@@ -1,3 +1,5 @@
+.. rst-class:: style1 big
+
 *******
 Regions
 *******

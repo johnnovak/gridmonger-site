@@ -1099,7 +1099,7 @@ Select (Mark) Mode
     </table>
 
 
-.. rst-class:: style6 big
+.. rst-class:: style4 big
 
 Paste/Nudge/Move Preview Mode
 #############################

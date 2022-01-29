@@ -109,6 +109,13 @@ To move in 5-cell jumps, holding down :kbd:`Ctrl` while using the
 movement keys. Similarly, you can pan the level by holding down :kbd:`Shift`.
 This can be combined with :kbd:`Ctrl` to pan in 5-cell increments.
 
+Note how the current coordinates change in right corner of the status bar as
+you're moving the cursor. You can toggle the display of cell
+coordinates around the level with :kbd:`Alt+C`. If you wish to change how the
+coordinates are displayed, you can do so in the :ref:`maps-and-levels:Map
+Properties` or :ref:`maps-and-levels:Level Properties` dialogs.
+
+
 .. note::
 
   *Num Lock* must be off if you want to use the number keys on the numeric

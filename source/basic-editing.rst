@@ -22,16 +22,17 @@ less common third hybrid style that combines elements from both.
    Hybrid style --- `The Dark Heart of Uukrul <https://en.wikipedia.org/wiki/The_Dark_Heart_of_Uukrul>`_
 
 Tunnel style maps are easiest to create with the *excavate* (*draw tunnel*)
-tool. To use it, hold down the :kbd:`D` key and use the movement keys.
-The name "excavate" is quite fitting, as all existing cell content is
-deleted. Junctions are created on tunnel crossings, and neighbouring cells are
-joined into larger areas.
+tool. To use it, hold down the :kbd:`D` key and use the movement keys. The
+name "excavate" is quite fitting, as all existing cell content is deleted.
+Junctions are automatically created on tunnel crossings, and neighbouring
+cells are joined into larger areas. Of course, you can also just press
+:kbd:`D` to excavate only the cell under the cursor without moving around. 
 
 The :kbd:`D` key acts as a *modifier key* when used together with the movement
 keys (similarly to :kbd:`Shift` or :kbd:`Ctrl`). There are a few other tools
 that work the same way:
 
-* :kbd:`E` – erase whole cell, including walls (we'll talk about walls later)
+* :kbd:`E` – erase whole cell, including walls (we'll talk about walls shortly)
 * :kbd:`F` – draw/clear floor
 * :kbd:`C` – set floor color
 
@@ -48,17 +49,18 @@ map), and some of the action related to :ref:`basic-editing:Trail mode`.
 Floor types
 ===========
 
-But how do we create doors, pressure plates, pits, teleports, and all sorts of
-other paraphernalia so common in well-designed dungeons?
+So far so good, but how do we create doors, pressure plates, pits, teleports,
+and all sorts of other paraphernalia brave adventurers frequently run into in
+well-designed dungeons?
 
-Because these contraptions take up an entire cell, they are represented as
-different *floor types*. You can draw them with the number keys :kbd:`1` to
-:kbd:`6`. But there are 20 floor types in total, so how does that exactly
-work?
+Because in the vast majority of cases these contraptions take up an entire
+cell, they are represented as different *floor types*. You can draw them with
+the number keys :kbd:`1` to :kbd:`7`. But there are more than 20 floor types
+in total, so how does that exactly work?
 
 Each number key is assigned to up to four floor types. You can cycle forward
-between all floor types of a particular number key by pressing the key, and
-backward by pressing :kbd:`Shift` and the key.
+between all floor types assgined to a particular number key by pressing the
+key alone, and backward by pressing the key with the :kbd:`Shift` modifier.
 
 .. raw:: html
 
@@ -195,13 +197,20 @@ placing them in tunnels (as you normally would), the program can figure out
 the correct orientation. Should you need it, you can always change the
 floor orientation manually with the :kbd:`O` key.
 
+These floor types should take care of most of your dungeoneering needs. The
+goal here was to keep it simple and not overcomplicate matters by allowing the
+users to define their custom types. In the rare case where you really need
+something not covered by these, you can always just add a note to the cell
+with a custom marker, as you will learn in the :ref:`annotations:Annotations`
+chapter.
 
-.. rst-class:: style1
+
+.. rst-class:: style4
 
 Wall types
 ==========
 
-Drawing walls works a bit differently. The program makes a distinction between
+Drawing walls works slightly differently. The program makes a distinction between
 *regular walls* (the most common wall type you will draw) and so-called
 *special walls*.
 
@@ -291,6 +300,10 @@ To select the current special wall type, use the :kbd:`[` and
 
     </table>
 
+One-way doors are a bit special; their arrows always point in the drawing
+direction. So if you want to flip the arrow, just go to the other side of the
+door and draw it again!
+
 
 .. rst-class:: style1
 
@@ -302,21 +315,20 @@ You can then "draw in" the map over it (this is really only useful for
 tunnel-style maps), or you can use it to track your movement over an already
 mapped area.
 
-You can toggle **Trail Mode** with the :kbd:`T` key; you'll see two footsteps
-in the top left corner when it's on.
+Use the :kbd:`T` key to toggle **Trail Mode** with; you'll see two little
+footsteps in the top-left corner when it's on.
 
 Similarly to the erase cell tool, you can erase the trail one cell at a time
 by holding :kbd:`X` and using the movement keys. This action, just like
 drawing the trail, cannot be undone.
 
-To delete the whole trail in the current level, press :kbd:`Ctrl+Alt+X`.
+To delete the whole trail in the current level only, press :kbd:`Ctrl+Alt+X`.
 Because this action is quite destructive, it can be undone.
 
 To excavate the whole trail in the current level (overwriting existing cell
-contents), press :kbd:`Ctrl+Alt+D`. Similarly to deleting the whole trail,
-this action can be undone as well.
+contents), press :kbd:`Ctrl+Alt+D`. This is an undoable action as well.
 
-When you save your map, the trail data for all levels is stored in the map
+When you save your map, the trail data for all levels is saved into the map
 file.
 
 .. note::
@@ -333,8 +345,9 @@ Editing in WASD Mode
 ====================
 
 In :ref:`moving-around:WASD Mode`, the editing shortcuts :kbd:`D`, :kbd:`W`
-and :kbd:`E` are not available as they're used for movement. But this is not
-a problem; you're supposed to use mouse modifiers instead of these shortcuts.
+and :kbd:`E` are not available because they're used for movement. But this is
+not a problem as in this mode you're supposed to use mouse modifiers instead
+of these shortcuts.
 
 For example, hold down the left mouse button and use the
 :kbd:`W`:kbd:`A`:kbd:`S`:kbd:`D` movement keys to draw tunnels.
@@ -351,21 +364,19 @@ The mouse cursor must be inside the level area when using the mouse modifiers.
 To draw special walls, make sure to press then right mouse button first,
 *then* the left one (otherwise you'd end up in draw tunnel mode).
 
-.. tip::
-
-    To move the cursor using the mouse, you can press :kbd:`Tab` to go back to
-    *Normal Mode*, left-click on a cell to move the cursor there, then press
-    :kbd:`Tab` again to return to *WASD Mode*.
+If you hold the :kbd:`Shift` key, you can move the cursor by left-clicking
+on the level just like in *Normal Mode*.
 
 .. tip::
 
-    Some games, such as the renowned
-    `Eye of <https://en.wikipedia.org/wiki/Eye_of_the_Beholder_(video_game)>`_
-    `the Beholder <https://en.wikipedia.org/wiki/Eye_of_the_Beholder_II:_The_Legend_of_Darkmoon>`_
-    `series <https://en.wikipedia.org/wiki/Eye_of_the_Beholder_III:_Assault_on_Myth_Drannor>`_,
-    don't support WASD-style navigation. Luckily, most emulators (e.g.
-    `DosBox <https://www.dosbox.com/>`_ and `WinUAE <https://www.winuae.net/>`_)
-    provide a way to remap the cursor keys to the WASD movement keys in these
-    games.
+    Some games, such as the renowned `Eye of
+    <https://en.wikipedia.org/wiki/Eye_of_the_Beholder_(video_game)>`_ `the
+    Beholder
+    <https://en.wikipedia.org/wiki/Eye_of_the_Beholder_II:_The_Legend_of_Darkmoon>`_
+    `series
+    <https://en.wikipedia.org/wiki/Eye_of_the_Beholder_III:_Assault_on_Myth_Drannor>`_,
+    don't support WASD-style navigation. Luckily, most emulators (e.g. `DosBox
+    <https://www.dosbox.com/>`_ and `WinUAE <https://www.winuae.net/>`_)
+    provide a way to remap the cursor keys to the WASD keys in these games.
 
 

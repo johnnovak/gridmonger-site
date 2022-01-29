@@ -832,7 +832,7 @@ div.toctree-wrapper ul li > ul > li > a:before {
   }
 
   div.section[id] {
-    scroll-margin-top: 92px;
+    scroll-margin-top: 112px;
   }
 }
 /*--------------------------------------------------------------------------*/
