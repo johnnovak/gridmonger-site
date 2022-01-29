@@ -18,11 +18,6 @@ Keyboard shortcuts
       is very similar to how most games handle the keyboard. For the more
       technically inclined, the program only cares about <em>positional
       scancodes</em>.</p>
-
-      <p>Normally, the state of the <kbd>NumLock</kbd> key is ignored, and the
-      numeric keypad is only used for navigation. However, when entering text
-      in textfields, the operating system keyboard and language settings and
-      the <kbd>NumLock</kbd> state are in effect.</p>
     </div>
   </div>
 
@@ -49,8 +44,10 @@ Movement/direction keys
         <tr>
           <td colspan="4">
             <p>Combine with <kbd>Ctrl</kbd> for 5 unit jumps.<p>
-            <p>These keys are referred to as <span class="sc">Std move</span> from
-            now on.</p>
+            <p>These keys are referred to as <span class="sc">Std move</span>
+            from now on.</p>
+            <p><span class="sc">NumLock</span> must be off to use the numeric
+            keypad for navigation.<p>
           </td>
         </tr>
       </tfoot>
@@ -112,6 +109,8 @@ Movement/direction keys
             <p>* Combine with <kbd>Ctrl</kbd> for 5 cell jumps.</p>
             <p><span class="sc">Vim</span> keys are not availabile in <span class="sc">Walk
               Mode</span>.</p>
+            <p><span class="sc">NumLock</span> must be off to use the numeric
+            keypad for navigation.<p>
           </td>
         </tr>
       </tfoot>
@@ -187,6 +186,8 @@ Movement/direction keys
         <tr>
           <td colspan="4">
             <p>* Combine with <kbd>Ctrl</kbd> for 5 cell jumps.</p>
+            <p><span class="sc">NumLock</span> must be off to use the numeric
+            keypad for navigation.<p>
           </td>
         </tr>
       </tfoot>

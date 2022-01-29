@@ -5,8 +5,8 @@ Moving around
 Gridmonger is a `modal editor
 <https://en.wikipedia.org/wiki/Mode_(user_interface)>`_, meaning that one
 keystroke often performs different actions in different *modes* of the
-program.  There is no great mystery in this, just think of how the state of
-your :kbd:`NumLock` key affects how the numeric keypad functions. Modes work
+program.  There is no great mystery in this --- just think of how the state of
+the :kbd:`NumLock` key affects how your numeric keypad functions. Modes work
 in a very similar fashion.
 
 There are *four navigation modes*, and as you'll see, these different modes
@@ -38,11 +38,6 @@ to go to the previous or next level.
     is very similar to how most games handle the keyboard. For the more
     technically inclined, the program only cares about *positional
     scancodes*.
-
-    Normally, the state of the :kbd:`NumLock` key is ignored, and the numeric
-    keypad is only used for navigation. However, when entering text in
-    textfields, the operating system keyboard and language settings and the
-    :kbd:`NumLock` state are in effect.
 
 
 Normal Mode
@@ -114,6 +109,10 @@ To move in 5-cell jumps, holding down :kbd:`Ctrl` while using the
 movement keys. Similarly, you can pan the level by holding down :kbd:`Shift`.
 This can be combined with :kbd:`Ctrl` to pan in 5-cell increments.
 
+.. note::
+
+  *Num Lock* must be off if you want to use the number keys on the numeric
+  keypad for navigation.
 
 
 Walk Mode
@@ -121,7 +120,7 @@ Walk Mode
 
 *Walk Mode* can be toggled with the :kbd:`\`` key (that's the `grave accent
 <https://en.wikipedia.org/wiki/Grave_accent>`_ or backtick key; it's usually
-located in the top-left corner of the keyboard, left to the :kbd:`1` key). The
+located in the top-left corner of the keyboard, next to the :kbd:`1` key). The
 cursor is displayed as a triangle instead of a rectangle in this mode. The
 triangle points to the walking direction and represents your avatar; you can
 turn, strafe, and move forward and backward, just like in a classic dungeon
@@ -143,23 +142,23 @@ navigation is not available (it would be too confusing):
       </thead>
       <tbody class="no-padding">
         <tr>
-          <td><kbd>&larr;</kbd>*</td>
-          <td><kbd>kp 4</kbd>*</td>
+          <td><kbd>&larr;</kbd></td>
+          <td><kbd>kp 4</kbd></td>
           <td>Strafe left</td>
         </tr>
         <tr>
-          <td><kbd>&rarr;</kbd>*</td>
-          <td><kbd>kp 6</kbd>*</td>
+          <td><kbd>&rarr;</kbd></td>
+          <td><kbd>kp 6</kbd></td>
           <td>Strafe right</td>
         </tr>
         <tr>
-          <td><kbd>&uarr;</kbd>*</td>
-          <td><kbd>kp 8</kbd>*</td>
+          <td><kbd>&uarr;</kbd></td>
+          <td><kbd>kp 8</kbd></td>
           <td>Forward</td>
         </tr>
         <tr>
-          <td><kbd>&darr;</kbd>*</td>
-          <td><kbd>kp 2</kbd><kbd>kp 5</kbd>*</td>
+          <td><kbd>&darr;</kbd></td>
+          <td><kbd>kp 2</kbd><kbd>kp 5</kbd></td>
           <td>Backward</td>
         </tr>
         <tr>
@@ -174,6 +173,9 @@ navigation is not available (it would be too confusing):
         </tr>
       </tbody>
     </table>
+
+Similarly to *Normal Mode*, you can use the :kbd:`Ctrl` and :kbd:`Shift`
+modifiers to perform jumps or pan the level, respectively.
 
 
 WASD Mode
@@ -217,26 +219,26 @@ movement keys become a bit more interesting:
       </thead>
       <tbody class="no-padding">
         <tr>
-          <td><kbd>&larr;</kbd>*</td>
-          <td><kbd>kp 4</kbd>*</td>
+          <td><kbd>&larr;</kbd></td>
+          <td><kbd>kp 4</kbd></td>
           <td><kbd>A</kbd></td>
           <td>Strafe left</td>
         </tr>
         <tr>
-          <td><kbd>&rarr;</kbd>*</td>
-          <td><kbd>kp 6</kbd>*</td>
+          <td><kbd>&rarr;</kbd></td>
+          <td><kbd>kp 6</kbd></td>
           <td><kbd>D</kbd></td>
           <td>Strafe right</td>
         </tr>
         <tr>
-          <td><kbd>&uarr;</kbd>*</td>
-          <td><kbd>kp 8</kbd>*</td>
+          <td><kbd>&uarr;</kbd></td>
+          <td><kbd>kp 8</kbd></td>
           <td><kbd>W</kbd></td>
           <td>Forward</td>
         </tr>
         <tr>
-          <td><kbd>&darr;</kbd>*</td>
-          <td><kbd>kp 2</kbd><kbd>kp 5</kbd>*</td>
+          <td><kbd>&darr;</kbd></td>
+          <td><kbd>kp 2</kbd><kbd>kp 5</kbd></td>
           <td><kbd>S</kbd></td>
           <td>Backward</td>
         </tr>
@@ -310,28 +312,30 @@ Finally, you can press :kbd:`Alt+D` to select the **Discard** option.
 
    If you're not a programmer, you're probably wondering what the heck this
    Vim thing is about! In short, Vim is a programmer's text-editor for people
-   who know how to touch type. One of its most iconic features is to allow a
-   typist to move the cursor without lifting their hand from the `home row
+   who know how to touch type. One of its iconic features is to allow typists
+   to move the cursor without lifting their hands from the `home row
    <https://en.wikipedia.org/wiki/Touch_typing#Home_row>`_  (the ``ASDF`` and
-   ``JKL;`` keys), and perform most common editing tasks without straying too
-   far from this position.
+   ``JKL;`` keys), and perform most common editing tasks with one or
+   two-letter commands, without straying too far from this position.
 
    Ergonomics wise, editing a grid-based cRPG map is very similar to editing a
    text file. Having to move one hand back and forth between the cursor keys
    (or the mouse) and the rest of the keyboard thousands of times a day is a
    huge performance killer. No wonder that people who learn how to touch type
-   and get a taste of Vim rarely go back to their "old ways"!
+   and get a taste of Vim rarely go back to their "old ways"! There are only
+   two types of people in the world: those who love Vim, and the rest who
+   haven't learned it yet!
 
    In my opinion, touch typing is an essential skill that anyone working on a
-   computer several hours a day should have. If you don't know how to touch
-   type, I encourage you to learn to learn it, and then give the Vim-style
+   computer several hours a day should master. If you haven't learned to touch
+   type yet, I very much encourage you to do so, and then give Vim-style
    navigation a go. I almost guarantee that you will be very positively
    surprised!
 
-   There's tons of free touch typing trainers online, or you can just use the
-   completely unattractive but 100% effective `GNU Typist
-   <https://www.gnu.org/savannah-checkouts/gnu/gtypist/gtypist.html>`_ like I
-   did. I was able to re-train my erratic typing patterns ingrained over 10+
-   years of constant computer use in about two short weeks, so if I could do
-   it, then anybody can.
+   There's tons of free touch typing trainers online, or you can just go
+   oldschool and use the completely unattractive but 100% effective `GNU
+   Typist <https://www.gnu.org/savannah-checkouts/gnu/gtypist/gtypist.html>`_
+   like I did. I was able to re-train my erratic typing patterns ingrained
+   over 10+ years of constant computer use in about two short weeks, so if I
+   could do it, then anybody can.
 
