@@ -287,14 +287,14 @@ body {
   content: "❿";
 }
 
-section a,
+.section a,
 footer a {
   display: inline;
   font-family: "Alegreya SC", serif;
   text-decoration: none;
   color: #b86622;
 }
-section a:hover,
+.section a:hover,
 footer a:hover {
   text-decoration: underline;
   color: #9d5111;
@@ -307,4 +307,122 @@ footer p {
   margin: 0 0 0.5em 0;
 }
 
-/*# sourceMappingURL=base.css.map */
+header {
+  margin-top: 1%;
+}
+header > h1 {
+  margin: 0;
+}
+header > h1 > img {
+  display: block;
+  width: 100%;
+  max-width: 905px;
+  margin: 0 auto;
+}
+header > h1 > img.warrior-emblem {
+  margin-top: 1rem;
+}
+header > nav {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+header > nav > ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+header > nav > ul > li > a {
+  font-family: "Alegreya SC", serif;
+  font-size: 22px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #4e4336;
+}
+header > nav > ul > li > a:hover {
+  opacity: 0.7;
+}
+
+.section {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+h2 {
+  scroll-margin-top: 30px;
+}
+
+h3 {
+  scroll-margin-top: 20px;
+}
+
+/*--------------------------------------------------------------------------*/
+@media (min-width: 400px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media (min-width: 500px) {
+  html {
+    font-size: 19px;
+  }
+}
+@media (min-width: 600px) {
+  html {
+    font-size: 20px;
+  }
+}
+/*--------------------------------------------------------------------------*/
+@media (min-width: 688px) {
+  html {
+    font-size: 21px;
+  }
+
+  header > h1 {
+    font-size: 64px;
+  }
+  header > nav {
+    margin-bottom: 5em;
+  }
+  header > nav > ul > li {
+    display: inline;
+  }
+  header > nav > ul > li > a {
+    font-size: 24px;
+    white-space: nowrap;
+  }
+  header > nav > ul > li:not(:last-child):after {
+    font-family: "Fertigo Pro";
+    padding: 0 4px 0 8px;
+    opacity: 0.4;
+    content: "Ω";
+  }
+
+  .section > h2 {
+    font-size: 34px;
+  }
+  .section > h3 {
+    font-size: 24px;
+  }
+  .section kbd > kbd {
+    font-size: 18px;
+  }
+}
+/*--------------------------------------------------------------------------*/
+@media (min-width: 800px) {
+  header > h1 {
+    font-size: 64px;
+  }
+
+  .section {
+    position: relative;
+  }
+  .section h2:before {
+    position: absolute;
+    left: -10px;
+    font-family: "DejaVu Symbols";
+    font-size: 40px;
+    opacity: 0.3;
+    content: "☙";
+  }
+}

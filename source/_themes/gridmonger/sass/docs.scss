@@ -10,10 +10,10 @@ header {
     padding: 0;
     margin: 0;
 
-    > img {
+    img {
       width: 100%;
     }
-    > span {
+    span {
       display: block;
       margin: -0.2em 0 0 0;
       padding: 0;
@@ -73,7 +73,7 @@ article {
     font-size: 16px;
 
     > ul {
-      padding: 30px;
+      padding: 0;
       text-align: center;
 
       > li {
@@ -428,7 +428,7 @@ footer {
     }
   }
 
-  section {
+  div.section {
     &.big:after {
       margin: 5rem auto;
     }
@@ -469,7 +469,7 @@ footer {
 /*--------------------------------------------------------------------------*/
 @media (min-width: 800px) {
 
-  section {
+  div.section {
     @include section-h2-ornament;
   }
 }

@@ -287,14 +287,14 @@ body {
   content: "❿";
 }
 
-section a,
+.section a,
 footer a {
   display: inline;
   font-family: "Alegreya SC", serif;
   text-decoration: none;
   color: #b86622;
 }
-section a:hover,
+.section a:hover,
 footer a:hover {
   text-decoration: underline;
   color: #9d5111;
@@ -315,10 +315,10 @@ header > h1 {
   padding: 0;
   margin: 0;
 }
-header > h1 > img {
+header > h1 img {
   width: 100%;
 }
-header > h1 > span {
+header > h1 span {
   display: block;
   margin: -0.2em 0 0 0;
   padding: 0;
@@ -328,7 +328,7 @@ header > h1 > span {
   text-transform: uppercase;
   letter-spacing: 0.5em;
 }
-header > h1 > span:before, header > h1 > span:after {
+header > h1 span:before, header > h1 span:after {
   padding-right: 0.15em;
   font-family: "Fertigo Pro";
   content: "~";
@@ -663,7 +663,7 @@ footer {
     width: 45%;
   }
 
-  section.big:after {
+  div.section.big:after {
     margin: 5rem auto;
   }
 }
@@ -704,10 +704,10 @@ footer {
 }
 /*--------------------------------------------------------------------------*/
 @media (min-width: 800px) {
-  section {
+  div.section {
     position: relative;
   }
-  section h2:before {
+  div.section h2:before {
     position: absolute;
     left: -10px;
     font-family: "DejaVu Symbols";

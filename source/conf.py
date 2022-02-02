@@ -1,8 +1,8 @@
 project = 'Gridmonger'
-copyright = '2020, John Novak'
+copyright = '2019-2022, John Novak'
 author = 'John Novak'
 
-release = '2021'
+release = '2022'
 
 extensions = ['sphinx.ext.autosectionlabel']
 
@@ -15,5 +15,10 @@ html_theme_path = ['_themes']
 html_static_path = ['_static']
 html_use_index = False
 
-autosectionlabel_prefix_document = True
+html_additional_pages = {
+  'index': 'index.html'
+}
 
+root_doc = 'contents'
+
+autosectionlabel_prefix_document = True
