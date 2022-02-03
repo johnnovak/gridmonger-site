@@ -21,6 +21,10 @@
       <span>Manual</span>
     </h1>
 
+    <nav class="toc-link">
+      <a href="{{ pathto('contents') }}" {% if pagename == "contents" %}class="current"{% endif %}>Table of contents</a>
+    </nav>
+
     <nav class="table-of-contents">
       {{ toctree() }}
     </nav>
@@ -32,11 +36,6 @@
         {%- if prev %}
         <li class="prev"><a href="{{ prev.link|e }}">{{ prev.title|striptags|e }}</a></li>
         {%- endif %}
-        {%- if pagename == "genindex" %}
-        <li class="prev"><a href="{{ pathto('appendixes/map-file-format') }}">Map file format</a></li>
-        {%- endif %}
-
-        <li class="toc"><a href="{{ pathto('contents') }}">Table of contents</a></li>
 
         {%- if next %}
         <li class="next"><a href="{{ next.link|e }}">{{ next.title|striptags|e }}</a></li>
