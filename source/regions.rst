@@ -17,9 +17,17 @@ grid size of 16×16. The full world map is included in the ``Example Maps``
 folder under the name ``Might and Magic I.grm``.
 
 
-.. figure:: _static/img/mm1-regions.png
+.. raw:: html
 
-  Might and Magic I --- World map (excerpt)
+    <div class="figure">
+      <a href="_static/img/mm1-regions.png" class="glightbox">
+        <img alt="Might and Magic I --- World map (excerpt)" src="_static/img/mm1-regions.png">
+      </a>
+        <p class="caption">
+          <span>Might and Magic I --- World map (excerpt)</span>
+        </p>
+    </div>
+
 
 Another good example is the ``Pool of Radiance.grm`` map, which contains a
 partial map of the City of Phlan from the `SSI
@@ -27,9 +35,17 @@ partial map of the City of Phlan from the `SSI
 <https://en.wikipedia.org/wiki/Gold_Box>`_ game `Pool of Radiance
 <https://en.wikipedia.org/wiki/Pool_of_Radiance>`_.
 
-.. figure:: _static/img/por-regions.png
 
-  Pool of Radiance --- Phlan (excerpt)
+.. raw:: html
+
+    <div class="figure">
+      <a href="_static/img/por-regions.png" class="glightbox">
+        <img alt="Pool of Radiance — Phlan (excerpt)" src="_static/img/por-regions.png">
+      </a>
+        <p class="caption">
+          <span>Might and Magic I — World map (excerpt)</span>
+        </p>
+    </div>
 
 
 As you can see in the above two examples, region boundaries are indicated with

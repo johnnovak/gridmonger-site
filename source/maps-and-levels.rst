@@ -69,14 +69,15 @@ creation time is also displayed as a non-editable property.
 The **Coordinates** tab contains properties that govern how the cell
 coordinates are displayed. **Origin** specifies the corner where counting the
 grid coordinates should start from. There are two coordinate styles to choose
-from: number and letter. You can set the style separately for rows and columns
+from: number and letter. You can set the style separately for columns and rows
 with **Column style** and **Row style**, respectively. The letter style works
 as follows: ``A`` corresponds to ``0``, ``B`` to ``1``, and so on, right until
 ``Z`` (``23``), then it continues with ``AA``, ``AB``, ``AC``, etc. You can
 specify the coordinate starting values in the **Column start** and **Row
 start** fields. You need to enter the start value as a number, even for letter
 style coordinates, in which case the program helpfully displays the
-corresponding letter coordinate next to it.
+corresponding letter coordinate next to it. Negative start values are allowed
+(``-1`` corresponds to ``-B`` when using the letter style).
 
 Finally, the **Notes** tab contains a nice large textfield to store all your
 map related notes in.

@@ -6,20 +6,38 @@ Most cRPG maps tend to fall into one of two categories: *tunnel style maps*, and
 the more compact *wall style maps* (for lack of better terms). There's also a
 less common third hybrid style that combines elements from both.
 
-.. figure:: _static/img/eob.png
-   :width: 77%
+.. raw:: html
 
-   Tunnel style --- `Eye of the Beholder I <https://en.wikipedia.org/wiki/Eye_of_the_Beholder_(video_game)>`_
+    <div class="figure">
+      <a href="_static/img/eob.png" class="glightbox">
+        <img alt="Tunnel style — Eye of the Beholder I" src="_static/img/eob.png" style="width: 77%;">
+      </a>
+        <p class="caption">
+          <span>
+            Tunnel style — <a class="reference external" href="https://en.wikipedia.org/wiki/Eye_of_the_Beholder_(video_game)">Eye of the Beholder I</a></span>
+        </p>
+    </div>
 
-.. figure:: _static/img/por.png
-   :width: 55%
+    <div class="figure">
+      <a href="_static/img/por.png" class="glightbox">
+        <img alt="Wall style — Pool of Radiance" src="_static/img/por.png" style="width: 55%;">
+      </a>
+      <p class="caption">
+        <span>
+          Wall style — <a class="reference external" href="https://en.wikipedia.org/wiki/Pool_of_Radiance">Pool of Radiance</a>
+        </span>
+    </div>
 
-   Wall style --- `Pool of Radiance <https://en.wikipedia.org/wiki/Pool_of_Radiance>`_
+    <div class="figure">
+      <a href="_static/img/uukrul.png" class="glightbox">
+        <img alt="Hybrid style — Dark Heart of Uukrul" src="_static/img/uukrul.png" style="width: 82%;">
+      </a>
+      <p class="caption">
+        <span>
+          Hybrid style — <a class="reference external" href="https://en.wikipedia.org/wiki/The_Dark_Heart_of_Uukrul">The Dark Heart of Uukrul</a>
+        </span>
+    </div>
 
-.. figure:: _static/img/uukrul.png
-   :width: 82%
-
-   Hybrid style --- `The Dark Heart of Uukrul <https://en.wikipedia.org/wiki/The_Dark_Heart_of_Uukrul>`_
 
 Tunnel style maps are easiest to create with the *excavate* (*draw tunnel*)
 tool. To use it, hold down the :kbd:`D` key and use the movement keys. The

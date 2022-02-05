@@ -8,9 +8,10 @@
   <title>Gridmonger</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Gridmonger homepage.">
+  <meta name="description" content="Gridmonger manual">
 
   <link href="{{ pathto('_static/css/docs.css', 1) }}" rel="stylesheet">
+  <link href="{{ pathto('_static/css/glightbox.min.css', 1) }}" rel="stylesheet">
 </head>
 
 <body>
@@ -50,6 +51,12 @@
       <p>Hosted on <a href="https://pages.github.com/">GitHub Pages</a></p>
     </footer>
   </article>
+
+  <script src="{{ pathto('_static/js/glightbox.min.js', 1) }}"></script>
+
+  <script type="text/javascript">
+    var lightbox = GLightbox();
+  </script>
 
   </body>
 </html>
