@@ -418,6 +418,10 @@ article nav > ul > li.next {
 article nav > ul > li.next > a:after {
   content: "  →";
 }
+article nav.bottom {
+  position: relative;
+  top: -9.5em;
+}
 article .figure {
   margin-top: 2.2em;
 }
@@ -618,12 +622,16 @@ article kbd:not(.compound).move {
   background: none;
   box-shadow: none;
 }
+article div.section.big:after {
+  margin: 7rem auto 3rem auto;
+}
 
 #table-of-contents li:before {
   content: none;
 }
 
 footer {
+  clear: both;
   margin: 2rem 0 1.3rem 0;
 }
 
@@ -678,10 +686,6 @@ footer {
   }
   article table.walls {
     width: 45%;
-  }
-
-  div.section.big:after {
-    margin: 5rem auto;
   }
 }
 /*--------------------------------------------------------------------------*/
@@ -864,12 +868,17 @@ header div.toctree-wrapper ul li > ul > li > a:before {
   article > nav > ul > li.toc {
     display: none;
   }
+  article > nav.bottom {
+    display: none;
+  }
   article h1 {
     margin-top: 1.9em;
   }
-
-  div.section[id] {
+  article div.section [id] {
     scroll-margin-top: 112px;
+  }
+  article div.section.big:after {
+    margin: 5rem auto;
   }
 }
 /*--------------------------------------------------------------------------*/

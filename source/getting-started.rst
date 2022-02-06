@@ -5,6 +5,7 @@ Getting started
 Like most worthwhile things in life, Gridmonger is *not* instant
 gratification.  To paraphrase the famous quote about Linux:
 
+.. rst-class:: quote
 *Gridmonger is definitely user-friendly, but it's perhaps a tad more
 selective about its friends than your average desktop application.*
 

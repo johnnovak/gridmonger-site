@@ -103,6 +103,11 @@ article {
         }
       }
     }
+
+    &.bottom {
+      position: relative;
+      top: -9.5em;
+    }
   }
 
   .figure {
@@ -375,6 +380,17 @@ article {
       }
     }
   }
+
+  p.quote {
+    margin: 1.4em 0;
+    padding-left: 2em;
+  }
+
+  div.section {
+    &.big:after {
+      margin: 7rem auto 3rem auto;
+    }
+  }
 }
 
 #table-of-contents {
@@ -384,6 +400,7 @@ article {
 }
 
 footer {
+  clear: both;
   margin: 2rem 0 1.3rem 0;
 }
 
@@ -439,12 +456,6 @@ footer {
     table {
       &.floors { width: 70% }
       &.walls  { width: 45% }
-    }
-  }
-
-  div.section {
-    &.big:after {
-      margin: 5rem auto;
     }
   }
 }
@@ -632,15 +643,24 @@ footer {
       > ul > li.toc {
         display: none;
       }
+
+      &.bottom {
+        display: none;
+      }
     }
 
     h1 {
       margin-top: 1.9em;
     }
-  }
 
-  div.section[id] {
-    scroll-margin-top: $header-nav-height + 20;
+    div.section {
+      [id] {
+        scroll-margin-top: $header-nav-height + 20;
+      }
+      &.big:after {
+        margin: 5rem auto;
+      }
+    }
   }
 }
 

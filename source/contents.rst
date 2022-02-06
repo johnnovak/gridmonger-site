@@ -4,6 +4,9 @@
 Table of contents
 #################
 
+Chapters
+========
+
 .. toctree::
    :maxdepth: 2
 

@@ -32,19 +32,15 @@
   </header>
 
   <article>
-    <nav class="top">
-      <ul>
-        {%- if prev %}
-        <li class="prev"><a href="{{ prev.link|e }}">{{ prev.title|striptags|e }}</a></li>
-        {%- endif %}
-
-        {%- if next %}
-        <li class="next"><a href="{{ next.link|e }}">{{ next.title|striptags|e }}</a></li>
-        {%- endif %}
-      </ul>
-    </nav>
+    {% with chapter_nav_class='top' %}
+      {% include 'chapter-nav.html' %}
+    {% endwith %}
 
     {% block body %} {% endblock %}
+
+    {% with chapter_nav_class='bottom' %}
+      {% include 'chapter-nav.html' %}
+    {% endwith %}
 
     <footer>
       <p><a href="https://www.johnnovak.net/">John Novak</a>, 2019-2022. All wrongs reserved.</p>

@@ -361,6 +361,11 @@ h3 {
   scroll-margin-top: 20px;
 }
 
+p.aim {
+  margin: 1.4em 0;
+  text-indent: 2em;
+}
+
 /*--------------------------------------------------------------------------*/
 @media (min-width: 400px) {
   html {
