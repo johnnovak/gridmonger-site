@@ -619,6 +619,10 @@ article kbd:not(.compound).move {
   box-shadow: none;
 }
 
+#table-of-contents li:before {
+  content: none;
+}
+
 footer {
   margin: 2rem 0 1.3rem 0;
 }
@@ -740,6 +744,85 @@ footer {
   header > h1 > span {
     font-size: 19px;
   }
+  header nav.table-of-contents,
+header div.toctree-wrapper {
+    display: block;
+    margin-top: 0em;
+  }
+  header nav.table-of-contents li:before,
+header div.toctree-wrapper li:before {
+    content: none;
+  }
+  header nav.table-of-contents li > a,
+header div.toctree-wrapper li > a {
+    font-family: "Alegreya SC", serif;
+    font-weight: 500;
+    color: #4e4336;
+    text-decoration: none;
+  }
+  header nav.table-of-contents li > a:hover,
+header div.toctree-wrapper li > a:hover {
+    opacity: 0.7;
+  }
+  header nav.table-of-contents li.current > a,
+header div.toctree-wrapper li.current > a {
+    color: #b86622;
+  }
+  header nav.table-of-contents li.current > a:after,
+header div.toctree-wrapper li.current > a:after {
+    content: " ❦";
+    padding-left: 0.2em;
+  }
+  header nav.table-of-contents li.current > a:hover,
+header div.toctree-wrapper li.current > a:hover {
+    color: #9d5111;
+  }
+  header nav.table-of-contents ul,
+header div.toctree-wrapper ul {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    line-height: 1.5em;
+    list-style: none;
+  }
+  header nav.table-of-contents ul:nth-of-type(2),
+header div.toctree-wrapper ul:nth-of-type(2) {
+    margin-top: 1.5em;
+  }
+  header nav.table-of-contents ul > li,
+header div.toctree-wrapper ul > li {
+    text-indent: 0;
+  }
+  header nav.table-of-contents ul > li > a:before,
+header div.toctree-wrapper ul > li > a:before {
+    display: inline-block;
+    width: 1.9em;
+    margin-right: 0.7em;
+    text-align: right;
+  }
+  header nav.table-of-contents ul li > ul,
+header div.toctree-wrapper ul li > ul {
+    margin-top: 0.2em;
+    margin-bottom: 0.6em;
+    padding-left: 1.4em;
+    line-height: 1.3em;
+    list-style: none;
+  }
+  header nav.table-of-contents ul li > ul > li,
+header div.toctree-wrapper ul li > ul > li {
+    font-size: 90%;
+    margin-left: 2.6em;
+    margin-bottom: 0.3em;
+    line-height: 1.1em;
+    text-indent: -2.6em;
+  }
+  header nav.table-of-contents ul li > ul > li > a:before,
+header div.toctree-wrapper ul li > ul > li > a:before {
+    display: inline-block;
+    width: 1.9em;
+    margin-right: 0.7em;
+    text-align: right;
+  }
 
   nav.toc-link {
     text-align: left;
@@ -760,86 +843,6 @@ footer {
   }
   nav.toc-link a.current:hover {
     color: #9d5111;
-  }
-
-  nav.table-of-contents,
-div.toctree-wrapper {
-    display: block;
-    margin-top: 0em;
-  }
-  nav.table-of-contents li:before,
-div.toctree-wrapper li:before {
-    content: none;
-  }
-  nav.table-of-contents li > a,
-div.toctree-wrapper li > a {
-    font-family: "Alegreya SC", serif;
-    font-weight: 500;
-    color: #4e4336;
-    text-decoration: none;
-  }
-  nav.table-of-contents li > a:hover,
-div.toctree-wrapper li > a:hover {
-    opacity: 0.7;
-  }
-  nav.table-of-contents li.current > a,
-div.toctree-wrapper li.current > a {
-    color: #b86622;
-  }
-  nav.table-of-contents li.current > a:after,
-div.toctree-wrapper li.current > a:after {
-    content: " ❦";
-    padding-left: 0.2em;
-  }
-  nav.table-of-contents li.current > a:hover,
-div.toctree-wrapper li.current > a:hover {
-    color: #9d5111;
-  }
-  nav.table-of-contents ul,
-div.toctree-wrapper ul {
-    margin: 0;
-    padding: 0;
-    font-size: 20px;
-    line-height: 1.5em;
-    list-style: none;
-  }
-  nav.table-of-contents ul:nth-of-type(2),
-div.toctree-wrapper ul:nth-of-type(2) {
-    margin-top: 1.5em;
-  }
-  nav.table-of-contents ul > li,
-div.toctree-wrapper ul > li {
-    text-indent: 0;
-  }
-  nav.table-of-contents ul > li > a:before,
-div.toctree-wrapper ul > li > a:before {
-    display: inline-block;
-    width: 1.9em;
-    margin-right: 0.7em;
-    text-align: right;
-  }
-  nav.table-of-contents ul li > ul,
-div.toctree-wrapper ul li > ul {
-    margin-top: 0.2em;
-    margin-bottom: 0.6em;
-    padding-left: 1.4em;
-    line-height: 1.3em;
-    list-style: none;
-  }
-  nav.table-of-contents ul li > ul > li,
-div.toctree-wrapper ul li > ul > li {
-    font-size: 90%;
-    margin-left: 2.6em;
-    margin-bottom: 0.3em;
-    line-height: 1.1em;
-    text-indent: -2.6em;
-  }
-  nav.table-of-contents ul li > ul > li > a:before,
-div.toctree-wrapper ul li > ul > li > a:before {
-    display: inline-block;
-    width: 1.9em;
-    margin-right: 0.7em;
-    text-align: right;
   }
 
   article {

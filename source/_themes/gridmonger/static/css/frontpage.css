@@ -349,6 +349,7 @@ div.section {
 }
 
 div.thumbnails {
+  margin-top: 22px;
   font-size: 0;
 }
 
