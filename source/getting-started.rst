@@ -6,6 +6,7 @@ Like most worthwhile things in life, Gridmonger is *not* instant
 gratification.  To paraphrase the famous quote about Linux:
 
 .. rst-class:: quote
+
 *Gridmonger is definitely user-friendly, but it's perhaps a tad more
 selective about its friends than your average desktop application.*
 
@@ -98,7 +99,7 @@ the first run of the program:
     User themes are saved into this folder. This is where you should put
     themes shared by other users.
 
-``User Themes\Images``
+``User Themes/Images``
     Images used by the user defined themes go here.
 
 The logs are written to the file ``gridmonger.log`` in the user data folder.

@@ -5,35 +5,35 @@
   src: url("../font/subset-Alegreya-Medium.woff2") format("woff2"), url("../font/subset-Alegreya-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 @font-face {
   font-family: "Alegreya";
   src: url("../font/subset-Alegreya-MediumItalic.woff2") format("woff2"), url("../font/subset-Alegreya-MediumItalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
-  font-display: swap;
+  font-display: block;
 }
 @font-face {
   font-family: "Alegreya";
   src: url("../font/subset-Alegreya-Bold.woff2") format("woff2"), url("../font/subset-Alegreya-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 @font-face {
   font-family: "Alegreya";
   src: url("../font/subset-Alegreya-BoldItalic.woff2") format("woff2"), url("../font/subset-Alegreya-BoldItalic.woff") format("woff");
   font-weight: 700;
   font-style: italic;
-  font-display: swap;
+  font-display: block;
 }
 @font-face {
   font-family: "Alegreya";
   src: url("../font/subset-Alegreya-ExtraBold.woff2") format("woff2"), url("../font/subset-Alegreya-ExtraBold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 /* Alegreya SC */
 @font-face {
@@ -41,28 +41,28 @@
   src: url("../font/subset-AlegreyaSC-Medium.woff2") format("woff2"), url("../font/subset-AlegreyaSC-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 @font-face {
   font-family: "Alegreya SC";
   src: url("../font/subset-AlegreyaSC-MediumItalic.woff2") format("woff2"), url("../font/subset-AlegreyaSC-MediumItalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
-  font-display: swap;
+  font-display: block;
 }
 @font-face {
   font-family: "Alegreya SC";
   src: url("../font/subset-AlegreyaSC-Bold.woff2") format("woff2"), url("../font/subset-AlegreyaSC-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 @font-face {
   font-family: "Alegreya SC";
   src: url("../font/subset-AlegreyaSC-BoldItalic.woff2") format("woff2"), url("../font/subset-AlegreyaSC-BoldItalic.woff") format("woff");
   font-weight: 700;
   font-style: italic;
-  font-display: swap;
+  font-display: block;
 }
 /* Fertigo Pro */
 @font-face {
@@ -70,7 +70,7 @@
   src: url("../font/subset-FertigoPro-Regular.woff2") format("woff2"), url("../font/subset-FertigoPro-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 /* DejaVu Sans */
 @font-face {
@@ -78,7 +78,7 @@
   src: url("../font/subset-DejaVuSans.woff2") format("woff2"), url("../font/subset-DejaVuSans.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
+  font-display: block;
 }
 html {
   font: 500 17px/1.5em "Alegreya", serif;
