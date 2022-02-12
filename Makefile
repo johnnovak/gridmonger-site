@@ -48,7 +48,6 @@ dist_html:
 
 	cd build && zip -r gridmonger-manual.zip Gridmonger\ Manual
 
-
 generate_css:
 	@echo "Generating CSS files..."
 	sass --no-source-map source/_themes/gridmonger/sass/docs.scss:source/_themes/gridmonger/static/css/docs.css
