@@ -20,9 +20,9 @@ help:
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-html_all: clean generate_css html
+gen_html: clean generate_css html
 
-zip_html:
+dist_html:
 	rm -rf "$(MANUALDIR)"
 	mkdir -p "$(MANUALDIR)"
 
@@ -30,11 +30,21 @@ zip_html:
 	rm "$(MANUALDIR)/search.html"
 	cp -R build/html/appendixes "$(MANUALDIR)/appendixes"
 
-	mkdir "$(MANUALDIR)/_static"
-	cp -R build/html/_static/css  "$(MANUALDIR)/_static"
+	mkdir -p "$(MANUALDIR)/_static/css"
+	cp -R build/html/_static/css/docs.css "$(MANUALDIR)/_static/css"
+	cp -R build/html/_static/css/glightbox.min.css "$(MANUALDIR)/_static/css"
+
 	cp -R build/html/_static/font "$(MANUALDIR)/_static"
-	cp -R build/html/_static/img  "$(MANUALDIR)/_static"
-	cp -R build/html/_static/js   "$(MANUALDIR)/_static"
+	cp -R build/html/_static/js "$(MANUALDIR)/_static"
+
+	mkdir "$(MANUALDIR)/_static/img"
+	cp build/html/_static/img/*.png "$(MANUALDIR)/_static/img"
+
+	rm "$(MANUALDIR)/index.html"
+	mv "$(MANUALDIR)/contents.html" "$(MANUALDIR)/index.html"
+
+	find . -type f -name '*.html' -exec sed -i 's|contents.html|index.html|g' {} +
+	find . -type f -name '*.html' -exec sed -i 's|<p>Hosted on <a href="https://pages.github.com/">GitHub Pages</a></p>||g' {} + 
 
 
 generate_css:
