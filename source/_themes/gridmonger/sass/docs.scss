@@ -386,7 +386,7 @@ article {
     padding-left: 2em;
   }
 
-  div.section {
+  section {
     &.big:after {
       margin: 7rem auto 3rem auto;
     }
@@ -494,7 +494,7 @@ footer {
 /*--------------------------------------------------------------------------*/
 @media (min-width: 800px) {
 
-  div.section > div.section {
+  section > section {
     @include section-h2-ornament;
   }
 }
@@ -653,7 +653,7 @@ footer {
       margin-top: 1.9em;
     }
 
-    div.section {
+    section {
       [id] {
         scroll-margin-top: $header-nav-height + 20;
       }
