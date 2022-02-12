@@ -46,6 +46,8 @@ dist_html:
 	find . -type f -name '*.html' -exec sed -i 's|contents.html|index.html|g' {} +
 	find . -type f -name '*.html' -exec sed -i 's|<p>Hosted on <a href="https://pages.github.com/">GitHub Pages</a></p>||g' {} + 
 
+	cd build && zip -r gridmonger-manual.zip Gridmonger\ Manual
+
 
 generate_css:
 	@echo "Generating CSS files..."
