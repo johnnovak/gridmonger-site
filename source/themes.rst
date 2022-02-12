@@ -46,8 +46,8 @@ open, which makes editing these aspects of the themes a lot easier.
 .. raw:: html
 
     <div class="figure">
-      <a href="_static/img/ss-theme-editor.png" class="glightbox">
-        <img alt="Theme editor in action" src="_static/img/ss-theme-editor.png">
+      <a href="_static/img/theme-editor.png" class="glightbox">
+        <img alt="Theme editor in action" src="_static/img/theme-editor.png">
       </a>
         <p class="caption">
           <span>
@@ -149,7 +149,10 @@ Themes have the ``.gmtheme`` extension. The ``Themes/Images`` subfolder
 contains the background images used by some themes (at double resolution to
 support high-DPI displays).
 
-User themes live in the :ref:`getting-started:User data folder`. They have their own ``User Themes/Images`` folder; the loading of user theme images are first attempted from here, then if that failed, from the ``Themes/Images`` folder.
+User themes live in the :ref:`appendixes/user-data-folder:User data folder`.
+They have their own ``User Themes/Images`` folder; the loading of user theme
+images are first attempted from here, then if that fails, from the
+``Themes/Images`` folder.
 
 Themes are defined in a very minimal subset of the `HOCON configuration format
 <https://github.com/lightbend/config>`_. Currently, there is no specification

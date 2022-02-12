@@ -13,8 +13,8 @@ your work, you're always loading or saving a map.
 
 Let's load one of the example maps to illustrate these concepts! Start up
 Gridmonger, press :kbd:`Ctrl+O` to bring up the open map dialog, then select
-the file ``Eye of the Beholder I.grm`` from the ``Example Maps`` folder in
-your program directory (Gridmonger map files have the ``.grm`` extension). Mac
+the file ``Eye of the Beholder I.gmm`` from the ``Example Maps`` folder in
+your program directory (Gridmonger map files have the ``.gmm`` extension). Mac
 users will need to download the `Example Maps <#>`_ separately.
 
 Click on the level name dropdown at the top of the window that currently

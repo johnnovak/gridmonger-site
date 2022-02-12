@@ -340,7 +340,7 @@ Finally, you can press :kbd:`Alt+D` to select the **Discard** option.
    surprised!
 
    There's tons of free touch typing trainers online, or you can just go
-   oldschool and use the completely unattractive but 100% effective `GNU
+   old-school and use the completely unattractive but 100% effective `GNU
    Typist <https://www.gnu.org/savannah-checkouts/gnu/gtypist/gtypist.html>`_
    like I did. I was able to re-train my erratic typing patterns ingrained
    over 10+ years of constant computer use in about two short weeks, so if I

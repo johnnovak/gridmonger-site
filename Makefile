@@ -7,7 +7,7 @@ SPHINXOPTS    ?=
 SPHINXBUILD   ?= sphinx-build
 SOURCEDIR     = source
 BUILDDIR      = build
-MANUALDIR     = "$(BUILDDIR)/Gridmonger Manual/"
+MANUALDIR     = $(BUILDDIR)/Gridmonger Manual
 
 # Put it first so that "make" without argument is like "make help".
 help:
@@ -23,9 +23,18 @@ help:
 html_all: clean generate_css html
 
 zip_html:
+	rm -rf "$(MANUALDIR)"
+	mkdir -p "$(MANUALDIR)"
+
 	cp build/html/*html "$(MANUALDIR)"
 	rm "$(MANUALDIR)/search.html"
 	cp -R build/html/appendixes "$(MANUALDIR)/appendixes"
+
+	mkdir "$(MANUALDIR)/_static"
+	cp -R build/html/_static/css  "$(MANUALDIR)/_static"
+	cp -R build/html/_static/font "$(MANUALDIR)/_static"
+	cp -R build/html/_static/img  "$(MANUALDIR)/_static"
+	cp -R build/html/_static/js   "$(MANUALDIR)/_static"
 
 
 generate_css:

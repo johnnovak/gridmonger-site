@@ -14,7 +14,7 @@ and Magic Book One: The Secret of the Inner Sanctum
 <https://en.wikipedia.org/wiki/Might_and_Magic_Book_One:_The_Secret_of_the_Inner_Sanctum>`_,
 the world map is one large 80×64 grid subdivided into 20 region, each with a
 grid size of 16×16. The full world map is included in the ``Example Maps``
-folder under the name ``Might and Magic I.grm``.
+folder under the name ``Might and Magic I.gmm``.
 
 
 .. raw:: html
@@ -29,7 +29,7 @@ folder under the name ``Might and Magic I.grm``.
     </div>
 
 
-Another good example is the ``Pool of Radiance.grm`` map, which contains a
+Another good example is the ``Pool of Radiance.gmm`` map, which contains a
 partial map of the City of Phlan from the `SSI
 <https://en.wikipedia.org/wiki/Strategic_Simulations>`_ `Gold Box
 <https://en.wikipedia.org/wiki/Gold_Box>`_ game `Pool of Radiance
