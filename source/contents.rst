@@ -28,3 +28,4 @@ Appendixes
 
    Keyboard shortcuts <appendixes/keyboard-shortcuts>
    User data folder <appendixes/user-data-folder>
+   Command line usage <appendixes/command-line-usage>
