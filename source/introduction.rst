@@ -44,10 +44,10 @@ developing it!
 
     <div class="figure">
       <a href="_static/img/eob-full.png" class="glightbox">
-        <img alt="The proper use of Gridmonger &mdash; playing and mapping Eye of the Beholder I" src="_static/img/eob-full.png">
+        <img alt="Proper use of Gridmonger &mdash; playing and mapping Eye of the Beholder I" src="_static/img/eob-full.png">
       </a>
         <p class="caption">
-          <span>The proper use of Gridmonger &mdash; playing and mapping <a class="reference external" href="https://en.wikipedia.org/wiki/Eye_of_the_Beholder_(video_game)">Eye of the Beholder I</a></span>
+          <span>Proper use of Gridmonger &mdash; playing and mapping <a class="reference external" href="https://en.wikipedia.org/wiki/Eye_of_the_Beholder_(video_game)">Eye of the Beholder I</a></span>
         </p>
     </div>
 
