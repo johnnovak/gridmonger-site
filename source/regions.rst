@@ -30,8 +30,7 @@ folder under the name ``Might and Magic I.gmm``.
 
 
 Another good example is the ``Pool of Radiance.gmm`` map, which contains a
-partial map of the City of Phlan from the `SSI
-<https://en.wikipedia.org/wiki/Strategic_Simulations>`_ `Gold Box
+partial map of the City of Phlan from the `SSI Gold Box
 <https://en.wikipedia.org/wiki/Gold_Box>`_ game `Pool of Radiance
 <https://en.wikipedia.org/wiki/Pool_of_Radiance>`_.
 

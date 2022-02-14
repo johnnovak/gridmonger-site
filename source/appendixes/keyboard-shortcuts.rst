@@ -12,12 +12,12 @@ Keyboard shortcuts
       <p class="admonition-title">Note</p>
 
       <p>When it comes to keyboard shortcuts, Gridmonger uses the <a
-      href="https://kbdlayout.info/KBDUS">US keyboard layout</a>, regardless
-      of the keyboard layout and languge preferences set in your operating
-      system, or the actual position of the keys on your non-US keyboard. This
-      is very similar to how most games handle the keyboard. For the more
-      technically inclined, the program only cares about <em>positional
-      scancodes</em>.</p>
+      href="https://kbdlayout.info/KBDUS" class="external">US keyboard
+      layout</a>, regardless of the keyboard layout and languge preferences
+      set in your operating system, or the actual position of the keys on your
+      non-US keyboard. This is very similar to how most games handle the
+      keyboard. For the more technically inclined, the program only cares
+      about <em>positional scancodes</em>.</p>
     </div>
   </div>
 
@@ -86,7 +86,7 @@ Movement/direction keys
         <tr>
           <td>
             <p>All <span class="sc">Std move</span> keys are available in
-            this mode (including their <kbd>Ctrl</kbd>
+            this mode<br> (including their <kbd>Ctrl</kbd>
             combinations).</p>
           </td>
         </tr>
@@ -106,7 +106,7 @@ Movement/direction keys
       <tfoot>
         <tr>
           <td colspan="4">
-            <p>* Combine with <kbd>Ctrl</kbd> for 5 cell jumps.</p>
+            <p><span class="asterisk">*</span> Combine with <kbd>Ctrl</kbd> for 5 cell jumps.</p>
             <p><span class="sc">Vim</span> keys are not availabile in <span class="sc">Walk
               Mode</span>.</p>
             <p><span class="sc">NumLock</span> must be off to use the numeric
@@ -117,23 +117,23 @@ Movement/direction keys
 
       <tbody class="no-padding">
         <tr>
-          <td><kbd>&larr;</kbd>*</td>
-          <td><kbd>kp 4</kbd>*</td>
+          <td><kbd>&larr;</kbd><span class="asterisk">*</span></td>
+          <td><kbd>kp 4</kbd><span class="asterisk">*</span</td>
           <td>Strafe left</td>
         </tr>
         <tr>
-          <td><kbd>&rarr;</kbd>*</td>
-          <td><kbd>kp 6</kbd>*</td>
+          <td><kbd>&rarr;</kbd><span class="asterisk">*</span></td>
+          <td><kbd>kp 6</kbd><span class="asterisk">*</span></td>
           <td>Strafe right</td>
         </tr>
         <tr>
-          <td><kbd>&uarr;</kbd>*</td>
-          <td><kbd>kp 8</kbd>*</td>
+          <td><kbd>&uarr;</kbd><span class="asterisk">*</span></td>
+          <td><kbd>kp 8</kbd><span class="asterisk">*</span></td>
           <td>Forward</td>
         </tr>
         <tr>
-          <td><kbd>&darr;</kbd>*</td>
-          <td><kbd>kp 2</kbd><kbd>kp 5</kbd>*</td>
+          <td><kbd>&darr;</kbd><span class="asterisk">*</span></td>
+          <td><kbd>kp 2</kbd><kbd>kp 5</kbd><span class="asterisk">*</span></td>
           <td>Backward</td>
         </tr>
         <tr>
@@ -155,10 +155,11 @@ Movement/direction keys
         <tr>
           <td colspan="4">
             <p>All <span class="sc">Std move</span> keys are available in
-            this mode (including their <kbd>Ctrl</kbd> combinations).
-            <span class="sc">WASD keys</span> cannot be combined with
+            this mode<br> (including their <kbd>Ctrl</kbd> combinations).</p>
+
+            <p><span class="sc">WASD keys</span> cannot be combined with
             <kbd>Ctrl</kbd> for jumps as some of them are reserved for other
-            shortcuts.  </p>
+            shortcuts.</p>
           </td>
         </tr>
       </tfoot>
@@ -185,7 +186,7 @@ Movement/direction keys
       <tfoot>
         <tr>
           <td colspan="4">
-            <p>* Combine with <kbd>Ctrl</kbd> for 5 cell jumps.</p>
+            <p><span class="asterisk">*</span> Combine with <kbd>Ctrl</kbd> for 5 cell jumps.</p>
             <p><span class="sc">NumLock</span> must be off to use the numeric
             keypad for navigation.<p>
           </td>
@@ -194,26 +195,26 @@ Movement/direction keys
 
       <tbody class="no-padding">
         <tr>
-          <td><kbd>&larr;</kbd>*</td>
-          <td><kbd>kp 4</kbd>*</td>
+          <td><kbd>&larr;</kbd><span class="asterisk">*</span></td>
+          <td><kbd>kp 4</kbd><span class="asterisk">*</span></td>
           <td><kbd>A</kbd></td>
           <td>Strafe left</td>
         </tr>
         <tr>
-          <td><kbd>&rarr;</kbd>*</td>
-          <td><kbd>kp 6</kbd>*</td>
+          <td><kbd>&rarr;</kbd><span class="asterisk">*</span></td>
+          <td><kbd>kp 6</kbd><span class="asterisk">*</span></td>
           <td><kbd>D</kbd></td>
           <td>Strafe right</td>
         </tr>
         <tr>
-          <td><kbd>&uarr;</kbd>*</td>
-          <td><kbd>kp 8</kbd>*</td>
+          <td><kbd>&uarr;</kbd><span class="asterisk">*</span></td>
+          <td><kbd>kp 8</kbd><span class="asterisk">*</span></td>
           <td><kbd>W</kbd></td>
           <td>Forward</td>
         </tr>
         <tr>
-          <td><kbd>&darr;</kbd>*</td>
-          <td><kbd>kp 2</kbd><kbd>kp 5</kbd>*</td>
+          <td><kbd>&darr;</kbd><span class="asterisk">*</span></td>
+          <td><kbd>kp 2</kbd><kbd>kp 5</kbd><span class="asterisk">*</span></td>
           <td><kbd>S</kbd></td>
           <td>Backward</td>
         </tr>

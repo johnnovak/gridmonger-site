@@ -179,7 +179,7 @@ section ul > li:before {
   font-family: "icons";
   font-size: 83%;
   line-height: 1;
-  opacity: 0.6;
+  opacity: 0.45;
   content: "∑";
 }
 section ul > li p {
@@ -468,11 +468,10 @@ p.aim {
   }
   section h2:before {
     position: absolute;
-    left: -10px;
-    top: 23px;
+    left: -8px;
     font-family: "icons";
-    font-size: 40px;
+    font-size: 21px;
     opacity: 0.3;
-    content: "☙";
+    content: "❧";
   }
 }

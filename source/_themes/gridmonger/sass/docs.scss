@@ -25,7 +25,7 @@ header {
 
       &:before, &:after {
         padding-right: 0.15em;
-        font-family: 'Fertigo Pro';
+        font-family: $icons-font;
         content: '~';
       }
     }
@@ -140,11 +140,13 @@ article {
       &:before,
       &:after {
         font-family: $icons-font;
+        font-size: 70%;
+        line-height: 1;
         margin: 0 0.6em;
         opacity: 0.4;
       }
-      &:before { content: '\2619' }
-      &:after  { content: '\2767' }
+      &:before { content: '\2767' }
+      &:after  { content: '\2768' }
     }
 
     > thead {
@@ -379,6 +381,11 @@ article {
         box-shadow: none;
       }
     }
+  }
+
+  span.asterisk {
+    font-size: 1.2em;
+    line-height: 1;
   }
 
   p.quote {

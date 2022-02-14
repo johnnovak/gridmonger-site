@@ -387,12 +387,8 @@ on the level just like in *Normal Mode*.
 
 .. tip::
 
-    Some games, such as the renowned `Eye of
-    <https://en.wikipedia.org/wiki/Eye_of_the_Beholder_(video_game)>`_ `the
-    Beholder
-    <https://en.wikipedia.org/wiki/Eye_of_the_Beholder_II:_The_Legend_of_Darkmoon>`_
-    `series
-    <https://en.wikipedia.org/wiki/Eye_of_the_Beholder_III:_Assault_on_Myth_Drannor>`_,
+    Some games, such as the renowned `Eye of the Beholder series
+    <https://en.wikipedia.org/wiki/Eye_of_the_Beholder_(video_game)>`_,
     don't support WASD-style navigation. Luckily, most emulators (e.g. `DosBox
     <https://www.dosbox.com/>`_ and `WinUAE <https://www.winuae.net/>`_)
     provide a way to remap the cursor keys to the WASD keys in these games.

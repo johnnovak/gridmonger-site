@@ -179,7 +179,7 @@ section ul > li:before {
   font-family: "icons";
   font-size: 83%;
   line-height: 1;
-  opacity: 0.6;
+  opacity: 0.45;
   content: "∑";
 }
 section ul > li p {
@@ -364,7 +364,7 @@ header > h1 span {
 }
 header > h1 span:before, header > h1 span:after {
   padding-right: 0.15em;
-  font-family: "Fertigo Pro";
+  font-family: "icons";
   content: "~";
 }
 
@@ -483,14 +483,16 @@ article table > caption {
 }
 article table > caption:before, article table > caption:after {
   font-family: "icons";
+  font-size: 70%;
+  line-height: 1;
   margin: 0 0.6em;
   opacity: 0.4;
 }
 article table > caption:before {
-  content: "☙";
+  content: "❧";
 }
 article table > caption:after {
-  content: "❧";
+  content: "❨";
 }
 article table > thead > tr > th {
   font-family: "Alegreya SC", serif;
@@ -656,6 +658,10 @@ article kbd:not(.compound).move {
   background: none;
   box-shadow: none;
 }
+article span.asterisk {
+  font-size: 1.2em;
+  line-height: 1;
+}
 article p.quote {
   margin: 1.4em 0;
   padding-left: 2em;
@@ -768,12 +774,11 @@ footer {
   }
   section > section h2:before {
     position: absolute;
-    left: -10px;
-    top: 23px;
+    left: -8px;
     font-family: "icons";
-    font-size: 40px;
+    font-size: 21px;
     opacity: 0.3;
-    content: "☙";
+    content: "❧";
   }
 }
 /*--------------------------------------------------------------------------*/
