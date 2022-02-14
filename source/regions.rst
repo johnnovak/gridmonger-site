@@ -1,4 +1,4 @@
-.. rst-class:: style1 big
+.. rst-class:: style4 big
 
 *******
 Regions

@@ -71,7 +71,7 @@ cursor.
     the icon image, respectively.
 
 
-.. rst-class:: style6 big
+.. rst-class:: style5 big
 
 Labels
 ======

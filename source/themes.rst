@@ -154,10 +154,3 @@ They have their own ``User Themes/Images`` folder; the loading of user theme
 images are first attempted from here, then if that fails, from the
 ``Themes/Images`` folder.
 
-Themes are defined in a very minimal subset of the `HOCON configuration format
-<https://github.com/lightbend/config>`_. Currently, there is no specification
-for this --- if you want to write themes by hand, or would like to manipulate
-them programmatically, just follow the syntax and structure of the built-in
-themes and you'll be fine.
-
-

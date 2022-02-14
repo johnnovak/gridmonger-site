@@ -25,7 +25,7 @@ Keyboard shortcuts
 .. rst-class:: style3
 
 Movement/direction keys
-#######################
+=======================
 
 .. raw:: html
 
@@ -236,7 +236,7 @@ Movement/direction keys
 .. rst-class:: style3
 
 Dialogs
-#######
+=======
 
 .. raw:: html
 
@@ -309,7 +309,7 @@ Dialogs
 .. rst-class:: style3
 
 Normal mode
-###########
+===========
 
 .. raw:: html
 
@@ -931,7 +931,7 @@ Normal mode
 .. rst-class:: style3
 
 Select (Mark) Mode
-##################
+==================
 
 .. raw:: html
 
@@ -1099,10 +1099,10 @@ Select (Mark) Mode
     </table>
 
 
-.. rst-class:: style4 big
+.. rst-class:: style5 big
 
 Paste/Nudge/Move Preview Mode
-#############################
+=============================
 
 .. raw:: html
 

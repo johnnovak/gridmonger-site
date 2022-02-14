@@ -169,7 +169,7 @@ point through a few examples:
   point removes a 2-cell wide "stripe" from around the level.
 
 
-.. rst-class:: style5 big
+.. rst-class:: style1 big
 
 Nudge level
 -----------

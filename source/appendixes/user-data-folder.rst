@@ -1,3 +1,5 @@
+.. rst-class:: style6 big
+
 ****************
 User data folder
 ****************

@@ -101,8 +101,6 @@ The **Regions** properties are discussed later in the :doc:`regions` chapter.
 You can attach notes to individual levels of the map under the **Notes** tab.
 
 
-.. rst-class:: style1 big
-
 Managing maps &  levels
 =======================
 
@@ -121,4 +119,21 @@ a level, no problem, you can always undo it.
 Similarly, you can create a new map with :kbd:`Ctrl+Alt+N`. Make sure to save
 your current map first if you don't want to lose it, because deleting the
 whole map is one of the very few actions that *cannot* be undone!
+
+
+.. rst-class:: style1 big
+
+Saving maps
+===========
+
+Whenever you save your map with :kbd:`Ctrl+S`, Gridmonger appends the ``.bak``
+suffix to the name of your current map file, then saves it under its normal
+name. This is a safety measure --- if saving the map fails for whatever
+reason, at least you have your last backup. Just remove the ``.bak`` suffix
+from the filename and load it as a regular map file.
+
+You can also save the map under a new name with :kbd:`Ctrl+Shift+S`.
+
+Gridmonger has an autosaving feature that is enabled by default; you will
+learn more about this in the :ref:`preferences:preferences` section.
 

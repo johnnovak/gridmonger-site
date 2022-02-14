@@ -357,7 +357,7 @@ file.
     etc.)
 
 
-.. rst-class:: style3 big
+.. rst-class:: style6 big
 
 Editing in WASD Mode
 ====================

@@ -1,4 +1,4 @@
-.. rst-class:: style1 big
+.. rst-class:: style6 big
 
 #################
 Table of contents
@@ -14,6 +14,7 @@ Chapters
    getting-started
    maps-and-levels
    moving-around
+   preferences
    basic-editing
    annotations
    advanced-editing
@@ -28,4 +29,4 @@ Appendixes
 
    Keyboard shortcuts <appendixes/keyboard-shortcuts>
    User data folder <appendixes/user-data-folder>
-   Command line usage <appendixes/command-line-usage>
+   Advanced usage <appendixes/advanced-usage>

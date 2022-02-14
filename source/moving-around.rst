@@ -277,7 +277,7 @@ real-time dungeon crawlers...
 
 
 
-.. rst-class:: style7 big
+.. rst-class:: style3 big
 
 Navigation in dialogs
 =====================
