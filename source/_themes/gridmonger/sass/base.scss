@@ -128,7 +128,7 @@ section {
 
     &.multiline {
       > li {
-        margin-bottom: 0.35em;
+        margin-bottom: 0.4em;
       }
     }
   }
@@ -282,7 +282,7 @@ a.external:after {
   h2 {
     &:before {
       position: absolute;
-      left: -8px;
+      left: -6px;
       font-family: $icons-font;
       font-size: 21px;
       opacity: 0.3;

@@ -437,10 +437,8 @@ p.aim {
     white-space: nowrap;
   }
   header > nav > ul > li:not(:last-child):after {
-    position: relative;
-    top: 0.06em;
     font-family: "icons";
-    font-size: 88%;
+    font-size: 80%;
     line-height: 1;
     padding: 0 4px 0 8px;
     opacity: 0.4;
@@ -468,7 +466,7 @@ p.aim {
   }
   section h2:before {
     position: absolute;
-    left: -8px;
+    left: -6px;
     font-family: "icons";
     font-size: 21px;
     opacity: 0.3;

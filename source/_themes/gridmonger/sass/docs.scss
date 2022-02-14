@@ -24,8 +24,10 @@ header {
       letter-spacing: 0.5em;
 
       &:before, &:after {
-        padding-right: 0.15em;
+        position: relative;
+        top: -1.3em;
         font-family: $icons-font;
+        font-size: 0.15em;
         content: '~';
       }
     }

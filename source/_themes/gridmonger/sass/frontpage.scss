@@ -104,10 +104,8 @@ p.aim {
           }
 
           &:not(:last-child):after {
-            position: relative;
-            top: 0.06em;
             font-family: $icons-font;
-            font-size: 88%;
+            font-size: 80%;
             line-height: 1;
             padding: 0 4px 0 8px;
             opacity: 0.4;

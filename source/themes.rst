@@ -115,6 +115,8 @@ best way to get familiar with theming is to experiment! There are, however, a
 few features that are bit harder to figure out, so let's say a few words about
 them:
 
+.. rst-class:: multiline
+
 - Hold :kbd:`Ctrl` while clicking on the little triangle before a section's name
   to open all its child sections as well.
 - Hold :kbd:`Shift` for finer adjustments when changing value sliders by

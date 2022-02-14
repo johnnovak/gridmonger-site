@@ -161,6 +161,8 @@ expand the dimensions of the current level. You need to select an anchor point
 for the action. It's probably easiest to illustrate the role of the anchor
 point through a few examples:
 
+.. rst-class:: multiline
+
 - Making the level 2 rows and 3 colums larger using the top-left anchor point
   adds 2 extra empty columns at the right side of the level, and 3 extra
   empty rows at the bottom.

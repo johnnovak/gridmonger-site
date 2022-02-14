@@ -363,8 +363,10 @@ header > h1 span {
   letter-spacing: 0.5em;
 }
 header > h1 span:before, header > h1 span:after {
-  padding-right: 0.15em;
+  position: relative;
+  top: -1.3em;
   font-family: "icons";
+  font-size: 0.15em;
   content: "~";
 }
 
@@ -774,7 +776,7 @@ footer {
   }
   section > section h2:before {
     position: absolute;
-    left: -8px;
+    left: -6px;
     font-family: "icons";
     font-size: 21px;
     opacity: 0.3;
