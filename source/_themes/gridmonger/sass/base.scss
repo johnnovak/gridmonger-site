@@ -1,10 +1,9 @@
 @use 'fonts';
 @use 'sass:color';
 
-$body-font:       'Alegreya', serif;
-$smallcaps-font:  'Alegreya SC', serif;
-$ornaments1-font: 'Fertigo Pro';
-$ornaments2-font: 'DejaVu Sans';
+$body-font:      'Alegreya', serif;
+$smallcaps-font: 'Alegreya SC', serif;
+$icons-font:     'icons';
 
 $bg-color:     #d8d0c5;
 $fg-color:     #4e4336;
@@ -37,8 +36,8 @@ section {
     display: block;
     width: 100%;
     margin: 0.7em 0 0.22em 0;
-    font-family: $ornaments1-font;
-    font-size: 3rem;
+    font-family: $icons-font;
+    font-size: 2.4rem;
     font-weight: normal;
     text-align: center;
     opacity: 0.2;
@@ -51,14 +50,19 @@ section {
   &.style5:after { content: '\2211'; }
   &.style6:after { content: '\2202'; }
   &.style7:after { content: '\00ac'; }
+  &.style8:after { content: '\002a'; }
+  &.style9:after { content: '\03bc'; }
+  &.style10:after { content: '\220f'; }
+  &.style11:after { content: '\25ca'; }
+  &.style12:after { content: '\221a'; }
 
   &.big:after {
     margin: 4rem auto;
-    font-size: 7.5rem;
+    font-size: 5.5rem;
   }
   &.small:after {
     margin: 0;
-    font-size: 1.3rem;
+    font-size: 1rem;
     content: '\03a9\03a9\03a9';
   }
 
@@ -106,8 +110,10 @@ section {
       text-indent: -1.5em;
 
       &:before {
-        padding-right: 0.65em;
-        font-family: $ornaments1-font;
+        padding-right: 0.68em;
+        font-family: $icons-font;
+        font-size: 83%;
+        line-height: 1;
         opacity: 0.6;
         content: '\2211';
       }
@@ -220,7 +226,7 @@ section {
 
   span.circled-number {
     line-height: 1em;
-    font-family: $ornaments2-font;
+    font-family: $icons-font;
     font-size: 0;
 
     &:before {
@@ -251,7 +257,7 @@ a.external:after {
   text-transform: none;
   line-height: 1;
   font-size: 65%;
-  content: "\200a\200a\e901";
+  content: "\200a\200a\e900\200a";
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
@@ -277,7 +283,8 @@ a.external:after {
     &:before {
       position: absolute;
       left: -10px;
-      font-family: $ornaments2-font;
+      top: 23px;
+      font-family: $icons-font;
       font-size: 40px;
       opacity: 0.3;
       content: '\2619';

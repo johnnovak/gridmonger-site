@@ -104,7 +104,11 @@ p.aim {
           }
 
           &:not(:last-child):after {
-            font-family: $ornaments1-font;
+            position: relative;
+            top: 0.06em;
+            font-family: $icons-font;
+            font-size: 88%;
+            line-height: 1;
             padding: 0 4px 0 8px;
             opacity: 0.4;
             content: '\03a9';

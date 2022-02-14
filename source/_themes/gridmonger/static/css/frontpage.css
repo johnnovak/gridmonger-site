@@ -64,22 +64,6 @@
   font-style: italic;
   font-display: block;
 }
-/* Fertigo Pro */
-@font-face {
-  font-family: "Fertigo Pro";
-  src: url("../font/subset-FertigoPro-Regular.woff2") format("woff2"), url("../font/subset-FertigoPro-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
-/* DejaVu Sans */
-@font-face {
-  font-family: "DejaVu Sans";
-  src: url("../font/subset-DejaVuSans.woff2") format("woff2"), url("../font/subset-DejaVuSans.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
 /* Icons */
 @font-face {
   font-family: "icons";
@@ -104,8 +88,8 @@ section:after {
   display: block;
   width: 100%;
   margin: 0.7em 0 0.22em 0;
-  font-family: "Fertigo Pro";
-  font-size: 3rem;
+  font-family: "icons";
+  font-size: 2.4rem;
   font-weight: normal;
   text-align: center;
   opacity: 0.2;
@@ -131,13 +115,28 @@ section.style6:after {
 section.style7:after {
   content: "¬";
 }
+section.style8:after {
+  content: "*";
+}
+section.style9:after {
+  content: "μ";
+}
+section.style10:after {
+  content: "∏";
+}
+section.style11:after {
+  content: "◊";
+}
+section.style12:after {
+  content: "√";
+}
 section.big:after {
   margin: 4rem auto;
-  font-size: 7.5rem;
+  font-size: 5.5rem;
 }
 section.small:after {
   margin: 0;
-  font-size: 1.3rem;
+  font-size: 1rem;
   content: "ΩΩΩ";
 }
 section h2 {
@@ -176,8 +175,10 @@ section ul > li {
   text-indent: -1.5em;
 }
 section ul > li:before {
-  padding-right: 0.65em;
-  font-family: "Fertigo Pro";
+  padding-right: 0.68em;
+  font-family: "icons";
+  font-size: 83%;
+  line-height: 1;
   opacity: 0.6;
   content: "∑";
 }
@@ -266,7 +267,7 @@ section > div.thumbnails > a > img {
 }
 section span.circled-number {
   line-height: 1em;
-  font-family: "DejaVu Sans";
+  font-family: "icons";
   font-size: 0;
 }
 section span.circled-number:before {
@@ -314,7 +315,7 @@ a.external:after {
   text-transform: none;
   line-height: 1;
   font-size: 65%;
-  content: "  ";
+  content: "   ";
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -436,7 +437,11 @@ p.aim {
     white-space: nowrap;
   }
   header > nav > ul > li:not(:last-child):after {
-    font-family: "Fertigo Pro";
+    position: relative;
+    top: 0.06em;
+    font-family: "icons";
+    font-size: 88%;
+    line-height: 1;
     padding: 0 4px 0 8px;
     opacity: 0.4;
     content: "Ω";
@@ -464,7 +469,8 @@ p.aim {
   section h2:before {
     position: absolute;
     left: -10px;
-    font-family: "DejaVu Sans";
+    top: 23px;
+    font-family: "icons";
     font-size: 40px;
     opacity: 0.3;
     content: "☙";
