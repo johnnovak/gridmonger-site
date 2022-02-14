@@ -4,7 +4,7 @@
 $body-font:       'Alegreya', serif;
 $smallcaps-font:  'Alegreya SC', serif;
 $ornaments1-font: 'Fertigo Pro';
-$ornaments2-font: 'DejaVu Symbols';
+$ornaments2-font: 'DejaVu Sans';
 
 $bg-color:     #d8d0c5;
 $fg-color:     #4e4336;
@@ -240,6 +240,22 @@ section {
     &.num9:before  { content: '\277E' }
     &.num10:before { content: '\277F' }
   }
+}
+
+a.external:after {
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 65%;
+  content: "\200a\200a\e901";
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 @mixin link {
