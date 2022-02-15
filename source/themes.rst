@@ -7,21 +7,21 @@ themes out-of-the-box. Furthermore, the program also allows the modification
 of the built-in themes and the creation of entirely new ones.
 
 You can cycle through the themes in forward or reverse alphabetical order with
-:kbd:`Ctrl+PgUp` and :kbd:`Ctrl+PgDown` in normal edit mode. The name of the
+:kbd:`Ctrl+PgUp` and :kbd:`Ctrl+PgDown` in *Edit Mode*. The name of the
 theme in use is saved into your map file; when loading a map, the theme will
 be restored, or if it cannot be found, the ``Default`` theme will be used.
 
 Theme conventions
 =================
 
-The built-in themes follow a few simple conventions: themes prefixed with
+All built-in themes follow a few simple conventions: themes prefixed with
 ``[W]`` are designed for world maps, while the ones starting with ``[WD]`` are
 meant for mixed world & dungeon maps. Unprefixed themes are best suited for
 regular dungeons.
 
-All these differences basically come down to the selection of floor colours:
-world map themes feature colours suited to represent different types of
-terrain, while in regular themes they are just different accent colours.
+The differences between them basically come down to the selection of floor
+colours: world map themes feature colours suited to represent different types
+of terrain, while in regular themes they are just different accent colours.
 Colours are generally consistent across themes belonging to the same type,
 e.g. in regular dungeon themes colour #2 is always a reddish colour, #3 a
 bright red/orange, #4 a yellowish one, and so on. This makes it a bit easier
@@ -33,15 +33,15 @@ Heart Alt``).
 Theme editor
 ============
 
-While it is certainly possible to create and edit theme files only with a text
+While it is certainly possible to edit or create theme files only with a text
 editor, Gridmonger features a fully-fledged theme editor that makes theme
 management a breeze.
 
-You can toggle the theme editor side panel with the :kbd:`F12` key in normal
-editing mode. Note that it is not possible to toggle the editor when a dialog
-is open, or in any other modes (e.g. *Select Mode* or *Nudge Mode*).
-You can, however, enter any of these modes while the theme editor is *already*
-open, which makes editing these aspects of the themes a lot easier.
+You can toggle the theme editor side panel with the :kbd:`F12` key in *Edit
+Mode*. Note that it is not possible to toggle the editor while a dialog is
+open, or in any other modes (e.g. *Select Mode* or *Nudge Mode*). You can,
+however, enter any of these modes while the theme editor is *already* open,
+which makes editing aspects of the themes related to these modes a lot easier.
 
 .. raw:: html
 
@@ -67,17 +67,17 @@ To the right of the drop-down are two state indicators:
 - ``U`` -- User theme
 - ``O`` -- Overridden built-in theme
 
-Let's now look at the what the four action buttons below the drop-down do; this
-will also clarify the purpose of the indicators:
+Below the drop-down are four action buttons --- let's now look at what they
+do, which will also clarify the purpose of the indicators:
 
 Save
     Saves any changes you've made to the current theme.
 
     Built-in themes can never be changed, so if this is a built-in theme
-    (``U`` and ``O`` are unlit), a new *user theme* will be created with the
-    same name, and therefore the ``U`` indicator will be lit. This user theme
-    *overrides* (or "shadows") the built-in theme, making the built-in theme
-    unavailable, therefore the ``O`` indicator will also be lit.
+    (``U`` and ``O`` are inactive), a new *user theme* will be created with the
+    same name, and therefore the ``U`` indicator will become active. This user theme
+    *overrides* (or *shadows*) the built-in theme, making the built-in theme
+    unavailable, therefore the ``O`` indicator will also become active.
 
     Overriding a built-in theme is useful when you only want to make a few
     tweaks to it; your map files will still reference the name of the built-in
@@ -89,17 +89,17 @@ Copy
     This is the action to use if you don't want to override a built-in theme
     (e.g. you want to create a new tweaked version under a different name), or
     if you want to design your own theme: just pick a theme you want to use as
-    your starting point and hit **Copy**!
+    your starting point and hit **Copy**.
 
-    You'll be asked for the new theme name, and you'll get a warning if the
+    You'll be asked for a new theme name, and you'll get a warning if the
     name you've chosen would override (shadow) that of an existing built-in or
-    user theme. Naturally, you can make copies of either built-in or user
+    user theme. Naturally, you can make copies of both built-in and user
     themes.
 
 Rename
     Renames a user theme.
 
-    Similarly to **Copy**, you'll be asked for the new name, and you'll get
+    Similarly to **Copy**, you'll be asked for a new name, and you'll get
     warnings about any possible shadowing situations. This button is disabled
     for built-in themes.
 
@@ -110,10 +110,9 @@ Delete
     disabled.
 
 
-Apart from this, the rest of the editor should be pretty straightforward. The
-best way to get familiar with theming is to experiment! There are, however, a
-few features that are bit harder to figure out, so let's say a few words about
-them:
+The rest of the editor should be pretty straightforward. The best way to get
+familiar with theming is to experiment! There are, however, a few things that
+are bit harder to figure out, so let's say a few words about them:
 
 .. rst-class:: multiline
 
@@ -123,11 +122,11 @@ them:
   click-dragging, and :kbd:`Shift+Alt` for super-fine adjustments.
 - Right-click before releasing the left mouse button to cancel any value
   slider adjustment.
-- Hover over a colour widget and press :kbd:`Ctrl+C` to copy the colour, then
-  press :kbd:`Ctrl+V` over another to paste it.
-- To use a background image, copy the image to the ``User Themes/Images``
-  folder, enter the filename (without the path) in the **Window / Background
-  Image** text field, then press the **Reload** button under it.
+- To copy a colour, hover over the source colour widget, press :kbd:`Ctrl+C`,
+  then hover over the desination and press :kbd:`Ctrl+V`.
+- To use a background image, first copy the image to the ``User Themes/Images``
+  folder, then enter the filename (without the path part) in the **Window /
+  Background Image** text field, and press the **Reload** button.
 - To display the splash image for theming purposes, tick the **Show Splash**
   checkbox under **User Interface / Splash Image**, then untick it when you're
   done.
@@ -135,10 +134,10 @@ them:
 
 .. note::
 
-   There is a quite noticeable input lag of one extra frame when the theme
-   editor is open. This limitation might be removed in a future version; for
-   now, just keep in mind that it's best to keep the theme editor closed when
-   you're not using it.
+   There is an input lag of one extra frame when the theme editor is open.
+   This limitation might be removed in a future version; for now, just keep in
+   mind that it's best to keep the theme editor closed when you're not using
+   it.
 
 
 .. rst-class:: style2 big
@@ -154,5 +153,6 @@ support high-DPI displays).
 User themes live in the :ref:`appendixes/user-data-folder:User data folder`.
 They have their own ``User Themes/Images`` folder; the loading of user theme
 images are first attempted from here, then if that fails, from the
-``Themes/Images`` folder.
+``Themes/Images`` folder. Because of this, when you make some adjuments to a
+built-in theme, the images files do not need to be copied.
 
