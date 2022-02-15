@@ -189,7 +189,7 @@ section ul > li p {
   text-indent: 0;
 }
 section ul.multiline > li {
-  margin-bottom: 0.35em;
+  margin-bottom: 0.4em;
 }
 section dl {
   margin: 1.5em 0;
@@ -662,6 +662,17 @@ article kbd:not(.compound).move {
 }
 article span.asterisk {
   font-size: 1.2em;
+  font-style: normal;
+  line-height: 1;
+}
+article span.dagger {
+  position: relative;
+  top: -0.4em;
+  font-family: "Noto Serif";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 0.8em;
+  padding-left: 0.07em;
   line-height: 1;
 }
 article p.quote {

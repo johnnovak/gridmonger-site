@@ -43,11 +43,15 @@ Movement/direction keys
       <tfoot>
         <tr>
           <td colspan="4">
-            <p>Combine with <kbd>Ctrl</kbd> for 5 unit jumps.<p>
-            <p>These keys are referred to as <span class="sc">Std move</span>
-            from now on.</p>
-            <p><span class="sc">NumLock</span> must be off to use the numeric
-            keypad for navigation.<p>
+            <p>
+              These keys are referred to as <span class="sc">&laquo;Std move&raquo;</span> from now on.
+            </p>
+            <p>
+              Combine with <kbd>Ctrl</kbd> for 5 cell jumps, or <kbd>Shift</kbd> for pan.
+            <p>
+            <p>
+              <span class="sc">NumLock</span> must be off to use the numeric keypad for navigation.
+            <p>
           </td>
         </tr>
       </tfoot>
@@ -81,13 +85,12 @@ Movement/direction keys
     </table>
 
     <table class="shortcuts std-move-keys">
-      <caption>Edit Mode</caption>
+      <caption>Normal Mode</caption>
       <tfoot>
         <tr>
           <td>
             <p>All <span class="sc">Std move</span> keys are available in
-            this mode<br> (including their <kbd>Ctrl</kbd>
-            combinations).</p>
+            this mode.<br></p>
           </td>
         </tr>
       </tfoot>
@@ -106,11 +109,17 @@ Movement/direction keys
       <tfoot>
         <tr>
           <td colspan="4">
-            <p><span class="asterisk">*</span> Combine with <kbd>Ctrl</kbd> for 5 cell jumps.</p>
-            <p><span class="sc">Vim</span> keys are not availabile in <span class="sc">Walk
-              Mode</span>.</p>
-            <p><span class="sc">NumLock</span> must be off to use the numeric
-            keypad for navigation.<p>
+            <p>
+              <span class="sc">Vim</span> movement keys are not available in <span class="sc">Walk Mode</span>.
+            </p>
+            <p>
+              <span class="asterisk">*</span>
+              Combine with <kbd>Ctrl</kbd> for 5 cell jumps, or <kbd>Shift</kbd> for pan.
+            </p>
+            <p>
+              <span class="dagger">†</span>
+              <span class="sc">NumLock</span> must be off to use the numeric keypad for navigation.
+            <p>
           </td>
         </tr>
       </tfoot>
@@ -118,22 +127,22 @@ Movement/direction keys
       <tbody class="no-padding">
         <tr>
           <td><kbd>&larr;</kbd><span class="asterisk">*</span></td>
-          <td><kbd>kp 4</kbd><span class="asterisk">*</span</td>
+          <td><kbd>kp 4</kbd><span class="asterisk">*</span><span class="dagger">†</span></td>
           <td>Strafe left</td>
         </tr>
         <tr>
           <td><kbd>&rarr;</kbd><span class="asterisk">*</span></td>
-          <td><kbd>kp 6</kbd><span class="asterisk">*</span></td>
+          <td><kbd>kp 6</kbd><span class="asterisk">*</span><span class="dagger">†</span></td>
           <td>Strafe right</td>
         </tr>
         <tr>
           <td><kbd>&uarr;</kbd><span class="asterisk">*</span></td>
-          <td><kbd>kp 8</kbd><span class="asterisk">*</span></td>
+          <td><kbd>kp 8</kbd><span class="asterisk">*</span><span class="dagger">†</span></td>
           <td>Forward</td>
         </tr>
         <tr>
           <td><kbd>&darr;</kbd><span class="asterisk">*</span></td>
-          <td><kbd>kp 2</kbd><kbd>kp 5</kbd><span class="asterisk">*</span></td>
+          <td><kbd>kp 2</kbd><kbd>kp 5</kbd><span class="asterisk">*</span><span class="dagger">†</span></td>
           <td>Backward</td>
         </tr>
         <tr>
@@ -150,24 +159,23 @@ Movement/direction keys
     </table>
 
     <table class="shortcuts std-move-keys">
-      <caption>WASD + Normal Mode</caption>
+      <caption>WASD Mode</caption>
       <tfoot>
         <tr>
           <td colspan="4">
             <p>All <span class="sc">Std move</span> keys are available in
-            this mode<br> (including their <kbd>Ctrl</kbd> combinations).</p>
+            this mode.</p>
 
             <p><span class="sc">WASD keys</span> cannot be combined with
-            <kbd>Ctrl</kbd> for jumps as some of them are reserved for other
-            shortcuts.</p>
+            <kbd>Ctrl</kbd> for jumps because they would interfere with other shortcuts.</p>
           </td>
         </tr>
       </tfoot>
 
       <tbody class="no-padding">
         <tr>
-          <td><kbd>A</kbd> / <kbd>D</kbd> / <kbd>W</kbd> / <kbd>S</kbd></td>
-          <td>Left/right/up/down</td>
+          <td><kbd>W</kbd> / <kbd>A</kbd> / <kbd>S</kbd> / <kbd>D</kbd></td>
+          <td>Up/left/down/right</td>
         </tr>
       </tbody>
     </table>
@@ -186,9 +194,17 @@ Movement/direction keys
       <tfoot>
         <tr>
           <td colspan="4">
-            <p><span class="asterisk">*</span> Combine with <kbd>Ctrl</kbd> for 5 cell jumps.</p>
-            <p><span class="sc">NumLock</span> must be off to use the numeric
-            keypad for navigation.<p>
+            <p>
+              <span class="sc">Vim</span> movement keys are not available in <span class="sc">Walk Mode</span>.
+            </p>
+            <p>
+              <span class="asterisk">*</span>
+              Combine with <kbd>Ctrl</kbd> for 5 cell jumps, or <kbd>Shift</kbd> for pan.
+            </p>
+            <p>
+              <span class="dagger">†</span>
+              <span class="sc">NumLock</span> must be off to use the numeric keypad for navigation.
+            <p>
           </td>
         </tr>
       </tfoot>
@@ -196,25 +212,25 @@ Movement/direction keys
       <tbody class="no-padding">
         <tr>
           <td><kbd>&larr;</kbd><span class="asterisk">*</span></td>
-          <td><kbd>kp 4</kbd><span class="asterisk">*</span></td>
+          <td><kbd>kp 4</kbd><span class="asterisk">*</span><span class="dagger">†</span></td>
           <td><kbd>A</kbd></td>
           <td>Strafe left</td>
         </tr>
         <tr>
           <td><kbd>&rarr;</kbd><span class="asterisk">*</span></td>
-          <td><kbd>kp 6</kbd><span class="asterisk">*</span></td>
+          <td><kbd>kp 6</kbd><span class="asterisk">*</span><span class="dagger">†</span></td>
           <td><kbd>D</kbd></td>
           <td>Strafe right</td>
         </tr>
         <tr>
           <td><kbd>&uarr;</kbd><span class="asterisk">*</span></td>
-          <td><kbd>kp 8</kbd><span class="asterisk">*</span></td>
+          <td><kbd>kp 8</kbd><span class="asterisk">*</span><span class="dagger">†</span></td>
           <td><kbd>W</kbd></td>
           <td>Forward</td>
         </tr>
         <tr>
           <td><kbd>&darr;</kbd><span class="asterisk">*</span></td>
-          <td><kbd>kp 2</kbd><kbd>kp 5</kbd><span class="asterisk">*</span></td>
+          <td><kbd>kp 2</kbd><kbd>kp 5</kbd><span class="asterisk">*</span><span class="dagger">†</span></td>
           <td><kbd>S</kbd></td>
           <td>Backward</td>
         </tr>
@@ -236,81 +252,8 @@ Movement/direction keys
 
 .. rst-class:: style3
 
-Dialogs
-=======
-
-.. raw:: html
-
-    <table class="shortcuts">
-      <tbody class="no-padding">
-        <tr>
-          <td>
-            <span class="group">
-              <kbd class="compound">
-                <kbd>Ctrl</kbd>+<kbd class="move">Std move Left/Right</kbd>
-              </kbd>
-            </span>
-            <span class="group">
-              <kbd class="compound">
-                <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Tab</kbd>/<kbd>Ctrl</kbd>+<kbd>Tab</kbd>
-              </kbd>
-            </span>
-          </td>
-          <td>Previous/next tab</td>
-        </tr>
-        <tr>
-          <td>
-            <kbd class="compound">
-              <kbd>Ctrl</kbd>+<kbd>1</kbd>-<kbd>9</kbd>
-            </kbd>
-          </td>
-          <td>Go to <em>N</em>th tab</td>
-        </tr>
-        <tr>
-          <td>
-            <kbd class="compound">
-              <kbd>Shift</kbd>+<kbd>Tab</kbd>/<kbd>Tab</kbd>
-            </kbd>
-          </td>
-          <td>Previous/next text input field</td>
-        </tr>
-        <td>
-          <kbd class="move">Std move</kbd>
-        </td>
-        <td>Change selected radio button</td>
-        <tr>
-          <td>
-            <kbd>Enter</kbd> <kbd>kp Enter</kbd>
-          </td>
-          <td>Confirm (OK, Save, etc.)</td>
-        </tr>
-        <tr>
-          <td>
-            <span class="group">
-              <kbd>Esc</kbd> or
-            </span>
-            <kbd class="compound group">
-              <kbd>Ctrl</kbd>+<kbd>[</kbd>
-            </kbd>
-          </td>
-          <td>Cancel</td>
-        </tr>
-        <tr>
-          <td>
-            <kbd class="compound">
-              <kbd>Alt</kbd>+<kbd>D</kbd>
-            </kbd>
-          </td>
-          <td>Discard</td>
-        </tr>
-      </tbody>
-    </table>
-
-
-.. rst-class:: style3
-
-Normal mode
-===========
+Edit mode
+=========
 
 .. raw:: html
 
@@ -366,7 +309,7 @@ Normal mode
           <td>
             <kbd>`</kbd><br>(<em>grave accent</em>, or <em>backtick</em> key)
           </td>
-          <td>Switch between <em>Normal &amp; Walk Mode</em></td>
+          <td>Toggle <em>Walk Mode</em></td>
         </tr>
         <tr>
           <td>
@@ -546,7 +489,7 @@ Normal mode
           <td>
             <kbd>Space</kbd>
           </td>
-          <td>Display note tooltip</td>
+          <td>Toggle display note tooltip</td>
         </tr>
       </tbody>
 
@@ -582,7 +525,7 @@ Normal mode
               <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>U</kbd>
             </kbd>
           </td>
-          <td>Edit preferences</td>
+          <td>Preferences</td>
         </tr>
       </tbody>
 
@@ -598,7 +541,7 @@ Normal mode
         <tr>
           <td>
             <kbd class="compound">
-              <kbd>Ctrl</kbd>+<kbd>/</kbd>
+              <kbd>Shift</kbd>+<kbd>/</kbd>
             </kbd>
           </td>
           <td>Show quick keyboard reference</td>
@@ -632,8 +575,8 @@ Normal mode
           </td>
           <td>
             Excavate (Draw tunnel)
-            <p>Not available in WASD Mode<br>
-            (use left-mouse button instead)</p>
+            <p>Not available in <span class="sc">WASD Mode</span><br>
+            (use Left Mouse Button instead)</p>
           </td>
         </tr>
         <tr>
@@ -644,8 +587,8 @@ Normal mode
           </td>
           <td>
             Clear floor &amp; walls (Erase cell)
-            <p>Not available in WASD + walk Mode<br>
-            (use middle-mouse button instead)</p>
+            <p>Not available in <span class="sc">WASD + Walk Mode</span><br>
+            (use Middle Mouse Button instead)</p>
           </td>
         </tr>
         <tr>
@@ -718,8 +661,8 @@ Normal mode
           </td>
           <td>
             Toggle wall in direction
-            <p>Not available in WASD Mode<br>
-            (use right-mouse button instead)</p>
+            <p>Not available in <span class="sc">WASD Mode</span><br>
+            (use Right Mouse Button instead)</p>
           </td>
         </tr>
         <tr>
@@ -730,8 +673,8 @@ Normal mode
           </td>
           <td>
             Toggle special wall in direction
-            <p>Also right+left mouse button<br>
-            in WASD Mode</p>
+            <p>Also Right+Left Mouse Button<br>
+            in <span class="sc">WASD Mode</span></p>
           </td>
         </tr>
         <tr>
@@ -983,7 +926,7 @@ Select (Mark) Mode
               <kbd>Ctrl</kbd>+<kbd>[</kbd>
             </kbd>
           </td>
-          <td>Return to <em>Edit Mode</em></td>
+          <td>Cancel selection &amp; exit <em>Select Mode</em></td>
         </tr>
       </tbody>
 
@@ -1006,18 +949,6 @@ Select (Mark) Mode
         </tr>
         <tr>
           <td>
-            <kbd>A</kbd>
-          </td>
-          <td>Select the whole level (Select All)</td>
-        </tr>
-        <tr>
-          <td>
-            <kbd>U</kbd>
-          </td>
-          <td>Clear the selection (Unselect All)</td>
-        </tr>
-        <tr>
-          <td>
             <kbd class="compound">
               <kbd>R</kbd>+<kbd class="move">Std move</kbd>
             </kbd>
@@ -1031,6 +962,18 @@ Select (Mark) Mode
             </kbd>
           </td>
           <td>Subtract rectangular area from selection</td>
+        </tr>
+        <tr>
+          <td>
+            <kbd>A</kbd>
+          </td>
+          <td>Select the whole level (Mark All)</td>
+        </tr>
+        <tr>
+          <td>
+            <kbd>U</kbd>
+          </td>
+          <td>Clear selection (Unmark All)</td>
         </tr>
       </tbody>
 
@@ -1051,14 +994,6 @@ Select (Mark) Mode
         <tr>
           <td>
             <kbd class="compound">
-              <kbd>Ctrl</kbd>+<kbd>M</kbd>
-            </kbd>
-          </td>
-          <td>Move selection (cut &amp; paste)</td>
-        </tr>
-        <tr>
-          <td>
-            <kbd class="compound">
               <kbd>Ctrl</kbd>+<kbd>E</kbd>
             </kbd>
           </td>
@@ -1071,14 +1006,6 @@ Select (Mark) Mode
             </kbd>
           </td>
           <td>Fill selection</td>
-        </tr>
-        <tr>
-          <td>
-            <kbd class="compound">
-              <kbd>Ctrl</kbd>+<kbd>C</kbd>
-            </kbd>
-          </td>
-          <td>Set floor colour of selection</td>
         </tr>
         <tr>
           <td>
@@ -1096,11 +1023,27 @@ Select (Mark) Mode
           </td>
           <td>Crop level to selection</td>
         </tr>
+        <tr>
+          <td>
+            <kbd class="compound">
+              <kbd>Ctrl</kbd>+<kbd>M</kbd>
+            </kbd>
+          </td>
+          <td>Move selection</td>
+        </tr>
+        <tr>
+          <td>
+            <kbd class="compound">
+              <kbd>Ctrl</kbd>+<kbd>C</kbd>
+            </kbd>
+          </td>
+          <td>Set floor colour of selection</td>
+        </tr>
       </tbody>
     </table>
 
 
-.. rst-class:: style5 big
+.. rst-class:: style3
 
 Paste/Nudge/Move Preview Mode
 =============================
@@ -1157,6 +1100,79 @@ Paste/Nudge/Move Preview Mode
           </kbd>
         </td>
         <td>Cancel</td>
+      </tbody>
+    </table>
+
+
+.. rst-class:: style5 big
+
+Dialogs
+=======
+
+.. raw:: html
+
+    <table class="shortcuts">
+      <tbody class="no-padding">
+        <tr>
+          <td>
+            <span class="group">
+              <kbd class="compound">
+                <kbd>Ctrl</kbd>+<kbd class="move">Std move Left/Right</kbd>
+              </kbd>
+            </span>
+            <span class="group">
+              <kbd class="compound">
+                <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Tab</kbd>/<kbd>Ctrl</kbd>+<kbd>Tab</kbd>
+              </kbd>
+            </span>
+          </td>
+          <td>Previous/next tab</td>
+        </tr>
+        <tr>
+          <td>
+            <kbd class="compound">
+              <kbd>Ctrl</kbd>+<kbd>1</kbd>-<kbd>9</kbd>
+            </kbd>
+          </td>
+          <td>Go to <em>N</em>th tab</td>
+        </tr>
+        <tr>
+          <td>
+            <kbd class="compound">
+              <kbd>Shift</kbd>+<kbd>Tab</kbd>/<kbd>Tab</kbd>
+            </kbd>
+          </td>
+          <td>Previous/next text input field</td>
+        </tr>
+        <td>
+          <kbd class="move">Std move</kbd>
+        </td>
+        <td>Change selected radio button</td>
+        <tr>
+          <td>
+            <kbd>Enter</kbd> <kbd>kp Enter</kbd>
+          </td>
+          <td>Confirm (OK, Save, etc.)</td>
+        </tr>
+        <tr>
+          <td>
+            <span class="group">
+              <kbd>Esc</kbd> or
+            </span>
+            <kbd class="compound group">
+              <kbd>Ctrl</kbd>+<kbd>[</kbd>
+            </kbd>
+          </td>
+          <td>Cancel</td>
+        </tr>
+        <tr>
+          <td>
+            <kbd class="compound">
+              <kbd>Alt</kbd>+<kbd>D</kbd>
+            </kbd>
+          </td>
+          <td>Discard</td>
+        </tr>
       </tbody>
     </table>
 

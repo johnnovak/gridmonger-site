@@ -204,6 +204,13 @@ cursor movement. Editing, however, is a little different. See
 :ref:`basic-editing:Editing in WASD Mode` to learn more about editing with the
 mouse in this mode.
 
+.. note::
+   In *WASD Mode*, you cannot use the :kbd:`Ctrl` movement modifier with the
+   :kbd:`W`:kbd:`A`:kbd:`S`:kbd:`D` keys for 5-cell jumps because that would
+   interfere with other shortcuts. You can use the :kbd:`Shift` modifier,
+   howerer, and both the :kbd:`Ctrl` and :kbd:`Shift` modifiers are available
+   with the other movement keys.
+
 
 .. rst-class:: style2
 
@@ -266,15 +273,8 @@ movement keys become a bit more interesting:
 
 Admittedly, this is the most complex mode, and while some people might find it
 really useful, if it doesn't click with you, don't feel compelled to use it.
-In fact, I (the author) pretty much only use *Normal Mode*, even when playing
-real-time dungeon crawlers...
-
-.. note::
-   In *WASD Mode*, you cannot use the :kbd:`Ctrl` movement modifier with the
-   :kbd:`W`:kbd:`A`:kbd:`S`:kbd:`D` keys for 5-cell jumps because that would
-   interfere with other shortcuts. However, all movement modifiers are still
-   available with the other movement keys.
-
+In fact, *yours truly* pretty much only use *Normal Mode*, even when playing
+real-time dungeon crawlers with WASD controls...
 
 
 .. rst-class:: style3 big
@@ -288,9 +288,9 @@ are a number of other shortcuts you can use in dialogs.
 :kbd:`Tab` and :kbd:`Shift+Tab` cycle between text fields in forward and
 reverse order, respectively.
 
-To switch between the tabs, hold :kbd:`Ctrl` and press the left or
-right navigation keys. To jump to the *N*\ th tab, press :kbd:`Ctrl`\
-+\ *N*, where *N* is a number key.
+To switch between tabs, hold :kbd:`Ctrl` and press the left or right
+navigation key. To jump to the *N*\ th tab, press :kbd:`Ctrl`\ +\ *N*, where
+*N* is a number key (from the top row of the keyboard).
 
 In some dialogs, you need to select something from a list of options (e.g. an
 icon or a colour). You can use the navigation keys to do that. (You will see
@@ -317,7 +317,7 @@ Finally, you can press :kbd:`Alt+D` to select the **Discard** option.
 .. admonition:: About Vim
    :class: sidenote about-vim
 
-   If you're not a programmer, you're probably wondering what the heck this
+   If you're not a programmer, you're probably wondering what the hell this
    Vim thing is about! In short, Vim is a programmer's text-editor for people
    who know how to touch type. One of its iconic features is to allow typists
    to move the cursor without lifting their hands from the `home row

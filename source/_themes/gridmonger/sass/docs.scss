@@ -387,6 +387,17 @@ article {
 
   span.asterisk {
     font-size: 1.2em;
+    font-style: normal;
+    line-height: 1;
+  }
+  span.dagger {
+    position: relative;
+    top: -0.4em;
+    font-family: "Noto Serif";
+    font-weight: bold;
+    font-style: normal;
+    font-size: 0.8em;
+    padding-left: 0.07em;
     line-height: 1;
   }
 

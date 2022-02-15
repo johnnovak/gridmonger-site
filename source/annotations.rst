@@ -10,46 +10,46 @@ annotations available: *notes* and *labels*.
 Notes
 =====
 
-A *note* is a textual comment linked to a cell. Notes can
-optionally have a marker, which is some symbol that is displayed in the cell.
-There are four marker types to choose from:
+A *note* is a textual comment linked to a cell. Notes can optionally have a
+marker, which is some symbol that is displayed in the cell. There are four
+marker types to choose from:
 
 None
     No marker; only a little triangle is displayed in the top-right corner of
     the cell.
 
 Number
-    An automatically-incrementing number inside a disc. The colour of the disc
-    can be chosen from four predefined colours.
+    An automatically incrementing number. The background colour can be chosen
+    from four predefined colours.
 
-    Numbers are assigned in left-to-right then top-to-bottom, normal English
-    reading order. Numbering restarts from 1 on each level. Notes are
+    Numbers are assigned in left-to-right then top-to-bottom (normal English
+    reading order). Numbering restarts from 1 on each level. Notes are
     renumbered automatically whenever a new numbered item is added, or an
-    existing one is deleted, 
+    existing one is deleted.
 
 ID
-    An identifier of up to two characters consisting of English letters and
-    numbers.
+    An identifier of up to two characters in length consisting of English
+    letters or numbers.
 
 Icon
     An icon chosen from a predefined set of 40 icons.
 
-To create a note, press the :kbd:`N` key in a non-empty cell.
-A cell cannot have more than one note; if you press :kbd:`N` in a cell
-that already contains a note, you'll be editing it. To erase
-a note, press :kbd:`Shift+N`.
+To create a note, press the :kbd:`N` key in a non-empty cell. A cell cannot
+have more than one note; if you press :kbd:`N` in a cell that already has one,
+you'll be editing it. To erase a note, press :kbd:`Shift+N`.
 
 You can insert line breaks into the note text with :kbd:`Shift+Enter`.
 
-If the cell already has some content (e.g. a pressure plate or a teleport),
-placing a note with a marker in it overwrites its previous content. If you
-want to keep the cell's content, just use the **None** note type, which just
-displays a little triangle in the top-right corner while keeping the cell's
-content intact.
+If the cell's floor is non-empty (e.g. it contains a pressure plate or a
+teleport), placing a note of type **Number**, **ID** or **Icon** will clear
+its content. If you want to preserve the cell's content, use the **None**
+marker type, which will only display a little triangle in the top-right corner
+of the cell while keeping its content intact.
 
-Conversely, if you overwrite a marker-type note with some cell content (e.g.
-a teleport), the note won't be deleted, but it will be converted to the
-**None** type, so the new cell content and the note can coexist.
+Conversely, if you overwrite a note of type **Number**, **ID** or **Icon**
+with some cell content (e.g. a teleport), the note won't be deleted, but it
+will be converted to the **None** marker type, so the new cell content and the
+note can coexist.
 
 The note under the cursor is displayed in the *notes pane* below the level,
 which can be toggled with :kbd:`Alt+N`. You can also hover over a cell with
@@ -62,7 +62,7 @@ cursor.
     As creating and editing notes are very frequently used actions, special
     care has been taken to make the note dialog fully keyboard operable.
 
-    Use :kbd:`Ctrl` with the horizontal movement keys to navigate between the
+    Press :kbd:`Ctrl` and the horizontal movement keys to navigate between the
     tabs. Hold :kbd:`Ctrl` and press keys :kbd:`1` to :kbd:`4` to jump to
     a specific tab.
 
@@ -76,10 +76,10 @@ cursor.
 Labels
 ======
 
-*Labels* are text overlaid on top of the level. Placing a label in a cell
-overwrites its previous content, including notes.  Contrary to notes, you can
-attach labels to empty cells as well. This is useful when placing labels in
-empty areas around the level, rather than on top of it.
+A *label* is just some text overlaid on top of the level. Placing a label in a
+cell overwrites its previous content, including notes.  In contrast with
+notes, you can attach labels to empty cells as well. This is useful when
+placing labels in empty areas around the level, rather than on top of it.
 
 To create a label starting from a cell, go to the cell and press
 :kbd:`Ctrl+T`. You can select the colour of the label from four predefined

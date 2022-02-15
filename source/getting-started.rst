@@ -121,7 +121,7 @@ A few notes for the impatient to get started.
 
 .. rst-class:: multiline
 
-- Press :kbd:`Shift+/` to display the Quick Keyboard Reference
+- Press :kbd:`Shift+/` to display the quick keyboard reference
 - Press :kbd:`F1` to open the manual in your default browser
 
 

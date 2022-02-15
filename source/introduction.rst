@@ -6,11 +6,11 @@ Introduction
 
 A few years ago, I decided to play some old-school dungeon crawlers that I had
 missed out on as kid, so I started looking for some software tool to replace
-traditional pen-and-paper mapping. Unfortunately, none of the readily
+traditional pencil-and-paper mapping. Unfortunately, none of the readily
 available solutions were to my liking.  Spreadsheet applications (a popular
 choice among many cRPG enthusiasts) are too fiddly and slow to work with, and
 the dungeon mapping tools I could find were either overcomplicated, too
-barebones, unattractive, or just didn't have the type of keyboard-driven
+bare-bones, unattractive, or just didn't have the type of keyboard-driven
 interface I was looking for.
 
 And that last point is the critical one. A cRPG with say ten 32×32 dungeons
