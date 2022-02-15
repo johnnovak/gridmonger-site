@@ -147,12 +147,12 @@ Movement/direction keys
         </tr>
         <tr>
           <td>&ndash;</td>
-          <td><kbd>kp 7</kbd></td>
+          <td><kbd>kp 7</kbd><span class="dagger">†</span></td>
           <td>Turn left</td>
         </tr>
         <tr>
           <td>&ndash;</td>
-          <td><kbd>kp 9</kbd></td>
+          <td><kbd>kp 9</kbd><span class="dagger">†</span></td>
           <td>Turn right</td>
         </tr>
       </tbody>
@@ -236,13 +236,13 @@ Movement/direction keys
         </tr>
         <tr>
           <td>&ndash;</td>
-          <td><kbd>kp 7</kbd></td>
+          <td><kbd>kp 7</kbd><span class="dagger">†</span></td>
           <td><kbd>Q</kbd></td>
           <td>Turn left</td>
         </tr>
         <tr>
           <td>&ndash;</td>
-          <td><kbd>kp 9</kbd></td>
+          <td><kbd>kp 9</kbd><span class="dagger">†</span></td>
           <td><kbd>E</kbd></td>
           <td>Turn right</td>
         </tr>
