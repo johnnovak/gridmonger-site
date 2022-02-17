@@ -1,9 +1,10 @@
 @use 'fonts';
 @use 'sass:color';
 
-$body-font:      'Alegreya', serif;
-$smallcaps-font: 'Alegreya SC', serif;
-$icons-font:     'icons';
+$body-font:          'Alegreya', serif;
+$smallcaps-font:     'Alegreya SC', serif;
+$extra-symbols-font: 'Noto Serif';
+$icons-font:         'icons';
 
 $bg-color:     #d8d0c5;
 $fg-color:     #4e4336;

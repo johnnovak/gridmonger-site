@@ -326,6 +326,50 @@ direction. So if you want to flip the direction of arrow, just go to the "other
 side" of the door and draw it again!
 
 
+Draw wall repeat
+================
+
+TODO
+
+.. raw:: html
+
+    <div class="figure">
+      <a href="_static/img/draw-wall-repeat.png" class="glightbox">
+        <img alt="Drawing a spiral with the draw wall repeat tool" src="_static/img/draw-wall-repeat.png" style="width: 40%;">
+      </a>
+        <p class="caption">
+          <span>Drawing a spiral with the draw wall repeat tool</span>
+        </p>
+    </div>
+
+
+Move the cursor to ``1``, hold down :kbd:`W` and keep it held down until you
+have reached ``6`` while carrying out the following:
+
+1. Press :kbd:`←`, hold down :kbd:`Shift` and press :kbd:`↑` twice,
+   release :kbd:`Shift`.
+
+2. Press :kbd:`↑`, hold down :kbd:`Shift` and press :kbd:`→` twice,
+   release :kbd:`Shift`.
+
+3. Press :kbd:`→`, hold down :kbd:`Shift` and press :kbd:`↓` twice,
+   release :kbd:`Shift`.
+
+4. Press :kbd:`↓`, hold down :kbd:`Shift` and press :kbd:`←`,
+   release :kbd:`Shift`.
+
+5. Press :kbd:`←`, hold down :kbd:`Shift` and press :kbd:`↑`,
+   release :kbd:`Shift`.
+
+6. Press :kbd:`↑`, then press :kbd:`→`. You can release :kbd:`W` now, the
+   spiral has been completed!
+
+
+Now go and draw a few more spirals and similar shapes on your own. Do things
+slowly and pay attention to the messages in the status bar. After a few
+minutes of practice using the repeat tool should become second nature to you.
+
+
 .. rst-class:: style1
 
 Trail Mode

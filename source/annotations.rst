@@ -14,6 +14,19 @@ A *note* is a textual comment linked to a cell. Notes can optionally have a
 marker, which is some symbol that is displayed in the cell. There are four
 marker types to choose from:
 
+
+.. raw:: html
+
+    <div class="figure">
+      <a href="_static/img/annotations-types.png" class="glightbox">
+        <img alt="Examples of the four different marker types" src="_static/img/annotations-types.png" style="width: 70%;">
+      </a>
+        <p class="caption">
+          <span>Examples of the four different marker types</span>
+        </p>
+    </div>
+
+
 None
     No marker; only a little triangle is displayed in the top-right corner of
     the cell.
@@ -33,6 +46,19 @@ ID
 
 Icon
     An icon chosen from a predefined set of 40 icons.
+
+
+.. raw:: html
+
+    <div class="figure">
+      <a href="_static/img/annotations-icons.png" class="glightbox">
+        <img alt="Annotation icon set" src="_static/img/annotations-icons.png" style="width: 70%;">
+      </a>
+        <p class="caption">
+          <span>Annotation icon set</span>
+        </p>
+    </div>
+
 
 To create a note, press the :kbd:`N` key in a non-empty cell. A cell cannot
 have more than one note; if you press :kbd:`N` in a cell that already has one,
@@ -90,4 +116,16 @@ press :kbd:`Ctrl+T`.
 
 You can erase a label with :kbd:`Shift+T`.
 
+
+.. raw:: html
+
+    <div class="figure">
+      <a href="_static/img/annotations-labels.png" class="glightbox">
+        <img alt="Example use of labels" src="_static/img/annotations-labels.png">
+      </a>
+        <p class="caption">
+          <span>Example use of labels &mdash; note that all but one reside
+          in empty areas</span>
+        </p>
+    </div>
 

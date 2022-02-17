@@ -30,6 +30,20 @@ preserved (and potentially converted to a **None** marker type). Once a link
 has been created, you can see small triangles in the bottom-left corner of
 the two linked cells.
 
+
+.. raw:: html
+
+    <div class="figure">
+      <a href="_static/img/cell-links.png" class="glightbox">
+        <img alt="Cell link examples" src="_static/img/cell-links.png"
+        style="width: 37%">
+      </a>
+        <p class="caption">
+          <span>Cell link examples</span>
+        </p>
+    </div>
+
+
 To jump back and forth between two linked cells, place the cursor at either
 end of the link, then press :kbd:`G`.
 
@@ -85,6 +99,19 @@ you need to enter *Select (Mark) Mode* by pressing :kbd:`M`. The cursor
 will turn into a crosshair, and you will see the list of available actions for
 manipulating the selection in the status bar.
 
+
+.. raw:: html
+
+    <div class="figure">
+      <a href="_static/img/selections.png" class="glightbox">
+        <img alt="Making a non-contiguous selection in Select Mode" src="_static/img/selections.png" style="width: 80%;">
+      </a>
+        <p class="caption">
+          <span>Making a non-contiguous selection in Select Mode</span>
+        </p>
+    </div>
+
+
 To add a rectangular area to the selection, hold :kbd:`R` and use the movement
 keys. For simplicity's sake, you can only use :ref:`moving-around:Normal
 mode` movement keys when working with selections, regardless of the currently
@@ -109,6 +136,20 @@ Mode* where you can place the selection interactively with the movement keys
 (usually shown in a light-blue overlay, which is, again, theme-dependent),
 then perform the paste action by pressing :kbd:`Enter`, or cancel it with
 :kbd:`Esc`.
+
+
+.. raw:: html
+
+    <div class="figure">
+      <a href="_static/img/paste-preview.png" class="glightbox">
+        <img alt="Pasting a cut selection in Paste Preview Mode" src="_static/img/paste-preview.png" style="width: 80%;">
+      </a>
+        <p class="caption">
+          <span>Pasting a cut selection in Paste Preview Mode</span>
+        </p>
+    </div>
+
+
 
 .. note::
 

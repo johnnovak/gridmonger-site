@@ -74,6 +74,14 @@ advice for running such apps applies (you'll need to grant the
 necessary permissions, etc.)
 
 
+Interface overview
+==================
+
+TODO
+
+TODO insert image with numbers
+
+
 .. rst-class:: style4 big
 
 Quickstart

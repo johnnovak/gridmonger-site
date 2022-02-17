@@ -16,7 +16,6 @@ the world map is one large 80×64 grid subdivided into 20 regions, each with a
 grid size of 16×16. The full world map is included in the ``Example Maps``
 folder under the name ``Might and Magic I``.
 
-
 .. raw:: html
 
     <div class="figure">
@@ -33,7 +32,6 @@ Another good example is the ``Pool of Radiance`` map, which contains a
 partial map of the City of Phlan from the `SSI Gold Box
 <https://en.wikipedia.org/wiki/Gold_Box>`_ game `Pool of Radiance
 <https://en.wikipedia.org/wiki/Pool_of_Radiance>`_.
-
 
 .. raw:: html
 

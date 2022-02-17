@@ -30,3 +30,4 @@ Appendixes
    Keyboard shortcuts <appendixes/keyboard-shortcuts>
    User data folder <appendixes/user-data-folder>
    Advanced usage <appendixes/advanced-usage>
+   Reporting issues <appendixes/reporting-issues>

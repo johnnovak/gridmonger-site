@@ -64,10 +64,18 @@
   font-style: italic;
   font-display: block;
 }
+/* Noto Serif Bold */
+@font-face {
+  font-family: "Noto Serif";
+  src: url("../font/subset-NotoSerif-Bold.woff2") format("woff2"), url("../font/subset-NotoSerif-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: block;
+}
 /* Icons */
 @font-face {
   font-family: "icons";
-  src: url("../font/icons.woff") format("woff");
+  src: url("../font/icons.woff") format("woff2"), url("../font/icons.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -668,7 +676,7 @@ article span.asterisk {
 article span.dagger {
   position: relative;
   top: -0.4em;
-  font-family: "Noto Serif";
+  font-family: serif;
   font-weight: bold;
   font-style: normal;
   font-size: 0.8em;
