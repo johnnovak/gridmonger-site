@@ -329,7 +329,13 @@ side" of the door and draw it again!
 Draw wall repeat
 ================
 
-TODO
+So far we've seen how to draw walls in a single cell, but what if you want to draw a long continuous wall?
+
+After you have set or cleared a wall in a cell, there is a way to repeat
+that action horizontally or vertically, depending on the orientation of the
+wall you've just manipulated. So if you've set or clearned the north or south wall, you
+may repeat that action in adjacent cells in the vertical direction, and
+similarly in the horizontal direction for east and west walls.
 
 .. raw:: html
 
