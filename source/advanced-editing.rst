@@ -36,7 +36,7 @@ the two linked cells.
     <div class="figure">
       <a href="_static/img/cell-links.png" class="glightbox">
         <img alt="Cell link examples" src="_static/img/cell-links.png"
-        style="width: 37%">
+        style="width: 35%">
       </a>
         <p class="caption">
           <span>Cell link examples</span>
@@ -99,19 +99,6 @@ you need to enter *Select (Mark) Mode* by pressing :kbd:`M`. The cursor
 will turn into a crosshair, and you will see the list of available actions for
 manipulating the selection in the status bar.
 
-
-.. raw:: html
-
-    <div class="figure">
-      <a href="_static/img/selections.png" class="glightbox">
-        <img alt="Making a non-contiguous selection in Select Mode" src="_static/img/selections.png" style="width: 80%;">
-      </a>
-        <p class="caption">
-          <span>Making a non-contiguous selection in Select Mode</span>
-        </p>
-    </div>
-
-
 To add a rectangular area to the selection, hold :kbd:`R` and use the movement
 keys. For simplicity's sake, you can only use :ref:`moving-around:Normal
 mode` movement keys when working with selections, regardless of the currently
@@ -124,6 +111,19 @@ Similarly, you can "draw" the selection or "erase" from it by using the
 :kbd:`D` and :kbd:`E` modifier keys with the movement keys, respectively.
 :kbd:`A` selects the whole level (*Select All*), and :kbd:`U` clears the
 selection (*Unselect All*).
+
+
+.. raw:: html
+
+    <div class="figure">
+      <a href="_static/img/selections.png" class="glightbox">
+        <img alt="Marking a non-contiguous area in Select Mode" src="_static/img/selections.png" style="width: 77%;">
+      </a>
+        <p class="caption">
+          <span>Marking a non-contiguous area in Select Mode</span>
+        </p>
+    </div>
+
 
 When you're happy with your selection, it's time to perform an action on it.
 :kbd:`C` (or :kbd:`Y`) copies (yanks) the selected cells into the paste buffer
@@ -142,10 +142,10 @@ then perform the paste action by pressing :kbd:`Enter`, or cancel it with
 
     <div class="figure">
       <a href="_static/img/paste-preview.png" class="glightbox">
-        <img alt="Pasting a cut selection in Paste Preview Mode" src="_static/img/paste-preview.png" style="width: 80%;">
+        <img alt="Pasting a cut selection in Paste Preview Mode" src="_static/img/paste-preview.png" style="width: 77%;">
       </a>
         <p class="caption">
-          <span>Pasting a cut selection in Paste Preview Mode</span>
+          <span>Pasting the contents of the paste buffer in Paste Preview Mode</span>
         </p>
     </div>
 

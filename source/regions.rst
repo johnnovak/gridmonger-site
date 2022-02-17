@@ -20,10 +20,10 @@ folder under the name ``Might and Magic I``.
 
     <div class="figure">
       <a href="_static/img/mm1-regions.png" class="glightbox">
-        <img alt="Might and Magic I &mdash; World map (excerpt)" src="_static/img/mm1-regions.png">
+        <img alt="Might and Magic I &mdash; Map of VARN (excerpt)" src="_static/img/mm1-regions.png">
       </a>
         <p class="caption">
-          <span>Might and Magic I &mdash; World map (excerpt)</span>
+          <span><a class="reference external" href="https://en.wikipedia.org/wiki/Might_and_Magic_Book_One:_The_Secret_of_the_Inner_Sanctum">Might and Magic I</a> &mdash; Map of VARN (excerpt)</span>
         </p>
     </div>
 
@@ -40,7 +40,7 @@ partial map of the City of Phlan from the `SSI Gold Box
         <img alt="Pool of Radiance — Phlan (excerpt)" src="_static/img/por-regions.png">
       </a>
         <p class="caption">
-          <span>Might and Magic I — World map (excerpt)</span>
+          <span><a class="reference external" href="https://en.wikipedia.org/wiki/Pool_of_Radiance">Pool of Radiance</a> — Phlan (excerpt)</span>
         </p>
     </div>
 

@@ -19,7 +19,7 @@ marker types to choose from:
 
     <div class="figure">
       <a href="_static/img/annotations-types.png" class="glightbox">
-        <img alt="Examples of the four different marker types" src="_static/img/annotations-types.png" style="width: 70%;">
+        <img alt="Examples of the four different marker types" src="_static/img/annotations-types.png" style="width: 67%;">
       </a>
         <p class="caption">
           <span>Examples of the four different marker types</span>
@@ -52,7 +52,7 @@ Icon
 
     <div class="figure">
       <a href="_static/img/annotations-icons.png" class="glightbox">
-        <img alt="Annotation icon set" src="_static/img/annotations-icons.png" style="width: 70%;">
+        <img alt="Annotation icon set" src="_static/img/annotations-icons.png" style="width: 65%;">
       </a>
         <p class="caption">
           <span>Annotation icon set</span>

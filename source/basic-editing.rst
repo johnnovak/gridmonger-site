@@ -335,7 +335,7 @@ TODO
 
     <div class="figure">
       <a href="_static/img/draw-wall-repeat.png" class="glightbox">
-        <img alt="Drawing a spiral with the draw wall repeat tool" src="_static/img/draw-wall-repeat.png" style="width: 40%;">
+        <img alt="Drawing a spiral with the draw wall repeat tool" src="_static/img/draw-wall-repeat.png" style="width: 37%;">
       </a>
         <p class="caption">
           <span>Drawing a spiral with the draw wall repeat tool</span>
