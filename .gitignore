@@ -5,5 +5,3 @@ build
 *.grm
 .DS_Store
 ._*
-
-/docs

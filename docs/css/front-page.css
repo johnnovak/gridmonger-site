@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* Alegreya */
+@font-face {
+  font-family: "Alegreya";
+  src: url("../font/subset-Alegreya-Medium.woff2") format("woff2"), url("../font/subset-Alegreya-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Alegreya";
+  src: url("../font/subset-Alegreya-MediumItalic.woff2") format("woff2"), url("../font/subset-Alegreya-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Alegreya";
+  src: url("../font/subset-Alegreya-Bold.woff2") format("woff2"), url("../font/subset-Alegreya-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Alegreya";
+  src: url("../font/subset-Alegreya-BoldItalic.woff2") format("woff2"), url("../font/subset-Alegreya-BoldItalic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Alegreya";
+  src: url("../font/subset-Alegreya-ExtraBold.woff2") format("woff2"), url("../font/subset-Alegreya-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+/* Alegreya SC */
+@font-face {
+  font-family: "Alegreya SC";
+  src: url("../font/subset-AlegreyaSC-Medium.woff2") format("woff2"), url("../font/subset-AlegreyaSC-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Alegreya SC";
+  src: url("../font/subset-AlegreyaSC-MediumItalic.woff2") format("woff2"), url("../font/subset-AlegreyaSC-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Alegreya SC";
+  src: url("../font/subset-AlegreyaSC-Bold.woff2") format("woff2"), url("../font/subset-AlegreyaSC-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Alegreya SC";
+  src: url("../font/subset-AlegreyaSC-BoldItalic.woff2") format("woff2"), url("../font/subset-AlegreyaSC-BoldItalic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+/* Fertigo Pro */
+@font-face {
+  font-family: "Fertigo Pro";
+  src: url("../font/subset-FertigoPro-Regular.woff2") format("woff2"), url("../font/subset-FertigoPro-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* DejaVu Sans */
+@font-face {
+  font-family: "DejaVu Sans";
+  src: url("../font/subset-DejaVuSans.woff2") format("woff2"), url("../font/subset-DejaVuSans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  font: 500 5vw/1.5em "Alegreya SC", serif;
+}
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #d8d0c5;
+  color: #4e4336;
+}
+p {
+  margin: 0.5em 0 0 0;
+  text-align: center;
+}
+h1 {
+  margin: 1em 0 0 0;
+}
+h1 > img {
+  display: block;
+  width: 100%;
+  max-width: 905px;
+  margin: 0 auto;
+}
+
+@media (min-width: 688px) {
+  html {
+    font-size: 34px;
+  }
+
+  h1 {
+    font-size: 64px;
+  }
+}
