@@ -140,7 +140,7 @@ are bit harder to figure out, so let's say a few words about them:
    it.
 
 
-.. rst-class:: style2 big
+.. rst-class:: style3 big
 
 Theme files
 ===========
