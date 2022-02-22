@@ -127,38 +127,39 @@ selection (*Unselect All*).
 
 When you're happy with your selection, it's time to perform an action on it.
 :kbd:`C` (or :kbd:`Y`) copies (yanks) the selected cells into the paste buffer
-and returns to *Edit Mode*. To cut the selection instead of copying it, press
-:kbd:`X`.
+and returns to *Edit Mode*.
+
+.. tip::
+
+  You can left-click with the mouse to set the cursor location in *Select
+  Mode* too. This opens up some interesting possibilities, e.g. you can draw
+  selections with the mouse when used in conjunction with the :kbd:`D` and
+  :kbd:`E` modifiers.
+
 
 You can paste the contents of the buffer at the current cursor position by
-pressing :kbd:`P`. If you press :kbd:`Shift+P`, you'll enter *Paste Preview
-Mode* where you can place the selection interactively with the movement keys
-(usually shown in a light-blue overlay, which is, again, theme-dependent),
-then perform the paste action by pressing :kbd:`Enter`, or cancel it with
-:kbd:`Esc`.
+pressing :kbd:`P`. It is important to note that links are *not* copied, but
+you can paste the copied content as many times as you wish. This restriction
+is necessary to maintain the integrity of the links.
+
+If you press :kbd:`Shift+P`, you'll enter *Paste Preview Mode* where you can
+position the selection interactively with the movement keys (usually shown in
+a light-blue overlay, which is, again, theme-dependent), then perform the
+paste action by pressing :kbd:`Enter`, or cancel it with :kbd:`Esc`. Note that
+you can also switch the current level in *Paste Preview Mode*.
 
 
 .. raw:: html
 
     <div class="figure">
       <a href="_static/img/paste-preview.png" class="glightbox">
-        <img alt="Pasting a cut selection in Paste Preview Mode" src="_static/img/paste-preview.png" style="width: 77%;">
+        <img alt="Positioning the selection in Paste Preview Mode" src="_static/img/paste-preview.png" style="width: 77%;">
       </a>
         <p class="caption">
-          <span>Pasting the contents of the paste buffer in Paste Preview Mode</span>
+          <span>Positioning the selection in Paste Preview Mode</span>
         </p>
     </div>
 
-
-
-.. note::
-
-  There is an important difference between copy and cut: when copying, links
-  are *not* copied, but you can paste the copied content as many times as you
-  wish. Whereas when cutting, links *will* be preserved, but you may paste the
-  cut content *only once*. This restriction is necessary to maintain the
-  integrity of the links while keeping the cut & copy actions simple to
-  understand.
 
 .. tip::
 
@@ -171,8 +172,11 @@ Holding :kbd:`Ctrl` in *Select Mode* will reveal a list of further special
 actions in the status bar:
 
 Move :kbd:`Ctrl+M`
-    This is basically a shortcut for cutting and then invoking *Paste Preview
-    Mode* (because of cutting, this action is *link preserving*).
+    The *link-preserving* alternative to the copy operation: the selected
+    cells will be cut first, then you will be automatically taken into *Paste
+    Preview Mode* where you can reposition the selection. Note that the move
+    operation will leave the contents of the paste buffer intact (it uses a
+    dedicated "move" buffer under the hood).
 
 Erase :kbd:`Ctrl+E`
     Erase the selected cells.

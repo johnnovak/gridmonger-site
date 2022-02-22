@@ -5,7 +5,18 @@ Advanced usage
 Command line usage
 ------------------
 
-TODO
+If you start Gridmonger from the command line, you have the option to override
+various window related settings or to use a different config file. This might
+come in handy for power users who want to use a script to start an emulator
+and Gridmonger side by side.
+
+Please run ``gridmonger -h`` to see the full list of available options.
+
+.. note::
+
+  Options requiring a value need to be specified in ``option:VALUE`` format,
+  e.g. to set the window size to 1200×800, you would use ``--width:1200
+  --height:800`` (or the shorthand ``-W:1200 -H:800``).
 
 
 Map file format

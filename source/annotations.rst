@@ -96,6 +96,11 @@ cursor.
     **Number** and **Icon** tabs, use the movement keys to select the colour or
     the icon image, respectively.
 
+.. tip::
+
+   Hovering over the annotations with the mouse is the quickest way to find a
+   note in a busy map by its text.
+
 
 .. rst-class:: style5 big
 

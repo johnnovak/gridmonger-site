@@ -47,11 +47,11 @@ which makes editing aspects of the themes related to these modes a lot easier.
 
     <div class="figure">
       <a href="_static/img/theme-editor.png" class="glightbox">
-        <img alt="Theme editor in action" src="_static/img/theme-editor.png">
+        <img alt="The theme editor in action" src="_static/img/theme-editor.png">
       </a>
         <p class="caption">
           <span>
-            Theme editor in action
+            The theme editor in action
           </span>
         </p>
     </div>

@@ -661,6 +661,8 @@ Edit mode
           </td>
           <td>
             Toggle wall in direction
+            <p>Hold <kbd>Shift</kbd> after setting/clearing a wall for
+            repeat</p>
             <p>Not available in <span class="sc">WASD Mode</span><br>
             (use Right Mouse Button instead)</p>
           </td>
@@ -673,8 +675,10 @@ Edit mode
           </td>
           <td>
             Toggle special wall in direction
-            <p>Also Right+Left Mouse Button<br>
-            in <span class="sc">WASD Mode</span></p>
+            <p>Hold <kbd>Shift</kbd> after setting/clearing a wall for
+            repeat</p>
+            <p>Not available in <span class="sc">WASD Mode</span><br>
+            (use Right+Left Mouse Button instead)</p>
           </td>
         </tr>
         <tr>
@@ -984,12 +988,6 @@ Select (Mark) Mode
             <kbd>Y</kbd>
           </td>
           <td>Copy (yank) selection</td>
-        </tr>
-        <tr>
-          <td>
-            <kbd>X</kbd>
-          </td>
-          <td>Cut selection</td>
         </tr>
         <tr>
           <td>

@@ -43,9 +43,21 @@ to go to the previous or next level.
 Normal Mode
 ===========
 
-The most basic mode of operation is *Normal Mode*; this is what most people will
-use 90% of the time. When you start Gridmonger for the first time or when you
-load a map, you are in *Normal Mode*.
+The most basic mode of operation is *Normal Mode*; this is what most people
+will use 90% of the time. When you start Gridmonger for the first time, you
+are in *Normal Mode*. This is indicated by the square shape of the cursor.
+
+.. raw:: html
+
+    <div class="figure">
+      <a href="_static/img/mode-normal.png" class="glightbox">
+        <img alt="Normal mode (square cursor)" src="_static/img/mode-normal.png" style="width: 25%;">
+      </a>
+        <p class="caption">
+          <span>Normal Mode (square cursor)</span>
+        </p>
+    </div>
+
 
 One of the defining features of Gridmonger is its `Vim
 <https://en.wikipedia.org/wiki/Vim_(text_editor)>`_-inspired keyboard
@@ -105,6 +117,7 @@ Mode*:
       </tbody>
     </table>
 
+
 To move in 5-cell jumps, holding down :kbd:`Ctrl` while using the
 movement keys. Similarly, you can pan the level by holding down :kbd:`Shift`.
 This can be combined with :kbd:`Ctrl` to pan in 5-cell increments.
@@ -115,6 +128,9 @@ coordinates around the level with :kbd:`Alt+C`. If you wish to change how the
 coordinates are displayed, you can do so in the :ref:`maps-and-levels:Map
 Properties` or :ref:`maps-and-levels:Level Properties` dialogs.
 
+You can use the mouse as well to change the cursor location: left-click on a
+cell within the level and the cursor will jump to that location. You can even
+click-drag to move the cursor continuously.
 
 .. note::
 
@@ -128,10 +144,22 @@ Walk Mode
 *Walk Mode* can be toggled with the :kbd:`\`` key (that's the `grave accent
 <https://en.wikipedia.org/wiki/Grave_accent>`_ or backtick key; it's usually
 located in the top-left corner of the keyboard, next to the :kbd:`1` key). The
-cursor is displayed as a triangle instead of a rectangle in this mode. The
+cursor is displayed as a triangle instead of a square in this mode. The
 triangle points to the walking direction and represents your avatar; you can
 turn, strafe, and move forward and backward, just like in a classic dungeon
 crawler.
+
+.. raw:: html
+
+    <div class="figure">
+      <a href="_static/img/mode-normal.png" class="glightbox">
+        <img alt="Walk mode (triangle cursor pointing to the walking direction)" src="_static/img/mode-walk.png" style="width: 25%;">
+      </a>
+        <p class="caption">
+          <span>Walk Mode (triangle cursor pointing to the walking direction)</span>
+        </p>
+    </div>
+
 
 The cursor keys perform different actions in this mode, and Vim-style HJKL
 navigation is not available (it would be too confusing):
@@ -182,7 +210,8 @@ navigation is not available (it would be too confusing):
     </table>
 
 Similarly to *Normal Mode*, you can use the :kbd:`Ctrl` and :kbd:`Shift`
-modifiers to perform jumps or pan the level, respectively.
+modifiers to perform jumps or pan the level, respectively, and you can also
+left-click on a cell with the mouse to move the cursor there.
 
 
 WASD Mode
@@ -193,10 +222,22 @@ played with your left hand on the `WASD keys
 <https://en.wikipedia.org/wiki/Arrow_keys#WASD_keys>`_ for moving the party,
 and your right hand on the mouse for combat. Gridmonger's *WASD Mode* was
 designed with players in mind who prefer to do the bulk of their mapping
-with the WASD keys and the mouse while playing such games.
+with the WASD keys and the mouse when playing such games.
 
 *WASD Mode* can be toggled with the :kbd:`Tab` key. You will see an indicator
 in the top-left corner of the window when *WASD Mode* is on.
+
+.. raw:: html
+
+    <div class="figure">
+      <a href="_static/img/mode-wasd.png" class="glightbox">
+        <img alt="WASD Mode (square cursor and WASD indicator)" src="_static/img/mode-wasd.png" style="width: 25%;">
+      </a>
+        <p class="caption">
+          <span>WASD Mode (square cursor and WASD indicator)</span>
+        </p>
+    </div>
+
 
 When it comes to navigation, this mode is the same as *Normal Mode*, with the
 addition that you can also use the :kbd:`W`:kbd:`A`:kbd:`S`:kbd:`D` keys for
@@ -205,11 +246,16 @@ cursor movement. Editing, however, is a little different. See
 mouse in this mode.
 
 .. note::
+
    In *WASD Mode*, you cannot use the :kbd:`Ctrl` movement modifier with the
    :kbd:`W`:kbd:`A`:kbd:`S`:kbd:`D` keys for 5-cell jumps because that would
-   interfere with other shortcuts. You can use the :kbd:`Shift` modifier,
-   howerer, and both the :kbd:`Ctrl` and :kbd:`Shift` modifiers are available
-   with the other movement keys.
+   interfere with other shortcuts. You can, however, use the :kbd:`Shift`
+   modifier with them, and both the :kbd:`Ctrl` and :kbd:`Shift` modifiers are
+   available with the other movement keys.
+
+   As we'll see in the :ref:`basic-editing:Editing in WASD Mode` section, the
+   mouse buttons are used for editing actions in this mode, so you cannot
+   left-click to move the cursor.
 
 
 .. rst-class:: style2
@@ -271,10 +317,22 @@ movement keys become a bit more interesting:
       </tbody>
     </table>
 
+
 Admittedly, this is the most complex mode, and while some people might find it
 really useful, if it doesn't click with you, don't feel compelled to use it.
 In fact, *yours truly* pretty much only use *Normal Mode*, even when playing
 real-time dungeon crawlers with WASD controls...
+
+.. raw:: html
+
+    <div class="figure">
+      <a href="_static/img/mode-wasd+walk.png" class="glightbox">
+        <img alt="WASD + Walk Mode (triangle cursor and WASD indicator)" src="_static/img/mode-wasd+walk.png" style="width: 25%;">
+      </a>
+        <p class="caption">
+          <span>WASD + Walk Mode (triangle cursor and WASD indicator)</span>
+        </p>
+    </div>
 
 
 .. rst-class:: style3 big
