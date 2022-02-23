@@ -598,7 +598,7 @@ Edit mode
               <kbd>F</kbd>+<kbd class="move">Move keys</kbd>
             </kbd>
           </td>
-          <td>Clear floor</td>
+          <td>Draw/clear floor</td>
         </tr>
         <tr>
           <td>

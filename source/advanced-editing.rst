@@ -14,10 +14,10 @@ following cell types:
 - upward and downward stairs
 - entrance and exit doors
 
-You can jump between linked cells by pressing the :kbd:`G` key, which is a
-great help when navigating through complex, interlocking multi-level dungeons.
-The included ``Eye of the Beholder I`` and ``The Dark Heart of Uukrul``
-example maps are great demonstrations of this.
+You can jump between linked cells by pressing the :kbd:`G` key, which is very
+useful when navigating through complex, interlocking multi-level dungeons. The
+included ``Eye of the Beholder I`` and ``The Dark Heart of Uukrul`` example
+maps are great demonstrations of this.
 
 To create a link, first move the cursor to the source cell and press
 :kbd:`Shift+G` to enter *Set Link Destination Mode*. Now move the cursor to
@@ -35,11 +35,11 @@ the two linked cells.
 
     <div class="figure">
       <a href="_static/img/cell-links.png" class="glightbox">
-        <img alt="Cell link examples" src="_static/img/cell-links.png"
+        <img alt="Examples of linked cells" src="_static/img/cell-links.png"
         style="width: 35%">
       </a>
         <p class="caption">
-          <span>Cell link examples</span>
+          <span>Examples of linked cells</span>
         </p>
     </div>
 
@@ -54,7 +54,7 @@ The exact rules for creating links vary per linkable cell type:
 
 Pits
     The link source must be a closed, open or hidden pit. The link destination
-    is always a ceiling pit.
+    is always set to a ceiling pit.
 
 Teleports
     The link source can be either a teleport source or a teleport destination.
@@ -66,23 +66,23 @@ Stairs
     elevation of the involved levels.
 
 Doors
-    The link source can be either an entrace or an exit door.  The destination
-    cell is automatically set to the other door type.
+    The link source can be either an entrance or an exit door.  The
+    destination cell is automatically set to the other door type.
 
 
 .. note::
 
     A cell cannot be both a link source and a destination, so you cannot
-    create chain-linked teleport cells or multi-level staircases, for example.
+    create things like chain-linked teleport cells or multi-level staircases.
     Furthermore, links can only be created between exactly two cells. So, for
     instance, you cannot have two teleport sources that are linked to the same
-    destination cell. Likewise, you cannot have a teleport source
-    that is linked to multiple destinations (e.g. for teleports that would
-    take the player to a randomly chosen location).
+    destination cell. Likewise, you cannot have a teleport source that is
+    linked to multiple destinations (e.g. for teleports that would take the
+    player to a randomly chosen location).
 
-    All this is enforced at link creation time: if either the source or the
-    destination cell is already part of a link, those links will be severed
-    before creating the new one.
+    All these constraints are enforced at link creation time: if either the
+    source or the destination cell is already part of a link, those links will
+    be severed before creating the new one.
 
 
 .. rst-class:: style3
@@ -113,6 +113,14 @@ Similarly, you can "draw" the selection or "erase" from it by using the
 selection (*Unselect All*).
 
 
+.. tip::
+
+  You can left-click with the mouse to set the cursor location in *Select
+  Mode* too. This opens up some interesting possibilities, e.g. you can draw
+  selections with the mouse when used in conjunction with the :kbd:`D` and
+  :kbd:`E` modifiers.
+
+
 .. raw:: html
 
     <div class="figure">
@@ -128,14 +136,6 @@ selection (*Unselect All*).
 When you're happy with your selection, it's time to perform an action on it.
 :kbd:`C` (or :kbd:`Y`) copies (yanks) the selected cells into the paste buffer
 and returns to *Edit Mode*.
-
-.. tip::
-
-  You can left-click with the mouse to set the cursor location in *Select
-  Mode* too. This opens up some interesting possibilities, e.g. you can draw
-  selections with the mouse when used in conjunction with the :kbd:`D` and
-  :kbd:`E` modifiers.
-
 
 You can paste the contents of the buffer at the current cursor position by
 pressing :kbd:`P`. It is important to note that links are *not* copied, but
@@ -172,24 +172,24 @@ Holding :kbd:`Ctrl` in *Select Mode* will reveal a list of further special
 actions in the status bar:
 
 Move :kbd:`Ctrl+M`
-    The *link-preserving* alternative to the copy operation: the selected
-    cells will be cut first, then you will be automatically taken into *Paste
+    The *link-preserving* alternative to the copy action: the selected cells
+    will be cut first, then you will be automatically taken into *Paste
     Preview Mode* where you can reposition the selection. Note that the move
-    operation will leave the contents of the paste buffer intact (it uses a
-    dedicated "move" buffer under the hood).
+    action will leave the contents of the paste buffer intact (it uses a
+    dedicated "move buffer" under the hood).
 
 Erase :kbd:`Ctrl+E`
-    Erase the selected cells.
+    Equivalent of using the *erase cell* action on the selected cells.
 
 Fill :kbd:`Ctrl+F`
-    Equivalent of using the `Draw Floor` action on the selected cells.
+    Equivalent of using the *draw/clear floor* action on the selected cells.
 
 Set colour :kbd:`Ctrl+C`
     Set the floor colour of the selected cells to the current colour.
 
 Surround :kbd:`Ctrl+S`
     Surround the selected cells with solid walls (you can use this with the
-    *Select Rectangle* action to draw rectangular rooms quickly).
+    *select rectangle* action to draw rectangular rooms quickly).
 
 Crop :kbd:`Ctrl+R`
     Crop the level to the bounding box of the selection.
@@ -205,10 +205,10 @@ invoked from *Edit Mode*.
 Resize level
 ------------
 
-The *Resize Level* action, invoked by :kbd:`Ctrl+E`, lets you to shrink or
-expand the dimensions of the current level. You need to select an anchor point
-for the action. It's probably easiest to illustrate the role of the anchor
-point through a few examples:
+The *resize level* action, invoked by :kbd:`Ctrl+E`, lets you to shrink or
+expand the dimensions of the current level. You'll need to select an anchor
+point for the action. It's probably easiest to illustrate the role of the
+anchor point through a few examples:
 
 .. rst-class:: multiline
 
@@ -216,7 +216,7 @@ point through a few examples:
   will add 2 extra empty columns at the right side of the level, and 3 extra
   empty rows at the bottom.
 
-- Making the level 4 columns and 4 rows smaller using the center anchor point
+- Making the level 4 columns and 4 rows smaller using the centre anchor point
   will remove a 2-cell wide "stripe" from around the level.
 
 
@@ -225,10 +225,10 @@ point through a few examples:
 Nudge level
 -----------
 
-You can move the contents of the level around without changing the level
-dimensions with the *Nudge Level* action.
+You can shift the contents of the level around without changing its dimensions
+with the *nudge level* action.
 
-Press :kbd:`Ctrl+E` to enter *Nudge Mode*, then use the movement keys to
-reposition the level's contents. Accept the changes by pressing :kbd:`Enter`, or
-discard them with :kbd:`Esc`.
+Press :kbd:`Ctrl+E` to enter *Nudge Preview Mode*, then use the movement keys
+to reposition the level's contents. Accept the changes by pressing
+:kbd:`Enter`, or discard them with :kbd:`Esc`.
 

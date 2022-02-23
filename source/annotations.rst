@@ -113,19 +113,6 @@ just another annotation type). In contrast with notes, you can attach labels
 to empty cells as well. This is useful when placing labels in empty areas
 around the level, rather than on top of it.
 
-To create a label starting from a cell, go to the cell and press
-:kbd:`Ctrl+T`. You can select the colour of the label from four predefined
-colours. 
-
-To edit a label, go to the cell at the top-left corner of the label text, then
-press :kbd:`Ctrl+T`. To erase it, press :kbd:`Shift+T`.
-
-.. note::
-
-   The *excavate (draw tunnel)* tool does not erase labels (:kbd:`D`
-   modifier), but the *erase cell* (:kbd:`E`) and *draw/clear floor*
-   (:kbd:`F`) tools do.
-
 
 .. raw:: html
 
@@ -138,4 +125,19 @@ press :kbd:`Ctrl+T`. To erase it, press :kbd:`Shift+T`.
           in empty areas around the level</span>
         </p>
     </div>
+
+
+To create a label starting from a cell, go to the cell and press
+:kbd:`Ctrl+T`. You can select the colour of the label from four predefined
+colours. 
+
+To edit a label, go to the cell at the top-left corner of the label text, then
+press :kbd:`Ctrl+T`. To erase it, press :kbd:`Shift+T`.
+
+.. note::
+
+   The *excavate (draw tunnel)* tool (:kbd:`D` modifier) does not erase
+   labels, but the *erase cell* (:kbd:`E`) and *draw/clear floor* (:kbd:`F`)
+   tools do.
+
 
