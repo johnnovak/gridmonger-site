@@ -35,14 +35,14 @@ Number
     An automatically incrementing number. The background colour can be chosen
     from four predefined colours.
 
-    Numbers are assigned in left-to-right then top-to-bottom (normal English
-    reading order). Numbering restarts from 1 on each level. Notes are
+    Numbers are assigned in left-to-right, top-to-bottom order (normal English
+    reading order). Numbering restarts from ``1`` in each level. Notes are
     renumbered automatically whenever a new numbered item is added, or an
     existing one is deleted.
 
 ID
     An identifier of up to two characters in length consisting of English
-    letters or numbers.
+    letters and numbers.
 
 Icon
     An icon chosen from a predefined set of 40 icons.
@@ -64,7 +64,7 @@ To create a note, press the :kbd:`N` key in a non-empty cell. A cell cannot
 have more than one note; if you press :kbd:`N` in a cell that already has one,
 you'll be editing it. To erase a note, press :kbd:`Shift+N`.
 
-You can insert line breaks into the note text with :kbd:`Shift+Enter`.
+Press :kbd:`Shift+Enter` to insert line breaks when editing the note text.
 
 If the cell's floor is non-empty (e.g. it contains a pressure plate or a
 teleport), placing a note of type **Number**, **ID** or **Icon** will clear
@@ -88,8 +88,8 @@ cursor.
     As creating and editing notes are very frequently used actions, special
     care has been taken to make the note dialog fully keyboard operable.
 
-    Press :kbd:`Ctrl` and the horizontal movement keys to navigate between the
-    tabs. Hold :kbd:`Ctrl` and press keys :kbd:`1` to :kbd:`4` to jump to
+    Hold down :kbd:`Ctrl` and use the horizontal movement keys to navigate
+    between the tabs, or press the number keys :kbd:`1` to :kbd:`4` to jump to
     a specific tab.
 
     To cycle between text fields, use :kbd:`Tab` and :kbd:`Shift+Tab`. In the
@@ -99,7 +99,7 @@ cursor.
 .. tip::
 
    Hovering over the annotations with the mouse is the quickest way to find a
-   note in a busy map by its text.
+   note by its text in a busy map.
 
 
 .. rst-class:: style5 big
@@ -108,18 +108,23 @@ Labels
 ======
 
 A *label* is just some text overlaid on top of the level. Placing a label in a
-cell overwrites its previous content, including notes.  In contrast with
-notes, you can attach labels to empty cells as well. This is useful when
-placing labels in empty areas around the level, rather than on top of it.
+cell overwrites its previous content, including notes (technically, a label is
+just another annotation type). In contrast with notes, you can attach labels
+to empty cells as well. This is useful when placing labels in empty areas
+around the level, rather than on top of it.
 
 To create a label starting from a cell, go to the cell and press
 :kbd:`Ctrl+T`. You can select the colour of the label from four predefined
 colours. 
 
 To edit a label, go to the cell at the top-left corner of the label text, then
-press :kbd:`Ctrl+T`.
+press :kbd:`Ctrl+T`. To erase it, press :kbd:`Shift+T`.
 
-You can erase a label with :kbd:`Shift+T`.
+.. note::
+
+   The *excavate (draw tunnel)* tool does not erase labels (:kbd:`D`
+   modifier), but the *erase cell* (:kbd:`E`) and *draw/clear floor*
+   (:kbd:`F`) tools do.
 
 
 .. raw:: html
@@ -130,7 +135,7 @@ You can erase a label with :kbd:`Shift+T`.
       </a>
         <p class="caption">
           <span>Example use of labels &mdash; note that all but one reside
-          in empty areas</span>
+          in empty areas around the level</span>
         </p>
     </div>
 

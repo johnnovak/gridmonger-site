@@ -3,41 +3,39 @@ Moving around
 *************
 
 Gridmonger is a `modal editor
-<https://en.wikipedia.org/wiki/Mode_(user_interface)>`_, meaning that one
-keystroke often performs different actions in different *modes* of the
-program.  There is no great mystery in this --- just think of how the state of
-the :kbd:`NumLock` key affects how your numeric keypad functions. Modes work
-in a very similar fashion.
+<https://en.wikipedia.org/wiki/Mode_(user_interface)>`_, meaning that a given
+keystroke often performs entirely different actions in different *operational
+modes* of the program.  There is no great mystery in this --- just think of
+how the state of the :kbd:`NumLock` key affects how your numeric keypad
+functions. Modes work in a similar fashion.
 
-There are *four navigation modes*, and as you'll see, these different modes
-have implications on other shortcuts as well. Then there are some further
-*special modes* for advanced editing; these are discussed in the
+There are *four navigational modes*, and as you'll see, these different modes
+have implications on other shortcuts as well. Then there are a few further
+*special modes* for advanced editing; these will be discussed in the
 :doc:`advanced-editing` chapter.
 
 
 Common navigation keys
 ======================
 
-The level-related navigation keys are the same in every mode.
+The level-related navigational keys are the same in every mode.
 
 
 You can zoom the view in and out with the :kbd:`=` and :kbd:`-` keys,
 respectively. There are 20 zoom levels in total.
 
-To switch to a different level, you can use the drop-down above the level, or
-:kbd:`PgUp`/:kbd:`PgDn`, :kbd:`Kp-`/:kbd:`Kp+`, or :kbd:`Ctrl+-`/:kbd:`Ctrl+=`
+To change the current level, you can use the drop-down above the level, or
+:kbd:`Ctrl+-`/:kbd:`Ctrl+=`, :kbd:`PgUp`/:kbd:`PgDn` or :kbd:`Kp-`/:kbd:`Kp+`
 to go to the previous or next level.
-
 
 .. note::
 
-    When it comes to keyboard shortcuts, Gridmonger uses the 
-    `US keyboard layout <https://kbdlayout.info/KBDUS>`_, regardless
-    of the keyboard layout and languge preferences set in your operating
-    system, or the actual position of the keys on your non-US keyboard. This
-    is very similar to how most games handle the keyboard. For the more
-    technically inclined, the program only cares about *positional
-    scancodes*.
+   When it comes to keyboard shortcuts, Gridmonger uses the `US keyboard
+   layout <https://kbdlayout.info/KBDUS>`_, regardless of the keyboard layout
+   and language settings of your operating system, or what the key labels on
+   a non-US keyboard indicate. This is very similar to how most games handle
+   the keyboard. For the more technically inclined, the program only cares
+   about *positional scancodes*.
 
 
 Normal Mode
@@ -45,7 +43,7 @@ Normal Mode
 
 The most basic mode of operation is *Normal Mode*; this is what most people
 will use 90% of the time. When you start Gridmonger for the first time, you
-are in *Normal Mode*. This is indicated by the square shape of the cursor.
+are in *Normal Mode*. This is indicated by a square shaped cursor.
 
 .. raw:: html
 
@@ -64,17 +62,17 @@ One of the defining features of Gridmonger is its `Vim
 interface. This means that in addition to the standard cursor keys, you can
 also use Vim-style `HJKL key
 <https://en.wikipedia.org/wiki/Arrow_keys#HJKL_keys>`_ navigation to move
-around. You might have already enountered this style of navigation in
+around. You might have already encountered this style of navigation in
 some text-based games originally developed on UNIX systems, such as the
 venerable `Rogue <https://en.wikipedia.org/wiki/Rogue_(video_game)>`_ and `NetHack
 <https://en.wikipedia.org/wiki/NetHack>`_.
 
 If this doesn't mean anything to you, don't worry! Just keep using the
 standard cursor keys or the keypad for now. But I do recommend you to read the
-:ref:`About Vim <about-vim>` sidenote at the end; you might find it
+:ref:`About Vim <about-vim>` side-note at the end; you might find it
 interesting enough to explore this topic further.
 
-The following table summarizes all the movement keys you can use in *Normal
+The following table summarises all the movement keys you can use in *Normal
 Mode*:
 
 .. raw:: html
@@ -118,9 +116,19 @@ Mode*:
     </table>
 
 
-To move in 5-cell jumps, holding down :kbd:`Ctrl` while using the
-movement keys. Similarly, you can pan the level by holding down :kbd:`Shift`.
-This can be combined with :kbd:`Ctrl` to pan in 5-cell increments.
+You can use the :kbd:`8`:kbd:`4`:kbd:`5`:kbd:`6` keys on they keypad for
+right-handed `WASD style
+<https://en.wikipedia.org/wiki/Arrow_keys#WASD_keys>`_ navigation.
+
+.. note::
+
+  *NumLock* must be off if you want to use the number keys on the numeric
+  keypad for navigation.
+
+
+To move in 5-cell jumps, hold down :kbd:`Ctrl` while using the movement keys.
+Similarly, you can pan the level by holding down :kbd:`Shift`. This can be
+combined with :kbd:`Ctrl` to pan in 5-cell increments.
 
 Note how the current coordinates change in right corner of the status bar as
 you're moving the cursor. You can toggle the display of cell
@@ -128,26 +136,20 @@ coordinates around the level with :kbd:`Alt+C`. If you wish to change how the
 coordinates are displayed, you can do so in the :ref:`maps-and-levels:Map
 Properties` or :ref:`maps-and-levels:Level Properties` dialogs.
 
-You can use the mouse as well to change the cursor location: left-click on a
-cell within the level and the cursor will jump to that location. You can even
-click-drag to move the cursor continuously.
-
-.. note::
-
-  *Num Lock* must be off if you want to use the number keys on the numeric
-  keypad for navigation.
+Changing the cursor location can be done with the mouse as well: left-click on
+a cell within the level and the cursor will jump to that location. You can
+even click-drag to move the cursor continuously.
 
 
 Walk Mode
 =========
 
 *Walk Mode* can be toggled with the :kbd:`\`` key (that's the `grave accent
-<https://en.wikipedia.org/wiki/Grave_accent>`_ or backtick key; it's usually
-located in the top-left corner of the keyboard, next to the :kbd:`1` key). The
-cursor is displayed as a triangle instead of a square in this mode. The
-triangle points to the walking direction and represents your avatar; you can
-turn, strafe, and move forward and backward, just like in a classic dungeon
-crawler.
+<https://en.wikipedia.org/wiki/Grave_accent>`_ or backtick key located in the
+top-left corner of the keyboard before the :kbd:`1` key). The cursor is
+displayed as a triangle instead of a square in this mode. The triangle points
+to the walking direction and represents your avatar; you can turn, strafe, and
+move forward and backward, just like in a classic dungeon crawler.
 
 .. raw:: html
 
@@ -211,7 +213,7 @@ navigation is not available (it would be too confusing):
 
 Similarly to *Normal Mode*, you can use the :kbd:`Ctrl` and :kbd:`Shift`
 modifiers to perform jumps or pan the level, respectively, and you can also
-left-click on a cell with the mouse to move the cursor there.
+left-click on a cell to move the cursor there.
 
 
 WASD Mode
@@ -241,7 +243,7 @@ in the top-left corner of the window when *WASD Mode* is on.
 
 When it comes to navigation, this mode is the same as *Normal Mode*, with the
 addition that you can also use the :kbd:`W`:kbd:`A`:kbd:`S`:kbd:`D` keys for
-cursor movement. Editing, however, is a little different. See
+cursor movement. Editing, however, is a little different --- see
 :ref:`basic-editing:Editing in WASD Mode` to learn more about editing with the
 mouse in this mode.
 
@@ -254,8 +256,8 @@ mouse in this mode.
    available with the other movement keys.
 
    As we'll see in the :ref:`basic-editing:Editing in WASD Mode` section, the
-   mouse buttons are used for editing actions in this mode, so you cannot
-   left-click to move the cursor.
+   mouse buttons are used for editing actions in this mode, so you need to
+   hold :kbd:`Shift` while left-clicking to move the cursor.
 
 
 .. rst-class:: style2
@@ -337,11 +339,12 @@ real-time dungeon crawlers with WASD controls...
 
 .. rst-class:: style3 big
 
-Navigation in dialogs
-=====================
+Navigating dialogs
+==================
 
 Apart from the usual :kbd:`Enter` to accept and :kbd:`Esc` to cancel, there
-are a number of other shortcuts you can use in dialogs.
+are a number of other handy shortcuts available in dialogs to maximise
+efficiency.
 
 :kbd:`Tab` and :kbd:`Shift+Tab` cycle between text fields in forward and
 reverse order, respectively.
@@ -354,15 +357,17 @@ In some dialogs, you need to select something from a list of options (e.g. an
 icon or a colour). You can use the navigation keys to do that. (You will see
 examples of this later.)
 
-Finally, you can press :kbd:`Alt+D` to select the **Discard** option.
+Finally, you can press :kbd:`Alt+D` to select the **Discard** option where
+applicable.
 
 .. tip::
+
    Hardcore Vim enthusiasts, such as *yours truly*, remap the quite useless
    :kbd:`CapsLock` key to :kbd:`Ctrl` with a tool like `SharpKeys
-   <https://github.com/randyrants/sharpkeys>`_ for extra efficiency. The
-   :kbd:`Ctrl+[` Vim alias for the :kbd:`Esc` key is supported by Gridmonger
-   for these people (it's much more efficient to type than reaching out for
-   :kbd:`Esc` with your left pinky!)
+   <https://github.com/randyrants/sharpkeys>`_ on Windows for extra
+   efficiency. The :kbd:`Ctrl+[` Vim alias for the :kbd:`Esc` key is supported
+   by Gridmonger for these people (it's much more efficient to type than
+   reaching out for :kbd:`Esc` with your left pinky!)
 
 
 .. raw:: html
@@ -377,19 +382,19 @@ Finally, you can press :kbd:`Alt+D` to select the **Discard** option.
 
    If you're not a programmer, you're probably wondering what the hell this
    Vim thing is about! In short, Vim is a programmer's text-editor for people
-   who know how to touch type. One of its iconic features is to allow typists
-   to move the cursor without lifting their hands from the `home row
+   who know how to touch type. One of its most iconic feature is to allow
+   typists to move the cursor without lifting their hands from the `home row
    <https://en.wikipedia.org/wiki/Touch_typing#Home_row>`_  (the ``ASDF`` and
    ``JKL;`` keys), and perform most common editing tasks with one or
-   two-letter commands, without straying too far from this position.
+   two-letter commands, without ever straying too far from the home position.
 
    Ergonomics wise, editing a grid-based cRPG map is very similar to editing a
-   text file. Having to move one hand back and forth between the cursor keys
+   text file. Having to move your hand back and forth between the cursor keys
    (or the mouse) and the rest of the keyboard thousands of times a day is a
    huge performance killer. No wonder that people who learn how to touch type
-   and get a taste of Vim rarely go back to their "old ways"! There are only
-   two types of people in the world: those who love Vim, and the rest who
-   haven't learned it yet!
+   and get a taste of Vim rarely go back to their "old ways"! As the saying
+   goes, there are only two types of people in the world: those who love Vim,
+   and the rest who haven't learned it yet!
 
    In my opinion, touch typing is an essential skill that anyone working on a
    computer several hours a day should master. If you haven't learned to touch
@@ -400,7 +405,7 @@ Finally, you can press :kbd:`Alt+D` to select the **Discard** option.
    There's tons of free touch typing trainers online, or you can just go
    old-school and use the completely unattractive but 100% effective `GNU
    Typist <https://www.gnu.org/savannah-checkouts/gnu/gtypist/gtypist.html>`_
-   like I did. I was able to re-train my erratic typing patterns ingrained
-   over 10+ years of constant computer use in about two short weeks, so if I
-   could do it, then anybody can.
+   like I did back in the day. I was able to re-train my erratic typing
+   patterns ingrained over 10+ years of constant computer use in about two
+   short weeks, so if I could do it, then anybody can.
 

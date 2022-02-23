@@ -11,7 +11,7 @@ Press :kbd:`Ctrl+Alt+U` to bring up the preferences dialog. On the **Startup**
 tab you have the option to toggle the displaying of the splash screen, and to
 have it auto-closed after a set number of seconds.
 
-Another important option is the **Load last map** option. This is enabled by
+Another important setting is the **Load last map** option. This is enabled by
 default, so you can continue from where you left off after starting the
 program again.
 

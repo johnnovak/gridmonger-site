@@ -10,14 +10,15 @@ Keyboard shortcuts
 
     <div class="admonition note">
       <p class="admonition-title">Note</p>
-
-      <p>When it comes to keyboard shortcuts, Gridmonger uses the <a
-      href="https://kbdlayout.info/KBDUS" class="external">US keyboard
-      layout</a>, regardless of the keyboard layout and languge preferences
-      set in your operating system, or the actual position of the keys on your
-      non-US keyboard. This is very similar to how most games handle the
-      keyboard. For the more technically inclined, the program only cares
-      about <em>positional scancodes</em>.</p>
+      <p>
+        When it comes to keyboard shortcuts, Gridmonger uses the <a
+        href="https://kbdlayout.info/KBDUS" class="external">US keyboard
+        layout</a>, regardless of the keyboard layout and language settings of
+        your operating system, or what the key labels on a non-US keyboard
+        indicate. This is very similar to how most games handle the keyboard.
+        For the more technically inclined, the program only cares about
+        <em>positional scancodes</em>.
+      </p>
     </div>
   </div>
 

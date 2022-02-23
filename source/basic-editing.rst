@@ -4,7 +4,7 @@ Basic editing
 
 Most cRPG maps tend to fall into one of two categories: *tunnel style maps*, and
 the more compact *wall style maps* (for lack of better terms). There's also a
-less common third hybrid style that combines elements from both.
+less common third *hybrid style* that combines elements from both.
 
 .. raw:: html
 
@@ -41,10 +41,10 @@ less common third hybrid style that combines elements from both.
 
 Tunnel style maps are easiest to create with the *excavate* (*draw tunnel*)
 tool. To use it, hold down the :kbd:`D` key and use the movement keys. The
-name "excavate" is quite fitting, as all existing cell content is deleted.
-Junctions are automatically created on tunnel crossings, and neighbouring
-cells are joined into larger areas. Of course, you can press :kbd:`D` without
-moving the cursor to excavate only the current cell. 
+name "excavate" is quite fitting, as all existing cell content will be
+deleted. Junctions are automatically created on tunnel crossings, and
+neighbouring cells are joined into larger areas. Of course, you can press
+:kbd:`D` without moving the cursor to excavate only the current cell. 
 
 The :kbd:`D` key acts as a *modifier key* when used together with the movement
 keys (similarly to :kbd:`Shift` or :kbd:`Ctrl`). There are a few other tools
@@ -61,10 +61,10 @@ and :kbd:`.` keys. To "pick" the floor colour from the current cell, press
 :kbd:`I`.
 
 Gridmonger has a virtually unlimited undo history (only limited by your
-computer's memory). You can most actions with :kbd:`Ctrl+Z` or :kbd:`U`,
-and redo them with :kbd:`Ctrl+Y` or :kbd:`Ctrl+R`. The only action that
-cannot be undone is the creation of a new map which discards the current
-map.
+computer's memory). You can undo most actions with :kbd:`Ctrl+Z` or :kbd:`U`,
+and redo them with :kbd:`Ctrl+Y` or :kbd:`Ctrl+R`. The only action that cannot
+be undone is the creation of a new map which discards the current map.
+
 
 Floor types
 ===========
@@ -73,14 +73,15 @@ So far so good, but how do we create doors, pressure plates, pits, teleports,
 and all sorts of other paraphernalia brave adventurers frequently run into in
 well-designed dungeons?
 
-Because in the vast majority of cases these contraptions take up an entire
-cell, they are represented as different *floor types*. You can draw them with
-the number keys :kbd:`1` to :kbd:`7`. But there are more than 20 floor types
-in total, so how does that exactly work?
+In tunnel style dungeons these contraptions take up an entire cell, so they
+are represented as different *floor types*. You can draw them with the number
+keys :kbd:`1` to :kbd:`7`. But there are more than 20 floor types in total, so
+how does that exactly work?
 
 Each number key is assigned to up to four floor types. You can cycle forward
 between all floor types assigned to a particular number key by pressing the
-key alone, and backward by pressing the key with the :kbd:`Shift` modifier.
+key multiple times repeatedly, and backward by pressing the key with the
+:kbd:`Shift` modifier.
 
 .. raw:: html
 
@@ -217,9 +218,9 @@ placing them in tunnels (as you normally would), they are automatically
 oriented correctly. Should you need it, you can always change the floor
 orientation manually with the :kbd:`O` key.
 
-The *bridge* type is a bit special; it has a small amount of "overhang" into the
-two adjacent cells. You can draw longer bridges by placing multiple bridge
-floors next to each other.
+The *bridge* type is a bit special; it has a small amount of "overhang" into
+its two adjacent cells. You can draw long continuous bridges by placing
+multiple bridge floors next to each other.
 
 These floor types should take care of most of your dungeoneering needs. The
 goal was to keep it simple and not overcomplicate matters by allowing the
@@ -263,7 +264,7 @@ statues, keyholes, etc.
 Drawing special walls works similarly to the method described above --- hold
 down the :kbd:`R` modified key and press one of the movement keys. This will
 use the current special wall type, as indicated in the right-side tools pane.
-To select the current special wall type, use the :kbd:`[` and :kbd:`]` keys.
+To change the current special wall type, use the :kbd:`[` and :kbd:`]` keys.
 
 .. raw:: html
 
@@ -328,9 +329,9 @@ To select the current special wall type, use the :kbd:`[` and :kbd:`]` keys.
 
     </table>
 
-One-way doors are a bit special; their arrows are drawn towards the selected
-direction. So if you want to flip the direction of arrow, just go to the "other
-side" of the door and draw it again!
+One-way doors are a bit special; their arrows are drawn towards the direction
+you've used when drawing them. So if you want to flip the direction of the arrow,
+just go to the "other side" of the door and draw it again!
 
 
 Draw wall repeat
@@ -349,11 +350,11 @@ that action in the *vertical direction*.
 
 To use this feature, first set or clear a wall in the current cell using the
 :kbd:`W` modifier, then hold down :kbd:`Shift` without releasing :kbd:`W` to
-enter repeat mode. Now you can use the movement keys to repeat the draw wall
+enter *repeat mode*. Now you can use the movement keys to repeat the draw wall
 action either horizontally or vertically, depending on the orientation of the
 wall you've drawn first.
 
-Although you won't need need this often, you can use the repeat feature with
+Although you won't need this often, you can use the repeat feature with
 the :kbd:`S` draw special wall modifier too.
 
 The usage of the repeat tool is probably best illustrated with an example.
@@ -376,26 +377,26 @@ have reached ``6`` while carrying out the following (the arrow keys represent
 any of the :ref:`moving-around:Normal Mode` movement keys). Pay attention to
 the status bar messages after each keystroke!
 
-1. Press :kbd:`←`, hold down :kbd:`Shift` and press :kbd:`↑` twice,
+1. Press :kbd:`←`, hold down :kbd:`Shift`, press :kbd:`↑` twice,
    release :kbd:`Shift`.
 
-2. Press :kbd:`↑`, hold down :kbd:`Shift` and press :kbd:`→` twice,
+2. Press :kbd:`↑`, hold down :kbd:`Shift`, press :kbd:`→` twice,
    release :kbd:`Shift`.
 
-3. Press :kbd:`→`, hold down :kbd:`Shift` and press :kbd:`↓` twice,
+3. Press :kbd:`→`, hold down :kbd:`Shift`, press :kbd:`↓` twice,
    release :kbd:`Shift`.
 
-4. Press :kbd:`↓`, hold down :kbd:`Shift` and press :kbd:`←`,
+4. Press :kbd:`↓`, hold down :kbd:`Shift`, press :kbd:`←`,
    release :kbd:`Shift`.
 
-5. Press :kbd:`←`, hold down :kbd:`Shift` and press :kbd:`↑`,
+5. Press :kbd:`←`, hold down :kbd:`Shift`, press :kbd:`↑`,
    release :kbd:`Shift`.
 
 6. Press :kbd:`↑`, then press :kbd:`→`. You can release :kbd:`W` now, the
    spiral has been completed!
 
 
-Now go and draw a few more spirals and similar shapes on your own! After a few
+Now draw a few more spirals and similar shapes on your own! After a few
 minutes of practice, using the repeat tool should become second nature to you.
 
 
@@ -452,7 +453,7 @@ Editing in WASD Mode
 In :ref:`moving-around:WASD Mode`, the editing modifiers :kbd:`D`, :kbd:`W`
 and :kbd:`E` are not available because they're used for movement. But this is
 not a problem, as in this mode you're supposed to use *mouse modifiers*
-instead of these keyboard modifiers.
+instead for these actions.
 
 For example, to draw tunnels, hold down the left mouse button and use the
 :kbd:`W`:kbd:`A`:kbd:`S`:kbd:`D` movement keys.
