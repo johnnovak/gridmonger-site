@@ -6,7 +6,7 @@ Regions
 
 In some cRPGs, levels don't always represent the vertically stacked floors of
 a dungeon complex, but rectangular areas (regions) of a large contiguous
-world map. In these type of games, all regions have the same dimensions.
+world map. In such games, all regions have the same dimensions.
 
 For example, in `New World Computing
 <https://en.wikipedia.org/wiki/New_World_Computing>`_'s 1986 classic, `Might
@@ -45,8 +45,8 @@ partial map of the City of Phlan from the `SSI Gold Box
     </div>
 
 
-As you can see in the above two examples, region boundaries are indicated with
-distincly coloured, thick lines.
+As you can see in the above examples, region boundaries are indicated with
+distinctly coloured thick lines.
 
 It is very easy to create such a region-based map in Gridmonger: just create a
 level big enough to hold all the regions, and tick the **Enable regions**
@@ -77,7 +77,7 @@ properties dialog, or adjust the regions' dimensions.
   they're handled just fine. In such cases, the **Origin** property of the
   level determines the corner the region subdivision starts from.
 
-  Although partial regions are handled correctly (in a mathemathical sense),
+  Although partial regions are handled correctly (in a mathematical sense),
   their usage is generally discouraged as one can get quite unintuitive
   results when performing certain actions on them (e.g. when changing the
   origin, or resizing the level, the region borders could "shift around" in
@@ -86,6 +86,6 @@ properties dialog, or adjust the regions' dimensions.
   Being relaxed about such restrictions makes the program a lot simpler, and
   some more complicated level manipulations would not be possible with
   stricter enforcements in place (you'll recognise them when you need them).
-  In short, using partial regions *temporarily* is fine in some scenarios, but
-  when you're done with your level manipulations, just get rid of them and
+  In short, using partial regions *temporarily* is fine in some situations,
+  but when you're done with your level manipulations, just get rid of them and
   you'll be fine. *Don't tempt the devil!*
