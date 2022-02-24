@@ -51,6 +51,7 @@ Movement/direction keys
               Combine with <kbd>Ctrl</kbd> for 5 cell jumps, or <kbd>Shift</kbd> for pan.
             <p>
             <p>
+              <span class="asterisk">*</span>
               <span class="sc">NumLock</span> must be off to use the numeric keypad for navigation.
             <p>
           </td>
@@ -60,25 +61,25 @@ Movement/direction keys
       <tbody class="no-padding">
         <tr>
           <td><kbd>&larr;</kbd></td>
-          <td><kbd>kp 4</kbd></td>
+          <td><kbd>kp 4</kbd><span class="asterisk">*</span></td>
           <td><kbd>H</kbd></td>
           <td>Left</td>
         </tr>
         <tr>
           <td><kbd>&rarr;</kbd></td>
-          <td><kbd>kp 6</kbd></td>
+          <td><kbd>kp 6</kbd><span class="asterisk">*</span></td>
           <td><kbd>L</kbd></td>
           <td>Right</td>
         </tr>
         <tr>
           <td><kbd>&uarr;</kbd></td>
-          <td><kbd>kp 8</kbd></td>
+          <td><kbd>kp 8</kbd><span class="asterisk">*</span></td>
           <td><kbd>K</kbd></td>
           <td>Up</td>
         </tr>
         <tr>
           <td><kbd>&darr;</kbd></td>
-          <td><kbd>kp 2</kbd><kbd>kp 5</kbd></td>
+          <td><kbd>kp 2</kbd><kbd>kp 5</kbd><span class="asterisk">*</span></td>
           <td><kbd>J</kbd></td>
           <td>Down</td>
         </tr>
@@ -537,7 +538,7 @@ Edit mode
               <kbd>Ctrl</kbd>+<kbd>A</kbd>
             </kbd>
           </td>
-          <td>Show about dialog</td>
+          <td>About dialog</td>
         </tr>
         <tr>
           <td>
@@ -545,7 +546,7 @@ Edit mode
               <kbd>Shift</kbd>+<kbd>/</kbd>
             </kbd>
           </td>
-          <td>Show quick keyboard reference</td>
+          <td>Quick keyboard reference</td>
         </tr>
         <tr>
           <td>
@@ -575,7 +576,7 @@ Edit mode
             </kbd>
           </td>
           <td>
-            Excavate (Draw tunnel)
+            Excavate (draw) tunnel
             <p>Not available in <span class="sc">WASD Mode</span><br>
             (use Left Mouse Button instead)</p>
           </td>
@@ -587,7 +588,7 @@ Edit mode
             </kbd>
           </td>
           <td>
-            Clear floor &amp; walls (Erase cell)
+            Erase cell (clear floor &amp; walls)
             <p>Not available in <span class="sc">WASD + Walk Mode</span><br>
             (use Middle Mouse Button instead)</p>
           </td>
@@ -662,8 +663,8 @@ Edit mode
           </td>
           <td>
             Toggle wall in direction
-            <p>Hold <kbd>Shift</kbd> after setting/clearing a wall for
-            repeat</p>
+            <p>Hold <kbd>Shift</kbd> after setting/clearing a wall to
+            enter repeat mode</p>
             <p>Not available in <span class="sc">WASD Mode</span><br>
             (use Right Mouse Button instead)</p>
           </td>
@@ -676,8 +677,8 @@ Edit mode
           </td>
           <td>
             Toggle special wall in direction
-            <p>Hold <kbd>Shift</kbd> after setting/clearing a wall for
-            repeat</p>
+            <p>Hold <kbd>Shift</kbd> after setting/clearing a wall to
+            enter repeat mode</p>
             <p>Not available in <span class="sc">WASD Mode</span><br>
             (use Right+Left Mouse Button instead)</p>
           </td>
@@ -794,7 +795,7 @@ Edit mode
           <td>
             <kbd>P</kbd>
           </td>
-          <td>Paste copy buffer at cursor</td>
+          <td>Paste buffer contents at cursor</td>
         </tr>
         <tr>
           <td>
@@ -852,7 +853,7 @@ Edit mode
               <kbd>Shift</kbd>+<kbd>G</kbd>
             </kbd>
           </td>
-          <td>Set link destination</td>
+          <td>Enter <em>Set Link Destination Mode</em></td>
         </tr>
       </tbody>
 
@@ -931,7 +932,7 @@ Select (Mark) Mode
               <kbd>Ctrl</kbd>+<kbd>[</kbd>
             </kbd>
           </td>
-          <td>Cancel selection &amp; exit <em>Select Mode</em></td>
+          <td>Cancel selection &amp; return to <em>Edit Mode</em></td>
         </tr>
       </tbody>
 
@@ -972,13 +973,13 @@ Select (Mark) Mode
           <td>
             <kbd>A</kbd>
           </td>
-          <td>Select the whole level (Mark All)</td>
+          <td>Select the whole level (mark all)</td>
         </tr>
         <tr>
           <td>
             <kbd>U</kbd>
           </td>
-          <td>Clear selection (Unmark All)</td>
+          <td>Clear selection (unmark all)</td>
         </tr>
       </tbody>
 
@@ -1036,6 +1037,7 @@ Select (Mark) Mode
               <kbd>Ctrl</kbd>+<kbd>C</kbd>
             </kbd>
           </td>
+
           <td>Set floor colour of selection</td>
         </tr>
       </tbody>
@@ -1050,6 +1052,18 @@ Paste/Nudge/Move Preview Mode
 .. raw:: html
 
     <table class="shortcuts">
+
+      <tfoot>
+        <tr>
+          <td colspan="2">
+            <p>
+              <span class="asterisk">*</span>
+              Panning is not available in <span class="sc">Nudge Preview Mode</span>.
+            <p>
+          </td>
+        </tr>
+      </tfoot>
+
       <tbody>
         <tr>
           <td>
@@ -1071,7 +1085,7 @@ Paste/Nudge/Move Preview Mode
               <kbd>Shift</kbd>+<kbd class="move">Std move</kbd>
             </kbd>
           </td>
-          <td>Pan level (1 cell)</td>
+          <td>Pan level (1 cell)<span class="asterisk">*</span></td>
         </tr>
         <tr>
           <td>
@@ -1079,7 +1093,7 @@ Paste/Nudge/Move Preview Mode
               <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd class="move">Std move</kbd>
             </kbd>
           </td>
-          <td>Pan level (5 cells)</td>
+          <td>Pan level (5 cells)<span class="asterisk">*</span></td>
         </tr>
       </tbody>
 
