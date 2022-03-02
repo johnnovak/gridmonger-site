@@ -21,8 +21,8 @@ more complex features --- and especially the reason behind them --- would be
 not so trivial to figure out on your own.  I very much recommend reading
 through this manual at least once to familiarise yourself with the full list
 of program features. And don't just read --- create a test map, or load one of
-the included `Example maps <files/#>`_, and try the features for yourself as
-you're progressing through the chapters!
+the included `Example maps </files/gridmonger-example-maps.zip>`_, and try the
+features for yourself as you're progressing through the chapters!
 
 Having said all that, some people are just impatient, or want to get a taste
 of the thing before committing to learning it. For them, I have included a few
@@ -32,10 +32,9 @@ Requirements
 ============
 
 Gridmonger requires very little hard drive space, only around 6-8 megabytes.
-It has been developed on Windows 10 and Mac OS X Mojave to Big Sur (10.14 to
-11.6), so it is guaranteed to run fine on these operating systems. In all
-likelihood, it will work just fine on much earlier OS versions, but this hasn't
-been tested. Currently, only Intel binaries are provided for Mac OS X.
+Windows 7 & 10 and Mac OS X Mojave or later (10.14+) are supported, although
+in all likelihood it will work just fine on Windows XP and much earlier Mac OS
+X versions. Currently, only Intel binaries are provided for Mac OS X.
 
 The program uses OpenGL for all its rendering; it works very similarly to a
 game engine. You'll need a graphics card that supports OpenGL 3.2 core
@@ -57,7 +56,7 @@ options.
 
 The 64-bit version is strongly recommended as it's more performant and more
 thoroughly tested; only use the 32-bit version if you're still running a
-32-bit version of Windows.
+legacy 32-bit version of Windows.
 
 .. important::
 

@@ -15,7 +15,8 @@ Let's load one of the example maps to illustrate these concepts! Start up
 Gridmonger, press :kbd:`Ctrl+O` to bring up the open map dialog, then select
 the file ``Eye of the Beholder I.gmm`` from the ``Example Maps`` folder in
 your program directory (Gridmonger map files have the ``.gmm`` extension). Mac
-users will need to download the `Example Maps <#>`_ separately.
+users will need to download the `Example Maps
+</files/gridmonger-example-maps.zip>`_ separately.
 
 Click on the current level drop-down at the top of the window that currently
 shows ``Undermountain – Upper Sewers (-1)``. The list of all levels that
