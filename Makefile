@@ -42,6 +42,7 @@ dist_html:
 	rm "$(MANUALDIR)/index.html"
 	mv "$(MANUALDIR)/contents.html" "$(MANUALDIR)/index.html"
 
+	cd build
 	find . -type f -name '*.html' -exec sed -i 's|contents.html|index.html|g' {} +
 	find . -type f -name '*.html' -exec sed -i 's|<p>Hosted on <a href="https://pages.github.com/">GitHub Pages</a></p>||g' {} + 
 
