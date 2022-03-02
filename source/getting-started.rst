@@ -49,7 +49,7 @@ Windows
 
 To install Gridmonger on Windows, download either the Windows installer (for
 standard installations) or the ZIP file (for portable installations) from the
-`Downloads <https://gridmonger.johnnovak.net/downloads>`_ page. Then run the
+`Downloads <https://gridmonger.johnnovak.net/#Downloads>`_ page. Then run the
 installer, or simply unpack the contents of the ZIP file somewhere. First-time
 users are encouraged to use the installer and accept the default install
 options.
@@ -69,7 +69,7 @@ Mac OS X
 --------
 
 Just grab the program from the `Downloads
-<https://gridmonger.johnnovak.net/downloads>`_ page and move it into your
+<https://gridmonger.johnnovak.net/#Downloads>`_ page and move it into your
 ``Applications`` folder. This is an unsigned application, so the usual advice
 for running such apps applies (you'll need to grant the necessary permissions,
 etc.)
