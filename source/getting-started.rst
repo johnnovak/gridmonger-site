@@ -21,7 +21,7 @@ more complex features --- and especially the reason behind them --- would be
 not so trivial to figure out on your own.  I very much recommend reading
 through this manual at least once to familiarise yourself with the full list
 of program features. And don't just read --- create a test map, or load one of
-the included `Example maps </files/gridmonger-example-maps.zip>`_, and try the
+the included `Example maps <https://gridmonger.johnnovak.net/files/gridmonger-example-maps.zip>`_, and try the
 features for yourself as you're progressing through the chapters!
 
 Having said all that, some people are just impatient, or want to get a taste
@@ -49,7 +49,7 @@ Windows
 
 To install Gridmonger on Windows, download either the Windows installer (for
 standard installations) or the ZIP file (for portable installations) from the
-`Downloads <http://gridmonger.johnnovak.net/downloads>`_ page. Then run the
+`Downloads <https://gridmonger.johnnovak.net/downloads>`_ page. Then run the
 installer, or simply unpack the contents of the ZIP file somewhere. First-time
 users are encouraged to use the installer and accept the default install
 options.
@@ -69,7 +69,7 @@ Mac OS X
 --------
 
 Just grab the program from the `Downloads
-<http://gridmonger.johnnovak.net/downloads>`_ page and move it into your
+<https://gridmonger.johnnovak.net/downloads>`_ page and move it into your
 ``Applications`` folder. This is an unsigned application, so the usual advice
 for running such apps applies (you'll need to grant the necessary permissions,
 etc.)
