@@ -385,7 +385,7 @@ header > nav > ul > li > a:hover {
   opacity: 0.7;
 }
 
-section {
+div.section {
   max-width: 650px;
   margin: 0 auto;
 }
@@ -451,13 +451,13 @@ p.aim {
     opacity: 0.4;
     content: "Ω";
   }
-  section > h2 {
+  div.section > h2 {
     font-size: 34px;
   }
-  section > h3 {
+  div.section > h3 {
     font-size: 24px;
   }
-  section kbd > kbd {
+  div.section kbd > kbd {
     font-size: 18px;
   }
 }
@@ -466,10 +466,10 @@ p.aim {
   header > h1 {
     font-size: 64px;
   }
-  section {
+  div.section {
     position: relative;
   }
-  section h2:before {
+  div.section h2:before {
     position: absolute;
     left: -6px;
     font-family: "icons";
