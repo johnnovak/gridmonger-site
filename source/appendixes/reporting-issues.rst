@@ -28,9 +28,9 @@ What to include
 
 At the very minimum, every report should contain the following information:
 
-- Type and version of your operating system (e.g. ``Windows 10 Pro 64-bit``,
-  or ``Mac OS X Big Sur 11.6.2``)
-- Gridmonger version as displayed in the about dialog (e.g. ``Version 1.0``)
+- Type and version of your operating system (e.g. **Windows 10 Pro 64-bit**,
+  or **macOS Big Sur 11.6.2**)
+- Gridmonger version as displayed in the about dialog (e.g. **Version 0.9**)
 - Whether you're using portable mode
 - Brief description of the problem, expected outcome, and actual results
 - Steps describing how to reproduce the issue (to make sure you're not leaving

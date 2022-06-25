@@ -9,7 +9,7 @@ themes, auto saves, and the log file.
 
 The location of the *user data folder* is
 ``C:\Users\<USERNAME>\AppData\Roaming\Gridmonger`` on Windows, and
-``/Users/<USERNAME>/Library/Application Support/Gridmonger`` on Mac OS X. For
+``/Users/<USERNAME>/Library/Application Support/Gridmonger`` on macOS. For
 portable installations, it is the application folder where the executable
 is located.
 
