@@ -6,7 +6,7 @@ for the [Gridmonger](https://github.com/johnnovak/gridmonger) project.
 The GitHub Pages site is built from the `/docs` folder in the `master`
 branch. 
 
-The generated site can be viewed at https://gridmonger.johnnovak.net/, and the
+The generated site can be viewed at https://gridmonger.johnnovak.net, and the
 actual user manual is [here](https://gridmonger.johnnovak.net/manual/contents.html).
 
 
@@ -30,6 +30,6 @@ There are a few other make commands available to aid theme development
 Developed by John Novak <<john@johnnovak.net>>, 2020-2022
 
 This work is free. You can redistribute it and/or modify it under the terms of
-the [Do What The Fuck You Want To Public License, Version 2](http://www.wtfpl.net/), as published
+the [Do What The Fuck You Want To Public License, Version 2](http://www.wtfpl.net), as published
 by Sam Hocevar. See the [COPYING](./COPYING) file for more details.
 
