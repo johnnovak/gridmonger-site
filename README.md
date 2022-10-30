@@ -3,7 +3,7 @@
 This repo contains both the documentation sources and the GitHub Pages site
 for the [Gridmonger](https://github.com/johnnovak/gridmonger) project.
 
-The GitHub Pages site is being built from the `/docs` folder in the `master`
+The GitHub Pages site is built from the `/docs` folder in the `master`
 branch. 
 
 The generated site can be viewed at https://gridmonger.johnnovak.net/, and the
