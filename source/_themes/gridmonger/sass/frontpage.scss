@@ -45,7 +45,7 @@ header {
   }
 }
 
-div.section {
+section {
   max-width: 650px;
   margin: 0 auto;
 }
@@ -116,7 +116,7 @@ p.aim {
     }
   }
 
-  div.section {
+  section {
     > h2 { font-size: 34px }
     > h3 { font-size: 24px }
 
@@ -135,7 +135,7 @@ p.aim {
     > h1 { font-size: 64px }
   }
 
-  div.section {
+  section {
     @include section-h2-ornament;
   }
 }
